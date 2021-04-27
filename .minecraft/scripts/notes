@@ -1,0 +1,22 @@
+NOTES
+=====
+
+
+
+By Ripley2459
+Version 1
+Since Expansion beta 1
+
+
+
+All of thoses scripts are used in the Expansion modpack by Ripley2459.
+You can use them as exemple to create your own scripts.
+
+
+
+=============== PRIORITIES ===============
+
+	|	9999	|	First script loaded
+	|	x		|	Priority not needed
+	|	-500	|	Used objects created in other scripts
+	|	-9999	|	Last script loaded
