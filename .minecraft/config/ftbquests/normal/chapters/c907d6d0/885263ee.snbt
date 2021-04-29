@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	dependencies: [
+		"1430d679"
+	],
+	tasks: [{
+		uid: "c58c076b",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_apple"
+		}]
+	}]
+}

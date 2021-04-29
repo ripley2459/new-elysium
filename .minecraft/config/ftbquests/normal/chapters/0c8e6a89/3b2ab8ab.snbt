@@ -1,0 +1,12 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "f3630765",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 25L
+	}]
+}

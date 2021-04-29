@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: 3.0d,
+	dependencies: [
+		"21d58915"
+	],
+	tasks: [{
+		uid: "ce8fe9fa",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rail_gun_turret"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	dependencies: [
+		"002a5378"
+	],
+	tasks: [{
+		uid: "63c808a9",
+		type: "item",
+		items: [{
+			item: "extrautils2:compresseddirt"
+		}],
+		count: 9L
+	}]
+}

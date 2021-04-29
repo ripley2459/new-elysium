@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	dependencies: [
+		"1430d679"
+	],
+	tasks: [{
+		uid: "dbf9da72",
+		type: "item",
+		items: [{
+			item: "tp:emerald_apple"
+		}]
+	}]
+}

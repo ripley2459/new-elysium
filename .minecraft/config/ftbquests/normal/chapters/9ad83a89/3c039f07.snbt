@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"c6af3200"
+	],
+	tasks: [{
+		uid: "7364e271",
+		type: "item",
+		items: [{
+			item: "energyconverters:energy_consumer_eu 1 4"
+		}]
+	}]
+}

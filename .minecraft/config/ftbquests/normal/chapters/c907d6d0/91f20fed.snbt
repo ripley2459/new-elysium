@@ -1,0 +1,16 @@
+{
+	x: 18.5d,
+	y: 13.0d,
+	dependencies: [
+		"a7951e7d"
+	],
+	tasks: [{
+		uid: "19f85df7",
+		type: "item",
+		items: [{
+			item: "aquaculture:diamond_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

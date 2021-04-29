@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "8f625c67",
+		type: "item",
+		items: [{
+			item: "tp:lava_infused_stone"
+		}]
+	}]
+}

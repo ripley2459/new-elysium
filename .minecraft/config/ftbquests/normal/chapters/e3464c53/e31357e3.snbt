@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "d99a5274",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:intermediate_tiered"
+		}]
+	}]
+}

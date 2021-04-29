@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7211bdc0",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers"
+		}]
+	}]
+}

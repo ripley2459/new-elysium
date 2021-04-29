@@ -1,0 +1,15 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"4cda4748"
+	],
+	tasks: [{
+		uid: "63b1a678",
+		type: "item",
+		items: [{
+			item: "toughasnails:magma_shard"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 16.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "bda32690",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:apple_pie"
+		}]
+	}]
+}

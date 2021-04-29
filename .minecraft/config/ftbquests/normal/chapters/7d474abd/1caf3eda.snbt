@@ -1,0 +1,11 @@
+{
+	x: 12.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "63fb2330",
+		type: "item",
+		items: [{
+			item: "cyberware:surgery"
+		}]
+	}]
+}

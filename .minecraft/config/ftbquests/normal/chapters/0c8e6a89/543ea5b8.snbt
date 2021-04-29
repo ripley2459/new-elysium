@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"470fa678"
+	],
+	tasks: [{
+		uid: "c8509eec",
+		type: "item",
+		items: [{
+			item: "extrautils2:redstoneclock"
+		}]
+	}]
+}

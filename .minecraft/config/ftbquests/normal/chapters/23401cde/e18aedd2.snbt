@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "70695483",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "chickens:soulsandchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 16L
+	}]
+}

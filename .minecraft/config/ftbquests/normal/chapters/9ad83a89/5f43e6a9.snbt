@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"14f3a8b9"
+	],
+	tasks: [{
+		uid: "579c49f7",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 1"
+		}],
+		count: 12L
+	}]
+}

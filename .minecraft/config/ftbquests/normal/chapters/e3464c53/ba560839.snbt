@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"21d58915",
+		"d07dbc3f"
+	],
+	tasks: [{
+		uid: "85bde2d2",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 1"
+		}]
+	}]
+}

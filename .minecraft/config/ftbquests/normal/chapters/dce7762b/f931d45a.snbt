@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: 5.5d,
+	dependencies: [
+		"1ca08c2a"
+	],
+	tasks: [{
+		uid: "50261ef7",
+		type: "item",
+		items: [{
+			item: "generallaymansaestheticspyingscreen:block_glass"
+		}],
+		count: 8L
+	}]
+}

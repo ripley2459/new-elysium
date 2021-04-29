@@ -1,0 +1,11 @@
+{
+	x: 18.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "89f24af7",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:chocolate_pie"
+		}]
+	}]
+}

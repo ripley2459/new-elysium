@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The food diversity is the first way to increase your max health."
+	],
+	tasks: [{
+		uid: "b076d909",
+		type: "item",
+		items: [{
+			item: "solcarrot:food_book"
+		}]
+	}]
+}

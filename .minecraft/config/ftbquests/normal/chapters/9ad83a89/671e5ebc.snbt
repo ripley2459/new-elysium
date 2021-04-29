@@ -1,0 +1,16 @@
+{
+	x: 9.5d,
+	y: 3.5d,
+	shape: "gear",
+	dependencies: [
+		"f17852f9"
+	],
+	tasks: [{
+		uid: "575c1f84",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 5"
+		}],
+		count: 12L
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 3.5d,
+	text: [
+		"Players can't pass through this block."
+	],
+	dependencies: [
+		"f8b4552b"
+	],
+	tasks: [{
+		uid: "776a5759",
+		type: "item",
+		items: [{
+			item: "extrautils2:ineffableglass 1 1"
+		}],
+		count: 9L
+	}]
+}

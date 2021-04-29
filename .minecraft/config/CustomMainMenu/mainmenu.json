@@ -1,0 +1,267 @@
+{
+    "images":
+    {
+        "logo":
+        {
+            "image" : "mmenu:textures/gui/logo.png",
+            "posX" : -125,
+            "posY" : 28,
+            "width" : 250,
+            "height" : 56,
+            "alignment" : "top_center"
+        },
+		
+		"player_header":
+		{
+			"image" : "web:https://minotar.net/helm/user/#username#",
+			"posX" : 4,
+            "posY" : 4,
+            "width" : 50,
+            "height" : 50,
+            "alignment" : "top_left"
+		}
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+			"alignment" : "center",
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -36,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+			"alignment" : "center",
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : -12,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+			"alignment" : "center",
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 12,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "server-files":
+        {
+			"alignment" : "center",
+            "text" : "Server Files",
+            "posX" : 2,
+            "posY" : 12,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "http://localhost/pages/minecraft/modpacks/ultra-expension/ultra-expension.php"
+            }
+        },
+
+        "options":
+        {
+			"alignment" : "center",
+            "text" : "menu.options",
+            "posX" : -76,
+            "posY" : 36,
+            "width" : 74,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+			"alignment" : "center",
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 36,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+			"alignment" : "center",
+            "text" : "",
+            "posX" : -100,
+            "posY" : 36,
+            "width" : 20,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+        "technic":
+        {
+            "text" : "",
+            "posX" : -24,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
+			"alignment" : "bottom_right",
+            "texture" : "mmenu:textures/buttons/technic.png", 
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://www.technicpack.net/modpack/expension.1582121"
+            }
+        },
+		
+		"discord":
+        {
+            "text" : "",
+            "posX" : -48,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
+			"alignment" : "bottom_right",
+            "texture" : "mmenu:textures/buttons/discord.png", 
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/PpnJXhEpb6"
+            }
+        },
+
+        "curse":
+        {
+            "text" : "",
+            "posX" : -72,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 512,
+            "imageHeight" : 512,
+			"alignment" : "bottom_right",
+            "texture" : "mmenu:textures/buttons/curse.png", 
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://www.technicpack.net/modpack/expension.1582121"
+            }
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -96,
+            "posY" : -24,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_right",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "labels":
+    {
+        "logged_as":
+        {
+            "text" : "Logged as #username#",
+            "posX" : 4,
+            "posY" : 4,
+            "color" : -1,
+            "alignment" : "top_left"
+        },	
+
+        "modpack":
+        {
+            "text" : "Expansion 29",
+            "posX" : 4,
+            "posY" : -42,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "mods_loaded":
+        {
+            "text" : "Mods: #modsactive#/#modsloaded#",
+            "posX" : 4,
+            "posY" : -32,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "minecraft_version":
+        {
+            "text" : "Minecraft #mcversion#",
+            "posX" : 4,
+            "posY" : -22,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "forge_version":
+        {
+            "text" : "Forge #forgeversion#",
+            "posX" : 4,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+
+    "other":
+    {
+
+        "background" :
+        {
+            "image" : "",
+            "slideshow" :
+            {
+                "images" :
+                [
+                "mmenu:textures/00.jpg"
+                ],
+                "displayDuration" : 1,
+                "fadeDuration" : 0
+            }
+        }
+
+    }
+}

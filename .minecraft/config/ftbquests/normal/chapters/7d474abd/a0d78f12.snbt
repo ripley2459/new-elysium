@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 2.5d,
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "987703f2",
+		type: "item",
+		items: [{
+			id: "cyberware:leg_upgrades",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			}
+		}]
+	}]
+}

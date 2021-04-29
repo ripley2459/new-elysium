@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	dependencies: [
+		"3d581e31",
+		"3b2ab8ab",
+		"41494c22"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "29149355",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "7e28f472",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"b0e1e5b3"
+	],
+	tasks: [{
+		uid: "594b38e4",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wandunbreakable"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

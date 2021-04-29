@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"4d55d492"
+	],
+	tasks: [{
+		uid: "68699b14",
+		type: "item",
+		items: [{
+			item: "solarflux:transfer_rate_upgrade"
+		}]
+	}]
+}

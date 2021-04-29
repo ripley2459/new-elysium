@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: 11.5d,
+	shape: "gear",
+	text: [
+		"Convert a machine from any tier to the signalum tier."
+	],
+	dependencies: [
+		"73639121",
+		"d6682d6b",
+		"5662b39e",
+		"2b1f443a"
+	],
+	tasks: [{
+		uid: "718af058",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 34"
+		}]
+	}]
+}

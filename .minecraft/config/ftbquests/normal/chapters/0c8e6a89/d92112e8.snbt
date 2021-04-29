@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"e66a8c46"
+	],
+	tasks: [{
+		uid: "95a5a619",
+		type: "item",
+		items: [{
+			item: "tconstruct:channel"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	dependencies: [
+		"7d9fa3cd"
+	],
+	tasks: [{
+		uid: "7d6805d6",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}]
+}

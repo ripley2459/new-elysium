@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -6.0d,
+	dependencies: [
+		"89d67549"
+	],
+	tasks: [{
+		uid: "e5b1a33e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	}]
+}

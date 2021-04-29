@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: "1f1d052e",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}]
+}

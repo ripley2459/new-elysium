@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	shape: "gear",
+	dependencies: [
+		"8612b688"
+	],
+	tasks: [{
+		uid: "8f906a10",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}]
+}

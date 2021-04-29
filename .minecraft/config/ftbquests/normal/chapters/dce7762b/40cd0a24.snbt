@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"d48cd4c8"
+	],
+	tasks: [{
+		uid: "36f5e5f4",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {
+					preview: 2,
+					selectslot: -1,
+					targetslot: 47,
+					rotate: 0b,
+					target: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

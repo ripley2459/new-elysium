@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: -7.0d,
+	text: [
+		"This block is used to connect the kitchen blocks together, even if they are not directly touching each other."
+	],
+	dependencies: [
+		"0124c0e5",
+		"6aba9b70",
+		"c9643fc0",
+		"cc0a741d",
+		"b68a8715"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a39b9c76",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:kitchen_floor"
+		}],
+		count: 25L
+	}]
+}

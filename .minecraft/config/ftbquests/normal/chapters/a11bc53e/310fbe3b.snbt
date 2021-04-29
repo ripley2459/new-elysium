@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 20.5d,
+	dependencies: [
+		"d11d9d30"
+	],
+	tasks: [{
+		uid: "a3f20da2",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

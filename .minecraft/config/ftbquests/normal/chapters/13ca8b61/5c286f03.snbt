@@ -1,0 +1,11 @@
+{
+	title: "How to use the quest book?",
+	icon: "ftbquests:book",
+	x: 1.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "d77d54f3",
+		type: "checkmark"
+	}]
+}

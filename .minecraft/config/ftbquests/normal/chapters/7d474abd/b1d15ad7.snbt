@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "a7561ec2",
+		type: "item",
+		items: [{
+			id: "cyberware:lungs_upgrades",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			},
+			Damage: 1s
+		}]
+	}]
+}

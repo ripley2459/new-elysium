@@ -1,0 +1,16 @@
+{
+	x: 2.5d,
+	y: 5.0d,
+	dependencies: [
+		"baad6887"
+	],
+	tasks: [{
+		uid: "f68f01f4",
+		type: "item",
+		items: [{
+			item: "architecturecraft:hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

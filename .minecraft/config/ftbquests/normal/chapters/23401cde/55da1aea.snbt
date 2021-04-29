@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 11.0d,
+	dependencies: [
+		"cd8f1833",
+		"681c0a0a"
+	],
+	tasks: [{
+		uid: "a3dc09c0",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:darksteelchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}],
+		count: 16L
+	}]
+}

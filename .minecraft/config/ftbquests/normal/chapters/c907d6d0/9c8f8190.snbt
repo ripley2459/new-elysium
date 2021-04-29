@@ -1,0 +1,11 @@
+{
+	x: 15.5d,
+	y: 4.5d,
+	tasks: [{
+		uid: "9ba27d00",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:pumpkin_cake"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: 2.0d,
+	dependencies: [
+		"0490b4f7"
+	],
+	tasks: [{
+		uid: "0c8b3711",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:healthy_energy_drink"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

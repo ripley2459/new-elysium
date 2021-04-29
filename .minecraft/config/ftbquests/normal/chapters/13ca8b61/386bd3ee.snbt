@@ -1,0 +1,30 @@
+{
+	icon: "openblocks:cursor",
+	x: 0.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"There is like §c250 inputs§r in this pack but don't worry, a lot of them are used very occasionally.",
+		"",
+		"Just bind thoses who are very useful and unbind other (using escape).",
+		"",
+		"§nI recommend to bind these categories :§r",
+		"* Movements;",
+		"* Inventory;",
+		"* Miscellaneous;",
+		"* Dynamic Surroundings;",
+		"* Inventory HUD+;",
+		"* JourneyMap & JourneyMap Fullscreen;",
+		"* Vein Miner;",
+		"* Just Enought Items.",
+		"",
+		"Other mid game categories like §lPsi§r, §lTechguns§r or §lSimply Jetpacks 2§r can be bind when you start to use the concerned mod.",
+		"",
+		"Some mods introduce some similar features, i recommend to bind the same key in these rare cases."
+	],
+	tasks: [{
+		uid: "90b8f438",
+		type: "checkmark",
+		title: "Bind your inputs"
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Nock Em",
+	icon: "psi:psimetal_sword",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

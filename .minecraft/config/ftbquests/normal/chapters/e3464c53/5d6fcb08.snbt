@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	dependencies: [
+		"21d58915"
+	],
+	tasks: [{
+		uid: "04826568",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:base_addon"
+		}]
+	}]
+}

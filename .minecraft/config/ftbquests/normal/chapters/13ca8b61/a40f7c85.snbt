@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"4cda4748"
+	],
+	tasks: [{
+		uid: "488ed11d",
+		type: "item",
+		items: [{
+			item: "toughasnails:wool_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

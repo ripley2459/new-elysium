@@ -1,0 +1,12 @@
+{
+	x: 8.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "842567cd",
+		type: "item",
+		items: [{
+			item: "zawa:exhibit_glass"
+		}],
+		count: 9L
+	}]
+}

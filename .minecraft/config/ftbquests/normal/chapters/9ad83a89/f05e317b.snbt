@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 13.0d,
+	shape: "gear",
+	dependencies: [
+		"af29fd97"
+	],
+	tasks: [{
+		uid: "42906125",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 416"
+		}]
+	}]
+}

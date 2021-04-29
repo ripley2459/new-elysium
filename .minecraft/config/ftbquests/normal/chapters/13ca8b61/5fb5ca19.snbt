@@ -1,0 +1,31 @@
+{
+	title: "Backups",
+	icon: {
+		id: "opencomputers:storage",
+		tag: {
+			"oc:data": {
+				"oc:fs.label": "irc"
+			},
+			"oc:color": 12,
+			display: {
+				Name: "OpenIRC (IRC Client)"
+			},
+			"oc:lootFactory": "opencomputers:irc"
+		},
+		Damage: 1s
+	},
+	x: -1.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"Expansion use §lAromaBackup§r to save your worlds.",
+		"",
+		"Each time you load a world or each 30 minutes, the mod will create an archive with your world inside.",
+		"",
+		"To restore a backup you have to click on the world to restore (in the worlds selection menu) then §oBackups§r. Select the backup to restore then §oRestore Backups§r."
+	],
+	tasks: [{
+		uid: "33ba7680",
+		type: "checkmark"
+	}]
+}

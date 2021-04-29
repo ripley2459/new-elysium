@@ -1,0 +1,11 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "3663aaaf",
+		type: "item",
+		items: [{
+			item: "chickenchunks:chunk_loader"
+		}]
+	}]
+}

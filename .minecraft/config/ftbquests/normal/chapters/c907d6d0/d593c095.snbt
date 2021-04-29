@@ -1,0 +1,11 @@
+{
+	x: 15.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "5f7ff6b4",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:cheese_cake"
+		}]
+	}]
+}

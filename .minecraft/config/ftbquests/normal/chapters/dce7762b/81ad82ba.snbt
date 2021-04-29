@@ -1,0 +1,11 @@
+{
+	x: 8.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "f0ed5b21",
+		type: "item",
+		items: [{
+			item: "zawa:zoo_painting"
+		}]
+	}]
+}

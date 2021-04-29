@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "8b7805c2",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}],
+		count: 1458L
+	}]
+}

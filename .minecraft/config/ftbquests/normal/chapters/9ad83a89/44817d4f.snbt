@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -4.5d,
+	dependencies: [
+		"4d55d492"
+	],
+	tasks: [{
+		uid: "7371b98e",
+		type: "item",
+		items: [{
+			item: "solarflux:capacity_upgrade"
+		}]
+	}]
+}

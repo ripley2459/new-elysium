@@ -1,0 +1,16 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	dependencies: [
+		"ac1e62ff"
+	],
+	tasks: [{
+		uid: "c31e7abd",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

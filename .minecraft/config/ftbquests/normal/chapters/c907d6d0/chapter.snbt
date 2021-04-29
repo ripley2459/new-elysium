@@ -1,0 +1,7 @@
+{
+	title: "Meet me at the Space Bar",
+	icon: "harvestcraft:garlicchickenitem",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

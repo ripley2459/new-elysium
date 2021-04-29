@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	dependencies: [
+		"0bd30a16"
+	],
+	tasks: [{
+		uid: "6fcf7b6c",
+		type: "item",
+		items: [{
+			item: "tp:double_compressed_sugar_cane"
+		}]
+	}]
+}

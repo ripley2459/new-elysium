@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"45300415"
+	],
+	tasks: [{
+		uid: "6be0b27e",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:coffee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

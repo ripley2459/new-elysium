@@ -1,0 +1,17 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	text: [
+		"Holds 288 items."
+	],
+	dependencies: [
+		"c7db0f5c"
+	],
+	tasks: [{
+		uid: "2a0ab068",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:expander 1 4"
+		}]
+	}]
+}

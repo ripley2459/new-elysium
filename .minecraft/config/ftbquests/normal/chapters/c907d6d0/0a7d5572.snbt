@@ -1,0 +1,11 @@
+{
+	x: 17.0d,
+	y: 18.0d,
+	tasks: [{
+		uid: "861cc3fe",
+		type: "item",
+		items: [{
+			item: "aquaculture:fish 1 35"
+		}]
+	}]
+}

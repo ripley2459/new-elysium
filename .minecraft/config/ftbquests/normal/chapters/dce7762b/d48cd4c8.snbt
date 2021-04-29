@@ -1,0 +1,26 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	dependencies: [
+		"cf2aa3db"
+	],
+	tasks: [{
+		uid: "31093a63",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {
+					mode: "PANEL",
+					target: {
+						id: "chisel:dirt",
+						Count: 1b,
+						Damage: 5s
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

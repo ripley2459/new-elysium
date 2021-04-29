@@ -1,0 +1,14 @@
+{
+	x: 17.5d,
+	y: -0.5d,
+	dependencies: [
+		"40733152"
+	],
+	tasks: [{
+		uid: "4ad5838d",
+		type: "item",
+		items: [{
+			item: "cyberware:cybereye_upgrades 1 2"
+		}]
+	}]
+}

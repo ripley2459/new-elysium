@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 7.5d,
+	dependencies: [
+		"abc27469"
+	],
+	tasks: [{
+		uid: "6890fae1",
+		type: "item",
+		items: [{
+			item: "tp:iron_cobblegen_block"
+		}]
+	}]
+}
