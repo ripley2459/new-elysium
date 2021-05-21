@@ -1,7 +1,0 @@
-{
-	title: "Harvest",
-	icon: "harvestcraft:juniperberryseeditem",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

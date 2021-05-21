@@ -1,5 +1,0 @@
-Colors
-
-YELLOW: b0995f
-RED: d14b4a
-BLUE: 1b2835
