@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -1.5d,
+	dependencies: [
+		"b4556d43"
+	],
+	tasks: [{
+		uid: "0b51c32e",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:expander 1 8"
+		}]
+	}]
+}

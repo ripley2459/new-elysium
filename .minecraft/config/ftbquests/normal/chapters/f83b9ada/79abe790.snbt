@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"c113887b"
+	],
+	tasks: [{
+		uid: "6f220de4",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

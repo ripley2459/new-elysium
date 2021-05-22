@@ -1,0 +1,14 @@
+{
+	x: 18.5d,
+	y: 1.5d,
+	dependencies: [
+		"40733152"
+	],
+	tasks: [{
+		uid: "cc022aee",
+		type: "item",
+		items: [{
+			item: "cyberware:hand_upgrades"
+		}]
+	}]
+}

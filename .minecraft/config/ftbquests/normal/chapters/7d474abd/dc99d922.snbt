@@ -1,0 +1,18 @@
+{
+	x: 8.5d,
+	y: 1.5d,
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "375f7ab4",
+		type: "item",
+		items: [{
+			id: "cyberware:cybereye_upgrades",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			}
+		}]
+	}]
+}

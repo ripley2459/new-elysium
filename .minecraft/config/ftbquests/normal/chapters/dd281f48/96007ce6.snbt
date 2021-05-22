@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	shape: "gear",
+	text: [
+		"Right click on a drawer to block other players to store or pick items from the drawer."
+	],
+	dependencies: [
+		"345cd0ef"
+	],
+	tasks: [{
+		uid: "665eb00a",
+		type: "item",
+		items: [{
+			item: "storagedrawers:personal_key"
+		}]
+	}]
+}

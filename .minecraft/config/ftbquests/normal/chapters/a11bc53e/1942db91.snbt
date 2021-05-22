@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 24.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d11d9d30"
+	],
+	tasks: [{
+		uid: "76b8adb3",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 4"
+		}]
+	}]
+}

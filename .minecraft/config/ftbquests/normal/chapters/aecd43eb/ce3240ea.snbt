@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	optional: true,
+	tasks: [{
+		uid: "635b9214",
+		type: "stat",
+		title: "50 hours",
+		icon: "minecraft:iron_block",
+		stat: "stat.playOneMinute",
+		value: 3600000
+	}]
+}

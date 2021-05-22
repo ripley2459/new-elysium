@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/image",
+    "image": "customloadingscreen:image/expansion/gear_yellow.png",
+    "position_type": "TOP_RIGHT",
+    "offset_pos": "TOP_RIGHT",
+    "position": {
+        "x": "-64",
+        "y": "-64",
+        "width": "128",
+        "height": "128"
+    },
+    "texture": {
+        "x": "0",
+        "y": "0",
+        "width": "1",
+        "height": "1"
+    }
+}

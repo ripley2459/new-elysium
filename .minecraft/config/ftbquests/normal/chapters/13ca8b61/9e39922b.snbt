@@ -1,0 +1,17 @@
+{
+	title: "Chunk Loader",
+	icon: "chickenchunks:chunk_loader",
+	x: -1.0d,
+	y: -5.0d,
+	shape: "hexagon",
+	text: [
+		"In New Elysium you can create and place §lChunk Loaders§r. Thoses blocks allow to keep some chunks permanently loaded even if there is no player arround.",
+		"",
+		"You can use this feature to keep running your machines or production line."
+	],
+	optional: true,
+	tasks: [{
+		uid: "e528a1b7",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	dependencies: [
+		"21d58915"
+	],
+	tasks: [{
+		uid: "cbaf92c3",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rocket_turret"
+		}]
+	}]
+}

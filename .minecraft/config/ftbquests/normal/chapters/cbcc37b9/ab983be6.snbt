@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e60379bc"
+	],
+	tasks: [{
+		uid: "5c889d24",
+		type: "item",
+		items: [{
+			id: "roost:chicken",
+			tag: {
+				Growth: 1,
+				Chicken: "morechickens:cobaltchicken",
+				Gain: 1,
+				Strength: 1
+			}
+		}]
+	}]
+}

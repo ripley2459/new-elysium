@@ -1,0 +1,23 @@
+{
+	x: -0.5d,
+	y: 6.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e7b15ed0",
+		"601aca68",
+		"22551431",
+		"9992dd46",
+		"38c91161",
+		"e0aad370",
+		"8d74943f",
+		"fb3d4940",
+		"71d41b79"
+	],
+	tasks: [{
+		uid: "d634a4a2",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:addon_meta 1 3"
+		}]
+	}]
+}

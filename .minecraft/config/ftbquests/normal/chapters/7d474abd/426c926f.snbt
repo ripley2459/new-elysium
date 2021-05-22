@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 3.5d,
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "1042d85b",
+		type: "item",
+		items: [{
+			id: "cyberware:cyberlimbs",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			},
+			Damage: 3s
+		}]
+	}]
+}

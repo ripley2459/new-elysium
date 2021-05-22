@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 0.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7afd03ef",
+		type: "item",
+		items: [{
+			item: "cyberware:surgery_chamber"
+		}]
+	}]
+}

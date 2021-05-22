@@ -1,0 +1,18 @@
+{
+	x: -7.5d,
+	y: 13.0d,
+	shape: "gear",
+	text: [
+		"Convert a machine from any tier to the reinforced tier."
+	],
+	dependencies: [
+		"2b1f443a"
+	],
+	tasks: [{
+		uid: "1cad9198",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 33"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	text: [
+		"Chickens have §l3 stats§r (described below) that can §lgreatly increase their performances§r.",
+		"",
+		"By default chickens have §a1/1/1§r stats and can be upgraded to §a10/10/10§r.",
+		"",
+		"§nGrowth§r",
+		"The speed of which the chicken grows and breed.",
+		"",
+		"§nGain§r",
+		"Affects the amount of items the chicken will lay:",
+		"* 1 - 4 : 1 item;",
+		"* 5 - 9 : 2 items;",
+		"* 10 : 3 items.",
+		"",
+		"§nStrength§r",
+		"The ability of a chicken to carry its stats over to its children."
+	],
+	tasks: [{
+		uid: "868efa85",
+		type: "checkmark",
+		title: "Statistics",
+		icon: "zerocore:debugtool"
+	}]
+}

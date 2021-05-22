@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	dependencies: [
+		"8d74943f"
+	],
+	tasks: [{
+		uid: "9ee00db6",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:ammo_meta 1 4"
+		}]
+	}]
+}

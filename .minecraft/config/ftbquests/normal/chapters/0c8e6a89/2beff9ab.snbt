@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"543ea5b8"
+	],
+	tasks: [{
+		uid: "75978533",
+		type: "item",
+		items: [{
+			item: "minecraft:lever"
+		}]
+	}]
+}

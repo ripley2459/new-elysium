@@ -1,0 +1,26 @@
+{
+	title: "Introduction",
+	icon: "minecraft:command_block",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "heart",
+	text: [
+		"§lYou should done this quest before anything else.§r",
+		"",
+		"Also you must look at thoses quest upper."
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "8c2e5a29",
+		type: "checkmark",
+		title: "Check it my bro!"
+	}],
+	rewards: [{
+		uid: "ce08f485",
+		type: "command",
+		title: "Commands",
+		icon: "minecraft:command_block",
+		command: "/function welcome:welcome",
+		player_command: true
+	}]
+}

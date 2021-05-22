@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"The Framing Table allow you to customize your drawers.",
+		"",
+		"Put your frame in the left slot. The upper left slot is for the principal block which compose your drawer.",
+		"",
+		"You can define a block that will compose the edges with the slot at the top right. You can also use a block that with compose the face of the drawer with the bottom left slot."
+	],
+	dependencies: [
+		"ed2bd25a",
+		"85bee09f",
+		"8f490a9b",
+		"6b19c727",
+		"ac93bee4"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "58147c00",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	text: [
+		"The Roost Collector take items from Roost in a 9 blocks radius."
+	],
+	dependencies: [
+		"cbbbab49"
+	],
+	tasks: [{
+		uid: "a5db657c",
+		type: "item",
+		items: [{
+			item: "roost:collector"
+		}]
+	}]
+}

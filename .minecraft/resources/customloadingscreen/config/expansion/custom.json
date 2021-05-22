@@ -1,0 +1,25 @@
+{
+	"renders": [
+		"expansion/background",
+		"expansion/bar_memory",
+		"expansion/text_memory",
+		"expansion/text_timer",
+		"expansion/text_progress",
+		"expansion/text_progress_details",
+		"expansion/bar_progress_background",
+		"expansion/bar_progress",
+		"expansion/text_progress_percentage",
+		"expansion/rotating_gear_blue",
+		"expansion/rotating_gear_yellow",
+		"expansion/rotating_gear_red",
+		"expansion/logo"
+	],
+	"variables": {
+		"mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
+		"mem_color": "(mem_percent < 0.7) ? 0x64dd17 : ((mem_percent < 0.8) ? 0xffeb3b : ((mem_percent < 0.9) ? 0xffc400 : 0xff5252))",
+		"item_rotation": "time * 50"
+	},
+	"functions": [],
+	"factories": [],
+	"actions": []
+}

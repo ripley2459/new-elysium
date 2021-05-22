@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"ce3240ea"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f22a0e52",
+		type: "stat",
+		title: "100 hours",
+		icon: "minecraft:gold_block",
+		stat: "stat.playOneMinute",
+		value: 7200000
+	}]
+}

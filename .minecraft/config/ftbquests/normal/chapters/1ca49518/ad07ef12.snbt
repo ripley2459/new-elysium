@@ -1,0 +1,17 @@
+{
+	x: -10.0d,
+	y: -10.0d,
+	text: [
+		"Can handle 32 channels."
+	],
+	dependencies: [
+		"a862d718"
+	],
+	tasks: [{
+		uid: "5989450f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 516"
+		}]
+	}]
+}

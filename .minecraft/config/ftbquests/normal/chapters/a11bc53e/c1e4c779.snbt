@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 15.0d,
+	dependencies: [
+		"d11d9d30"
+	],
+	tasks: [{
+		uid: "442ba538",
+		type: "item",
+		items: [{
+			id: "moreavaritia:balancedinfinitysword",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 21
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: -9.0d,
+	dependencies: [
+		"91a91951"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "924a855e",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	}]
+}

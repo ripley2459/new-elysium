@@ -1,0 +1,15 @@
+{
+	title: "Vein Miner",
+	icon: "minecraft:diamond_pickaxe",
+	x: -0.5d,
+	y: -6.0d,
+	shape: "hexagon",
+	text: [
+		"This pack has §lVein Miner§r. So you can mine entire region instantly. Don't forget to bind this feature!"
+	],
+	optional: true,
+	tasks: [{
+		uid: "92f59641",
+		type: "checkmark"
+	}]
+}

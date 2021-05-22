@@ -1,0 +1,311 @@
+{
+    "images":
+    {
+        "logo":
+        {
+            "image" : "mmenu:textures/gui/logo.png",
+            "posX" : -125,
+            "posY" : 50,
+            "width" : 250,
+            "height" : 56,
+            "alignment" : "top_center"
+        }
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+			"alignment" : "center",
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -46,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+			"alignment" : "center",
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : -22,
+            "width" : 200,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+			"alignment" : "center",
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 2,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "server-files":
+        {
+			"alignment" : "center",
+            "text" : "Server Files",
+            "posX" : 2,
+            "posY" : 2,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/ripley2459/new-elysium"
+            }
+        },
+
+        "options":
+        {
+			"alignment" : "center",
+            "text" : "menu.options",
+            "posX" : -76,
+            "posY" : 26,
+            "width" : 74,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "quit":
+        {
+			"alignment" : "center",
+            "text" : "menu.quit",
+            "posX" : 2,
+            "posY" : 26,
+            "width" : 98,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+
+        "language":
+        {
+			"alignment" : "center",
+            "text" : "",
+            "posX" : -100,
+            "posY" : 26,
+            "width" : 20,
+            "height" : 20,
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+
+		"github":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : -130,
+            "width" : 40,
+            "height" : 40,
+            "imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/github.png",
+			"tooltip": "Visit the project GitHub page.\nGo here to report encountered issues.",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/PpnJXhEpb6"
+            }
+        },
+
+		"discord":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : -86,
+            "width" : 40,
+            "height" : 40,
+            "imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/discord.png",
+			"tooltip": "Join the official ¡ì9Discord¡ìr channel.",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/PpnJXhEpb6"
+            }
+        },
+
+        "curseforge":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : -42,
+            "width" : 40,
+            "height" : 40,
+            "imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/curseforge.png",
+			"tooltip": "Consult the ¡ìcNew Elysium¡ìr page on Curseforge.",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://www.technicpack.net/modpack/expension.1582121"
+            }
+        },
+
+        "website":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : 2,
+            "width" : 40,
+            "height" : 40,
+            "imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/website.png", 
+			"tooltip": "Visit my ¡ìawebsite¡ìr.",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "http://cyrilneveu.fr/"
+            }
+        },
+
+        "folder":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : 46,
+            "width" : 40,
+            "height" : 40,
+            "imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/folder.png",
+			"tooltip": "Open the ¡ìcNew Elysium¡ìr folder.",
+			"action":
+			{
+				"type": "openFolder",
+				"folderName": "/"
+			}
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -44,
+            "posY" : 90,
+            "width" : 40,
+            "height" : 40,
+			"imageWidth" : 256,
+            "imageHeight" : 256,
+			"alignment" : "right_center",
+            "texture" : "mmenu:textures/buttons/reload.png",
+			"tooltip": "¡ìeReload¡ìr the main menu.\nCan solve minor bugs.",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "labels":
+    {
+        "logged_as":
+        {
+            "text" : "Logged as ¡ì6#username#¡ìr",
+            "posX" : 4,
+            "posY" : 4,
+            "color" : -1,
+            "alignment" : "top_left"
+        },	
+
+		"announcements": {
+			"text": "web:http://cyrilneveu.fr/content/new_elysium/announcements.txt",
+			"posX": 4,
+			"posY": 14,
+			"color": -1,
+			"alignment": "top_left"
+		},
+
+        "modpack":
+        {
+            "text" : "¡ìcNew Elysium¡ìr by Ripley2459",
+			"hoverText": "¡ìcNew Elysium¡ìr version ¡ì630¡ìr (2021/05/17) by ¡ì4Ripley2459¡ìr",
+            "posX" : 4,
+            "posY" : -42,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "mods":
+        {
+            "text" : "Mods active #modsactive#/#modsloaded#",
+            "posX" : 4,
+            "posY" : -32,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "minecraft_version":
+        {
+            "text" : "Minecraft #mcversion#",
+            "posX" : 4,
+            "posY" : -22,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "forge_version":
+        {
+            "text" : "Forge #forgeversion#",
+			"hoverText": "FML #fmlversion#",
+            "posX" : 4,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+
+    "other":
+    {
+
+        "background" :
+        {
+            "image" : "",
+            "slideshow" :
+            {
+                "images" :
+                [
+                "mmenu:textures/00.jpg"
+                ],
+                "displayDuration" : 1,
+                "fadeDuration" : 0
+            }
+        }
+
+    }
+}

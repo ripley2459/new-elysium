@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "bfdcb737",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"Place it at the top of the tower previously constructed.",
+		"",
+		"Zombie have 20% to be converted to cyberzombie in a 128 blocks radius arround the tower.",
+		"",
+		"If the tower is effective, it should §lemit particles§r."
+	],
+	dependencies: [
+		"fe436247"
+	],
+	tasks: [{
+		uid: "997551ba",
+		type: "item",
+		items: [{
+			item: "cyberware:beacon_large"
+		}]
+	}]
+}

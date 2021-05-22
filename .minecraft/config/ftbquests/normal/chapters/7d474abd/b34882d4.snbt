@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: -1.5d,
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "3a35a119",
+		type: "item",
+		items: [{
+			id: "cyberware:brain_upgrades",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			},
+			Damage: 3s
+		}]
+	}]
+}

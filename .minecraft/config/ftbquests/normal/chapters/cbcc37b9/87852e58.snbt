@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: -5.0d,
+	text: [
+		"Put chickens (at least 1 per left slots) and seeds to breed them."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e60379bc"
+	],
+	tasks: [{
+		uid: "5417cee1",
+		type: "item",
+		items: [{
+			item: "roost:breeder"
+		}]
+	}]
+}

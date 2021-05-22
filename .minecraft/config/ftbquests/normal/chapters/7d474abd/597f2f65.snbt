@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"Cyberzombies are more powerfull zombies with a chance to drop salvaged parts."
+	],
+	tasks: [{
+		uid: "b26c7177",
+		type: "kill",
+		icon: "enderio:item_material 1 40",
+		entity: "cyberware:cyberzombie",
+		value: 50L
+	}]
+}

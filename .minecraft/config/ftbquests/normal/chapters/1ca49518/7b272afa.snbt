@@ -1,0 +1,22 @@
+{
+	x: -11.0d,
+	y: -12.5d,
+	text: [
+		"The ME Gas Export Bus take gas from the system and put them in the near tank.",
+		"",
+		"This bus should be placed between a cable with at least 1 free channel and a tank.",
+		"",
+		"You have to put the §llarge side§r on the cable."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"533e6d5f"
+	],
+	tasks: [{
+		uid: "357a82de",
+		type: "item",
+		items: [{
+			item: "extracells:part.base 1 14"
+		}]
+	}]
+}

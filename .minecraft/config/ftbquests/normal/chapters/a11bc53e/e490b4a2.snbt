@@ -1,0 +1,111 @@
+{
+	title: "Materials Singularities",
+	x: 5.0d,
+	y: 8.0d,
+	text: [
+		"Singularities are created with a large amount of a certain type of matter.",
+		"",
+		"You lucky guy, each singularities have a associated chicken that can lay the matter used in the singularity creation."
+	],
+	dependencies: [
+		"bec6feb9"
+	],
+	tasks: [{
+		uid: "2b5a45ab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:prismarinesingularity"
+		}]
+	},
+	{
+		uid: "2edd21e1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:redstonesingularity"
+		}]
+	},
+	{
+		uid: "c508d9d8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sapphiresingularity"
+		}]
+	},
+	{
+		uid: "33096056",
+		type: "item",
+		items: [{
+			item: "contenttweaker:peridotsingularity"
+		}]
+	},
+	{
+		uid: "71aa1405",
+		type: "item",
+		items: [{
+			item: "contenttweaker:malachitesingularity"
+		}]
+	},
+	{
+		uid: "0dd24835",
+		type: "item",
+		items: [{
+			item: "contenttweaker:amethystsingularity"
+		}]
+	},
+	{
+		uid: "e7b485ad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:topazsingularity"
+		}]
+	},
+	{
+		uid: "9c9976f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:lapissingularity"
+		}]
+	},
+	{
+		uid: "4301b7ab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ambersingularity"
+		}]
+	},
+	{
+		uid: "658c772f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:quartzsingularity"
+		}]
+	},
+	{
+		uid: "7ccfd781",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rubysingularity"
+		}]
+	},
+	{
+		uid: "c0f49c4b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tanzanitesingularity"
+		}]
+	},
+	{
+		uid: "bd647024",
+		type: "item",
+		items: [{
+			item: "contenttweaker:emeraldsingularity"
+		}]
+	},
+	{
+		uid: "2ad57777",
+		type: "item",
+		items: [{
+			item: "contenttweaker:diamondsingularity"
+		}]
+	}]
+}

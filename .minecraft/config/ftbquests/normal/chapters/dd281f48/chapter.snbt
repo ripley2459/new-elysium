@@ -1,0 +1,27 @@
+{
+	title: "Cluster",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 1s
+	},
+	description: [
+		"The storage Drawers mod allow you to store items and design your own drawers."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 2.5d,
+		y: 2.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "quests:drawer.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

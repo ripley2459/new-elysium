@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -14.0d,
+	dependencies: [
+		"1184e88f",
+		"3068d7cb"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9309778b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	shape: "gear",
+	text: [
+		"Right click on a drawer to see how many items there is inside."
+	],
+	dependencies: [
+		"345cd0ef"
+	],
+	tasks: [{
+		uid: "ec49de46",
+		type: "item",
+		items: [{
+			item: "storagedrawers:quantify_key"
+		}]
+	}]
+}

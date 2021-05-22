@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 25.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d11d9d30"
+	],
+	tasks: [{
+		uid: "68285440",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_creative"
+		}]
+	}]
+}

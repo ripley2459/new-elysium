@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"5e81d374"
+	],
+	tasks: [{
+		uid: "aa47182e",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

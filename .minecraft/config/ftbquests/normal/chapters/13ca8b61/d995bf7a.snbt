@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 6.0d,
+	dependencies: [
+		"521ff698"
+	],
+	tasks: [{
+		uid: "e1a2b592",
+		type: "dimension",
+		title: "The Nether",
+		icon: "minecraft:netherrack",
+		dim: -1
+	}]
+}

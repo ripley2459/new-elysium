@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"e476f31a"
+	],
+	tasks: [{
+		uid: "d5cd6fd0",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}]
+}

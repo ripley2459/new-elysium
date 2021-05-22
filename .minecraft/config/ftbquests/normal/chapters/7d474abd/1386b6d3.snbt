@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: 1.5d,
+	text: [
+		"Zombie have 10% to be converted to cyberzombie in a 64 blocks radius arround the radio."
+	],
+	tasks: [{
+		uid: "75a23fb0",
+		type: "item",
+		items: [{
+			item: "cyberware:beacon"
+		}]
+	}]
+}

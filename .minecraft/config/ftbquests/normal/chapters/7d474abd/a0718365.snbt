@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"Zombie have 5% to be converted to cyberzombie in a 32 blocks radius arround the player."
+	],
+	dependencies: [
+		"597f2f65"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "689fecfa",
+		type: "item",
+		items: [{
+			id: "cyberware:brain_upgrades",
+			tag: {
+				cyberwareQuality: "cyberware.quality.scavenged"
+			},
+			Damage: 5s
+		}]
+	}]
+}

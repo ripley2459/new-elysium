@@ -1,0 +1,26 @@
+{
+	title: "Resources Manipulation",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:chicken"
+			}
+		}
+	},
+	x: -5.0d,
+	y: -3.0d,
+	text: [
+		"In New Elysium you have to §lcraft chicken§r in order to breed them.",
+		"",
+		"You will need to craft 6 copies of the resource you want to use to craft a chicken. Combine it with a syringe, an egg and a hay ball and you will obtain a pseudo egg.",
+		"",
+		"Right click with the pseudo egg on the ground to spawn the chicken.",
+		"",
+		"You can catch it with the Chicken Catcher."
+	],
+	tasks: [{
+		uid: "0a2b85de",
+		type: "checkmark"
+	}]
+}

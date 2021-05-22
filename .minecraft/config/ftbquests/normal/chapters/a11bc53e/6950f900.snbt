@@ -1,0 +1,24 @@
+{
+	title: "Octuple compressed cobblestone",
+	x: -2.0d,
+	y: 19.0d,
+	text: [
+		"If you want to access to some ultimate items you need §l§ca lot§r§r of theses bad girls.",
+		"",
+		"You will need 1 549 681 956 cobblestone blocks to complete this quest.",
+		"",
+		"With §lonly one§r cobblestone generator tier 5, you will need arround 900 days to gain enought cobblestone.",
+		"",
+		"You should use the §3Compacter§r from the mod §lCompacter§r. I think this compacter is the best compacter all mods combined."
+	],
+	tasks: [{
+		uid: "31e7e7cc",
+		type: "item",
+		icon: "extrautils2:compressedcobblestone 1 7",
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 7"
+		}],
+		count: 36L,
+		consume_items: false
+	}]
+}

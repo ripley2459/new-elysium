@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 5.0d,
+	shape: "gear",
+	dependencies: [
+		"b0c41cfc"
+	],
+	tasks: [{
+		uid: "fca51178",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_redstone 1 1"
+		}]
+	}]
+}

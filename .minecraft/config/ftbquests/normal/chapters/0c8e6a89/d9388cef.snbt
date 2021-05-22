@@ -1,0 +1,16 @@
+{
+	x: 3.0d,
+	y: -9.0d,
+	dependencies: [
+		"91a91951"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "9d746be9",
+		type: "item",
+		items: [{
+			item: "conarm:armorstation"
+		}],
+		count: 2L
+	}]
+}

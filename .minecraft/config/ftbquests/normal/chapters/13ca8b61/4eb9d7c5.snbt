@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Punch some trees and get wood. Transform it into planks into a Crafting Table."
+	],
+	dependencies: [
+		"1b26e976"
+	],
+	tasks: [{
+		uid: "b7f7d80a",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

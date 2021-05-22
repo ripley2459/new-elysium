@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	dependencies: [
+		"56a57312"
+	],
+	optional: true,
+	tasks: [{
+		uid: "cecdf85b",
+		type: "stat",
+		title: "400 hours",
+		icon: "minecraft:emerald_block",
+		stat: "stat.playOneMinute",
+		value: 28800000
+	}]
+}

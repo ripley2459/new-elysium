@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	text: [
+		"The Crafting Pad is exactly like a vanilla Crafting Table, except its portable."
+	],
+	dependencies: [
+		"4eb9d7c5"
+	],
+	tasks: [{
+		uid: "2d30a750",
+		type: "item",
+		items: [{
+			item: "vt:pad"
+		}]
+	}]
+}

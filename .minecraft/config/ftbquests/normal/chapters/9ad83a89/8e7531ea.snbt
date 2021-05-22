@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: -5.0d,
+	dependencies: [
+		"4d55d492"
+	],
+	tasks: [{
+		uid: "619fda10",
+		type: "item",
+		items: [{
+			item: "solarflux:block_charging_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	text: [
+		"The Chicken Catcher allow you to catch any chicken and store it as a item.",
+		"",
+		"This \"chicken item\" can be used to breed that chicken inside a Chicken Breeder or to lay items inside a Roost."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e60379bc"
+	],
+	tasks: [{
+		uid: "2ad976b9",
+		type: "item",
+		items: [{
+			item: "roost:catcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

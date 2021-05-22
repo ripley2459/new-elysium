@@ -1,0 +1,17 @@
+{
+	x: 6.5d,
+	y: 25.0d,
+	shape: "square",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d11d9d30"
+	],
+	tasks: [{
+		uid: "7e0a8868",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembly 1 5"
+		}],
+		ignore_nbt: 1b
+	}]
+}

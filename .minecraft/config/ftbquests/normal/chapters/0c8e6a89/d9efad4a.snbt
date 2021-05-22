@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -10.0d,
+	dependencies: [
+		"ca879b7c"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "12fc964e",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "enderio:block_alloy",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}]
+}

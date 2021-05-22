@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"21d58915"
+	],
+	tasks: [{
+		uid: "d4e2caaf",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:potato_cannon_turret"
+		}]
+	}]
+}

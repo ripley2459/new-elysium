@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"7d6bc742"
+	],
+	tasks: [{
+		uid: "159c92cc",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
+	}]
+}

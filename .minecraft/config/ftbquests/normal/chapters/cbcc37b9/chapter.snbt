@@ -1,0 +1,15 @@
+{
+	title: "Chicken Quest",
+	icon: {
+		id: "roost:chicken",
+		tag: {
+			Chicken: "minecraft:chicken"
+		}
+	},
+	description: [
+		"Chickens are the main  source of resource."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "diamond"
+}

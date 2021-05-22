@@ -1,0 +1,14 @@
+{
+	x: 21.5d,
+	y: -1.5d,
+	dependencies: [
+		"40733152"
+	],
+	tasks: [{
+		uid: "6ba29113",
+		type: "item",
+		items: [{
+			item: "cyberware:muscle_upgrades 1 1"
+		}]
+	}]
+}

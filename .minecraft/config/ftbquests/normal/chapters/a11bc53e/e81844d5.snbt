@@ -1,0 +1,146 @@
+{
+	title: "Ingots Singularites",
+	x: 3.0d,
+	y: 8.0d,
+	text: [
+		"Singularities are created with a large amount of a certain type of matter.",
+		"",
+		"You lucky guy, each singularities have a associated chicken that can lay the matter used in the singularity creation."
+	],
+	dependencies: [
+		"bec6feb9"
+	],
+	tasks: [{
+		uid: "a9bcf5a9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:goldsingularity"
+		}]
+	},
+	{
+		uid: "064840dc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:coppersingularity"
+		}]
+	},
+	{
+		uid: "dd1ca1df",
+		type: "item",
+		items: [{
+			item: "contenttweaker:invarsingularity"
+		}]
+	},
+	{
+		uid: "c3db96b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ironsingularity"
+		}]
+	},
+	{
+		uid: "8e94db59",
+		type: "item",
+		items: [{
+			item: "contenttweaker:leadsingularity"
+		}]
+	},
+	{
+		uid: "cea133c3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cobaltsingularity"
+		}]
+	},
+	{
+		uid: "fea108cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nickelsingularity"
+		}]
+	},
+	{
+		uid: "0022cdec",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steelsingularity"
+		}]
+	},
+	{
+		uid: "7e7b96e5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:platinumsingularity"
+		}]
+	},
+	{
+		uid: "17bde144",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mithrilsingularity"
+		}]
+	},
+	{
+		uid: "d87777e8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:enderiumsingularity"
+		}]
+	},
+	{
+		uid: "0f66e409",
+		type: "item",
+		items: [{
+			item: "contenttweaker:titaniumsingularity"
+		}]
+	},
+	{
+		uid: "941df1af",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pigironsingularity"
+		}]
+	},
+	{
+		uid: "4dbe32e6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:signalumsingularity"
+		}]
+	},
+	{
+		uid: "2cbfde80",
+		type: "item",
+		items: [{
+			item: "contenttweaker:demonicmetalsingularity"
+		}]
+	},
+	{
+		uid: "563b734e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:uraniumsingularity"
+		}]
+	},
+	{
+		uid: "b2bdac89",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tinsingularity"
+		}]
+	},
+	{
+		uid: "ee8c6010",
+		type: "item",
+		items: [{
+			item: "contenttweaker:manyullynsingularity"
+		}]
+	},
+	{
+		uid: "d7160107",
+		type: "item",
+		items: [{
+			item: "contenttweaker:silversingularity"
+		}]
+	}]
+}

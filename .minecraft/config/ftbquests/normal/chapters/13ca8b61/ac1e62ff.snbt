@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"4eb9d7c5"
+	],
+	tasks: [{
+		uid: "9086641d",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
