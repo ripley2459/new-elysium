@@ -1,0 +1,25 @@
+{
+	"renders": [
+		"newelysium/background",
+		"newelysium/bar_memory",
+		"newelysium/text_memory",
+		"newelysium/text_timer",
+		"newelysium/text_progress",
+		"newelysium/text_progress_details",
+		"newelysium/bar_progress_background",
+		"newelysium/bar_progress",
+		"newelysium/text_progress_percentage",
+		"newelysium/rotating_gear_blue",
+		"newelysium/rotating_gear_yellow",
+		"newelysium/rotating_gear_red",
+		"newelysium/logo"
+	],
+	"variables": {
+		"mem_percent": "((floor(memory_used() * 100) + 0.0) / (floor(memory_max() * 100) + 0.0))",
+		"mem_color": "(mem_percent < 0.7) ? 0x64dd17 : ((mem_percent < 0.8) ? 0xffeb3b : ((mem_percent < 0.9) ? 0xffc400 : 0xff5252))",
+		"item_rotation": "time * 50"
+	},
+	"functions": [],
+	"factories": [],
+	"actions": []
+}

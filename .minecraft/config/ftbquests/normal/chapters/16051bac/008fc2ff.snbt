@@ -1,0 +1,13 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"This pack has §bVein Miner§r. So you can mine entire region instantly. Don't forget to bind this feature! You will gain a lot of time."
+	],
+	tasks: [{
+		uid: "c761e729",
+		type: "checkmark",
+		title: "Vein Mining",
+		icon: "minecraft:diamond_pickaxe"
+	}]
+}

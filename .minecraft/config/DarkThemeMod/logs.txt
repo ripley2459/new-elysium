@@ -1,0 +1,12 @@
+Processing texture: custommainmenu:textures/gui/logo.png
+Processing texture: minecraft:textures/gui/widgets.png
+Detected new text stack trace class: org.zeith.darktheme.internal.GUIAwareFontRenderer
+Detected new text stack trace class: lumien.custommainmenu.gui.GuiCustomButton
+Processing texture: minecraft:textures/gui/options_background.png
+Detected new text stack trace class: net.minecraftforge.fml.client.GuiSlotModList
+Detected new text stack trace class: net.minecraftforge.fml.client.GuiScrollingList
+Detected new text stack trace class: net.minecraftforge.fml.client.GuiModList
+Detected new text stack trace class: net.minecraft.client.gui.Gui
+Detected new text stack trace class: net.minecraft.client.gui.GuiTextField
+Detected new text stack trace class: net.minecraftforge.fml.client.GuiModList$Info
+Detected new text stack trace class: bre.smoothfont.gui.GuiTextFieldWithLabel

@@ -34,7 +34,7 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="9000" power ="20">
 		<input>
-			<itemStack>thermalfoundation:material;7;132</itemStack>
+			<itemStack>libvulpes:productingot;7;9</itemStack>
 			<itemStack>libvulpes:productingot;3;7</itemStack>
 		</input>
 		<output>

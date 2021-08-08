@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"5270d24c"
+	],
+	tasks: [{
+		uid: "822a93fb",
+		type: "item",
+		items: [{
+			item: "hopperducts:gratedhopper"
+		}]
+	}]
+}

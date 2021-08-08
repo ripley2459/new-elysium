@@ -71,19 +71,5 @@
 		items: [{
 			item: "harvestcraft:hotwingsitem"
 		}]
-	},
-	{
-		uid: "7ad3a569",
-		type: "item",
-		items: [{
-			item: "xlfoodmod:chicken_salad"
-		}]
-	},
-	{
-		uid: "bf654b1a",
-		type: "item",
-		items: [{
-			item: "xlfoodmod:chicken_sandwich"
-		}]
 	}]
 }

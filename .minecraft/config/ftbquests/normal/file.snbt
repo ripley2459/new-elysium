@@ -1,7 +1,7 @@
 {
 	version: 9,
 	title: "New Elysium",
-	icon: "minecraft:book",
+	icon: "techguns:itemshared 1 71",
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

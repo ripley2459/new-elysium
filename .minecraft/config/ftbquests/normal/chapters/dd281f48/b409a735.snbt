@@ -1,9 +1,9 @@
 {
 	x: 4.0d,
-	y: 7.0d,
+	y: 5.0d,
 	shape: "gear",
 	text: [
-		"Right click on a drawer to see how many items there is inside."
+		"Right click on a drawer to display how many items there is inside."
 	],
 	dependencies: [
 		"345cd0ef"

@@ -24,7 +24,7 @@
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:15",
     "drop_item": "minecraft:bone",
-    "spawn_type": "NONE",
+    "spawn_type": "NORMAL",
     "parent_1": "",
     "parent_2": ""
   },
@@ -182,8 +182,8 @@
     "name": "QuartzChicken",
     "is_enabled": true,
     "lay_coefficient": 1.0,
-    "lay_item": "minecraft:quartz_block",
-    "drop_item": "minecraft:quartz_block",
+    "lay_item": "minecraft:quartz",
+    "drop_item": "minecraft:quartz",
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""
@@ -292,8 +292,8 @@
     "name": "GoldChicken",
     "is_enabled": true,
     "lay_coefficient": 1.0,
-    "lay_item": "minecraft:gold_ingot",
-    "drop_item": "minecraft:gold_ingot",
+    "lay_item": "minecraft:gold_nugget",
+    "drop_item": "minecraft:gold_nugget",
     "spawn_type": "NONE",
     "parent_1": "",
     "parent_2": ""

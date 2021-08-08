@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: -3.0d,
 	text: [
-		"You can place 16 chickens inside so that they produce while standing still."
+		"You can place §d16 chickens§r inside so that they produce while standing still."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

@@ -1,0 +1,62 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"71579af6"
+	],
+	tasks: [{
+		uid: "35a936d2",
+		type: "item",
+		items: [{
+			id: "silentgear:tool_head",
+			tag: {
+				ToolHeadData: {
+					Materials: [{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_flint"
+					},
+					{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_flint"
+					},
+					{
+						Item: {
+							id: "minecraft:flint",
+							Count: 1b,
+							Damage: 0s
+						},
+						Key: "silentgear:main_flint"
+					}],
+					ToolClass: "axe",
+					StatCache: {
+						repair_efficiency: 1.0f,
+						reach_distance: 0.0f,
+						synergy: 1.0f,
+						magic_armor: 0.0f,
+						durability: 124.0f,
+						armor_durability: 4.0f,
+						attack_speed: -3.4f,
+						harvest_speed: 5.0f,
+						ranged_speed: -0.3f,
+						ranged_damage: 1.0f,
+						armor_toughness: 0.0f,
+						enchantability: 3.0f,
+						armor: 4.0f,
+						melee_damage: 7.0f,
+						magic_damage: 0.0f,
+						harvest_level: 1.0f,
+						rarity: 6.0f
+					}
+				}
+			}
+		}]
+	}]
+}

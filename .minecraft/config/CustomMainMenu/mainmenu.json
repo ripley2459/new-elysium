@@ -3,7 +3,7 @@
     {
         "logo":
         {
-            "image" : "mmenu:textures/gui/logo.png",
+            "image" : "custommainmenu:textures/gui/logo.png",
             "posX" : -125,
             "posY" : 50,
             "width" : 250,
@@ -128,12 +128,12 @@
             "imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/github.png",
+            "texture" : "custommainmenu:textures/buttons/github.png",
 			"tooltip": "Visit the project GitHub page.\nGo here to report encountered issues.",
             "action" :
             {
                 "type" : "openLink",
-				"link" : "https://discord.gg/PpnJXhEpb6"
+				"link" : "https://github.com/ripley2459/new-elysium"
             }
         },
 
@@ -147,7 +147,7 @@
             "imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/discord.png",
+            "texture" : "custommainmenu:textures/buttons/discord.png",
 			"tooltip": "Join the official ¡ì9Discord¡ìr channel.",
             "action" :
             {
@@ -166,7 +166,7 @@
             "imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/curseforge.png",
+            "texture" : "custommainmenu:textures/buttons/curseforge.png",
 			"tooltip": "Consult the ¡ìcNew Elysium¡ìr page on Curseforge.",
             "action" :
             {
@@ -185,7 +185,7 @@
             "imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/website.png", 
+            "texture" : "custommainmenu:textures/buttons/website.png", 
 			"tooltip": "Visit my ¡ìawebsite¡ìr.",
             "action" :
             {
@@ -204,7 +204,7 @@
             "imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/folder.png",
+            "texture" : "custommainmenu:textures/buttons/folder.png",
 			"tooltip": "Open the ¡ìcNew Elysium¡ìr folder.",
 			"action":
 			{
@@ -223,7 +223,7 @@
 			"imageWidth" : 256,
             "imageHeight" : 256,
 			"alignment" : "right_center",
-            "texture" : "mmenu:textures/buttons/reload.png",
+            "texture" : "custommainmenu:textures/buttons/reload.png",
 			"tooltip": "¡ìeReload¡ìr the main menu.\nCan solve minor bugs.",
             "action" :
             {
@@ -300,7 +300,7 @@
             {
                 "images" :
                 [
-                "mmenu:textures/00.jpg"
+                "custommainmenu:textures/00.jpg"
                 ],
                 "displayDuration" : 1,
                 "fadeDuration" : 0

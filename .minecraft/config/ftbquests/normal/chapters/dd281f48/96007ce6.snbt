@@ -1,6 +1,6 @@
 {
 	x: 5.0d,
-	y: 7.0d,
+	y: 5.0d,
 	shape: "gear",
 	text: [
 		"Right click on a drawer to block other players to store or pick items from the drawer."

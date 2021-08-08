@@ -1,0 +1,34 @@
+{
+	title: "Optimize your game",
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"§cNew Elysium§r have arround §d300 mods§r. This is a big pack with a lot of features.",
+		"",
+		"It's normal to not have a very high fps amount, but with a decent computer you can easily hit §dconstant 60 fps§r (without §bOptifine§r).",
+		"",
+		"§nSome example how to optimize your game:§r",
+		"",
+		"* Install §bOptifine§r.",
+		"",
+		"§oVideo Settings menu...§r",
+		"* Graphics;",
+		"* Smooth Lighting;",
+		"* Particles;",
+		"* Render Distance.",
+		"",
+		"§o§bBetterFps§r options menu...§r",
+		"* Fog.",
+		"",
+		"§oMods...§r",
+		"* Disable §bBetter Foliage§r;",
+		"* Disable §bConnected Textures Mod§r;",
+		"* Reduce the size of the font from §bSmooth Font§r."
+	],
+	tasks: [{
+		uid: "882d0d14",
+		type: "checkmark",
+		title: "Optimize your game",
+		icon: "advancedrocketry:productgear 1 1"
+	}]
+}

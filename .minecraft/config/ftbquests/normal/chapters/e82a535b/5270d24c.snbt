@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "a3809101",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}]
+}

@@ -2,9 +2,9 @@
 	x: -3.0d,
 	y: -5.0d,
 	text: [
-		"The Chicken Catcher allow you to catch any chicken and store it as a item.",
+		"The §2Chicken Catcher§r allow you to catch any chicken and §estore it as a item§r.",
 		"",
-		"This \"chicken item\" can be used to breed that chicken inside a Chicken Breeder or to lay items inside a Roost."
+		"This \"chicken item\" can be used to breed that chicken inside a §2Chicken Breeder§r or to lay items inside a §2Roost§r."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

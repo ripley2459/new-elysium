@@ -1,9 +1,9 @@
 {
 	x: 2.0d,
-	y: 4.0d,
+	y: 2.0d,
 	shape: "gear",
 	text: [
-		"Allow a drawer to store up to §l28 772§r items."
+		"Allow a drawer to store up to §d28 772§r items."
 	],
 	dependencies: [
 		"b0c41cfc"

@@ -1,10 +1,11 @@
 {
+	icon: "advancedrocketry:atmanalyser",
 	x: -4.0d,
 	y: -4.0d,
 	text: [
-		"Chickens have §l3 stats§r (described below) that can §lgreatly increase their performances§r.",
+		"Chickens have §e3 stats§r (described below) that can §egreatly increase their performances§r.",
 		"",
-		"By default chickens have §a1/1/1§r stats and can be upgraded to §a10/10/10§r.",
+		"By default chickens have §d1/1/1§r stats and can be upgraded to §d10/10/10§r.",
 		"",
 		"§nGrowth§r",
 		"The speed of which the chicken grows and breed.",
@@ -16,7 +17,9 @@
 		"* 10 : 3 items.",
 		"",
 		"§nStrength§r",
-		"The ability of a chicken to carry its stats over to its children."
+		"The ability of a chicken to carry its stats over to its children.",
+		"",
+		"You want a specific resource to be layed by chickens? You can submit it on the §9Discord§r."
 	],
 	tasks: [{
 		uid: "868efa85",
