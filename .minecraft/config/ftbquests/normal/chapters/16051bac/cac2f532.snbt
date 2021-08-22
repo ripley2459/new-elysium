@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"706deaa8",
+		"8d46ec34"
+	],
+	tasks: [{
+		uid: "6c24ae89",
+		type: "item",
+		items: [{
+			item: "toughasnails:charcoal_filter"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -5.5d,
+	y: 1.5d,
+	dependencies: [
+		"cac2f532",
+		"94e93a9c"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "085c5473",
+		type: "item",
+		items: [{
+			item: "toughasnails:purified_water_bottle"
+		}],
+		count: 3L,
+		ignore_nbt: 1b
+	}]
+}

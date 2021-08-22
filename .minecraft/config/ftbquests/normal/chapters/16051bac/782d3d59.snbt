@@ -1,0 +1,17 @@
+{
+	icon: "tconstruct:pattern",
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"71c23dd1"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "ef3e5e67",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 8L
+	}]
+}

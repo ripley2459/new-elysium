@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -3.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d46ec34"
+	],
+	tasks: [{
+		uid: "65913520",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 12L
+	}]
+}

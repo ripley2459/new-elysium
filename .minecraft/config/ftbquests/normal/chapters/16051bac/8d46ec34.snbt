@@ -1,0 +1,15 @@
+{
+	title: "Temperature",
+	icon: "toughasnails:thermometer",
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"293f66b0"
+	],
+	hide: true,
+	size: 0.75d,
+	tasks: [{
+		uid: "e980a8e1",
+		type: "checkmark"
+	}]
+}
