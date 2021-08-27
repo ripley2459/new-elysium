@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: -2.0d,
+	text: [
+		"The §2Rain Collector§r can retrieve the rain water so §eyou can drink it safely§r."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8d46ec34"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "0f6d89ff",
+		type: "item",
+		items: [{
+			item: "toughasnails:rain_collector"
+		}]
+	}]
+}

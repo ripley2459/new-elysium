@@ -1,0 +1,19 @@
+{
+	x: -12.0d,
+	y: 1.5d,
+	dependencies: [
+		"05d22159"
+	],
+	tasks: [{
+		uid: "95fb3f5b",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "toughasnails:heat_resistance_type"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

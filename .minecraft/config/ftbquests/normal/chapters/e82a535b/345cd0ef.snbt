@@ -1,0 +1,12 @@
+{
+	x: 10.0d,
+	y: 9.5d,
+	shape: "circle",
+	tasks: [{
+		uid: "840a9a24",
+		type: "item",
+		items: [{
+			item: "storagedrawers:drawer_key"
+		}]
+	}]
+}

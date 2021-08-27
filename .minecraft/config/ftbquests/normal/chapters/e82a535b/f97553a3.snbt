@@ -1,0 +1,11 @@
+{
+	x: 11.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "0d17c731",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}]
+}

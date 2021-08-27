@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 9.5d,
+	shape: "gear",
+	text: [
+		"Right click on a drawer to hide stored items in the drawer."
+	],
+	dependencies: [
+		"345cd0ef"
+	],
+	tasks: [{
+		uid: "39ac6282",
+		type: "item",
+		items: [{
+			item: "storagedrawers:shroud_key"
+		}]
+	}]
+}

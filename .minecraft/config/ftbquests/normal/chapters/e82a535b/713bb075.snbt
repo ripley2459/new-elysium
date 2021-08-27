@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 7.5d,
+	shape: "gear",
+	text: [
+		"Can be applied 1 time.",
+		"",
+		"Allow a drawer to store up to §d64§r items.",
+		"",
+		"Ideal to store one stack."
+	],
+	dependencies: [
+		"b0c41cfc"
+	],
+	tasks: [{
+		uid: "a50e24d9",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_one_stack"
+		}]
+	}]
+}

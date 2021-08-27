@@ -1,0 +1,15 @@
+{
+	x: 4.0d,
+	y: 9.5d,
+	shape: "gear",
+	dependencies: [
+		"b0c41cfc"
+	],
+	tasks: [{
+		uid: "b7b474e1",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_conversion"
+		}]
+	}]
+}

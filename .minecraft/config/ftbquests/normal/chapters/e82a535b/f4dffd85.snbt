@@ -1,0 +1,12 @@
+{
+	x: 10.0d,
+	y: 3.5d,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "c88d2c54",
+		type: "item",
+		items: [{
+			item: "storagedrawers:compdrawers"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: 7.5d,
+	shape: "gear",
+	text: [
+		"Allow a drawer to store up to §d57 344§r items."
+	],
+	dependencies: [
+		"c0c0343f"
+	],
+	tasks: [{
+		uid: "d30f0585",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_storage 1 1"
+		}]
+	}]
+}
