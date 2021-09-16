@@ -1,0 +1,11 @@
+{
+	x: 25.5d,
+	y: 5.5d,
+	tasks: [{
+		uid: "422b319a",
+		type: "item",
+		items: [{
+			item: "techguns:simplemachine 1 11"
+		}]
+	}]
+}

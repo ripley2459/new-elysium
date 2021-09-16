@@ -129,7 +129,7 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/github.png",
-			"tooltip": "Visit the project GitHub page.\nGo here to report encountered issues.",
+			"tooltip": "Visit the project §9GitHub§r page.\nGo here to report encountered issues.",
             "action" :
             {
                 "type" : "openLink",
@@ -148,7 +148,7 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/discord.png",
-			"tooltip": "Join the official ¡ì9Discord¡ìr channel.",
+			"tooltip": "Join the official §9Discord§r channel.",
             "action" :
             {
                 "type" : "openLink",
@@ -167,11 +167,11 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/curseforge.png",
-			"tooltip": "Consult the ¡ìcNew Elysium¡ìr page on Curseforge.",
+			"tooltip": "Consult the §cNew Elysium§r page on Curseforge.",
             "action" :
             {
                 "type" : "openLink",
-				"link" : "https://www.technicpack.net/modpack/expension.1582121"
+				"link" : "https://www.curseforge.com/minecraft/modpacks/new-elysium"
             }
         },
 
@@ -186,7 +186,7 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/website.png", 
-			"tooltip": "Visit my ¡ìawebsite¡ìr.",
+			"tooltip": "Visit my §awebsite§r.",
             "action" :
             {
                 "type" : "openLink",
@@ -205,7 +205,7 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/folder.png",
-			"tooltip": "Open the ¡ìcNew Elysium¡ìr folder.",
+			"tooltip": "Open the §cNew Elysium§r folder.",
 			"action":
 			{
 				"type": "openFolder",
@@ -224,7 +224,7 @@
             "imageHeight" : 256,
 			"alignment" : "right_center",
             "texture" : "custommainmenu:textures/buttons/reload.png",
-			"tooltip": "¡ìeReload¡ìr the main menu.\nCan solve minor bugs.",
+			"tooltip": "§eReload§r the main menu.\nCan solve minor bugs.",
             "action" :
             {
                 "type" : "refresh"
@@ -236,7 +236,7 @@
     {
         "logged_as":
         {
-            "text" : "Logged as ¡ì6#username#¡ìr",
+            "text" : "Logged as §6#username#§r",
             "posX" : 4,
             "posY" : 4,
             "color" : -1,
@@ -253,8 +253,8 @@
 
         "modpack":
         {
-            "text" : "¡ìcNew Elysium¡ìr by Ripley2459",
-			"hoverText": "¡ìcNew Elysium¡ìr version ¡ì630¡ìr (2021/05/17) by ¡ì4Ripley2459¡ìr",
+            "text" : "§cNew Elysium§r by Ripley2459",
+			"hoverText": "§cNew Elysium§r §6Alpha 4§r (2021/09/16) by Ripley2459",
             "posX" : 4,
             "posY" : -42,
             "color" : -1,

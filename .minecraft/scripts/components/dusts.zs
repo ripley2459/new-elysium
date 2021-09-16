@@ -1,9 +1,12 @@
+#no_fix_recipe_book
 #priority 8000
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 import mods.appliedenergistics2.Grinder;
+
+print("========================= START - DUSTS =========================");
 
 // Obsidian Dust
 recipes.remove(<ic2:dust:12>);

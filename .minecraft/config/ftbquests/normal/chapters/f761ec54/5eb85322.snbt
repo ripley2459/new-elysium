@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	shape: "hexagon",
+	dependencies: [
+		"25be7f99"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "96d34a6b",
+		type: "item",
+		items: [{
+			item: "rpsideas:creative_colorizer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "62821ec3",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}]
+	},
+	{
+		uid: "d70c430e",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembly 1 5"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "661f78c6",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_creative"
+		}]
+	}]
+}

@@ -344,80 +344,8 @@ randomthings:collapse
 	- Is Beneficial: false
 
 
-quark:blue
-   - Id: 42
-   - Color: 255
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-quark:black
-   - Id: 43
-   - Color: 3158064
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-quark:white
-   - Id: 44
-   - Color: 13421772
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-quark:resilience
-   - Id: 45
-   - Color: 5970436
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: false
-
-
-quark:curse
-   - Id: 46
-   - Color: 0
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-quark:danger_sight
-   - Id: 47
-   - Color: 575715
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-champions:jailed
-   - Id: 48
-   - Color: 0
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-champions:plague
-   - Id: 49
-   - Color: 2046740
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-champions:injured
-   - Id: 50
-   - Color: 9240631
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
 rpsideas:psishock
-   - Id: 51
+   - Id: 42
    - Color: 16731410
    - Is Instant: false
    - Is Bad: true
@@ -425,7 +353,7 @@ rpsideas:psishock
 
 
 rpsideas:psipulse
-   - Id: 52
+   - Id: 43
    - Color: 1295871
    - Is Instant: false
    - Is Bad: false
@@ -433,7 +361,7 @@ rpsideas:psipulse
 
 
 rpsideas:unseeing
-   - Id: 53
+   - Id: 44
    - Color: 9546968
    - Is Instant: false
    - Is Bad: false
@@ -441,7 +369,7 @@ rpsideas:unseeing
 
 
 rpsideas:flash
-   - Id: 54
+   - Id: 45
    - Color: 16777215
    - Is Instant: false
    - Is Bad: true
@@ -449,7 +377,7 @@ rpsideas:flash
 
 
 rpsideas:burnout
-   - Id: 55
+   - Id: 46
    - Color: 14884388
    - Is Instant: false
    - Is Bad: true
@@ -457,15 +385,151 @@ rpsideas:burnout
 
 
 rpsideas:affinity
-   - Id: 56
+   - Id: 47
    - Color: 1928606
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-netherex:frozen
+quark:blue
+   - Id: 48
+   - Color: 255
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+quark:black
+   - Id: 49
+   - Color: 3158064
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+quark:white
+   - Id: 50
+   - Color: 13421772
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+quark:resilience
+   - Id: 51
+   - Color: 5970436
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+quark:curse
+   - Id: 52
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+quark:danger_sight
+   - Id: 53
+   - Color: 575715
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
+tconstruct:carry
+   - Id: 54
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+tconstruct:enderference
+   - Id: 55
+   - Color: 2201695
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+tconstruct:insatiable
+   - Id: 56
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+tconstruct:magnetic
    - Id: 57
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+tconstruct:momentum
+   - Id: 58
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+tconstruct:dot
+   - Id: 59
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+tconstruct:splinter
+   - Id: 60
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+conarm:superhotpotion
+   - Id: 61
+   - Color: 16777215
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
+champions:jailed
+   - Id: 62
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+champions:plague
+   - Id: 63
+   - Color: 2046740
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+champions:injured
+   - Id: 64
+   - Color: 9240631
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+netherex:frozen
+   - Id: 65
    - Color: -10634030
    - Is Instant: false
    - Is Bad: true
@@ -473,7 +537,7 @@ netherex:frozen
 
 
 netherex:frostbitten
-   - Id: 58
+   - Id: 66
    - Color: -15473921
    - Is Instant: false
    - Is Bad: true
@@ -481,7 +545,7 @@ netherex:frostbitten
 
 
 netherex:infested
-   - Id: 59
+   - Id: 67
    - Color: -7446488
    - Is Instant: false
    - Is Bad: true
@@ -489,7 +553,7 @@ netherex:infested
 
 
 netherex:crying
-   - Id: 60
+   - Id: 68
    - Color: -10011012
    - Is Instant: false
    - Is Bad: true
@@ -497,7 +561,7 @@ netherex:crying
 
 
 netherex:fire_burning
-   - Id: 61
+   - Id: 69
    - Color: -16777216
    - Is Instant: false
    - Is Bad: true
@@ -505,7 +569,7 @@ netherex:fire_burning
 
 
 netherex:soul_sucked
-   - Id: 62
+   - Id: 70
    - Color: -4432440
    - Is Instant: false
    - Is Bad: true
@@ -513,7 +577,7 @@ netherex:soul_sucked
 
 
 techguns:radiation
-   - Id: 63
+   - Id: 71
    - Color: -805765376
    - Is Instant: false
    - Is Bad: true
@@ -521,7 +585,7 @@ techguns:radiation
 
 
 techguns:radresistance
-   - Id: 64
+   - Id: 72
    - Color: -6706131
    - Is Instant: false
    - Is Bad: false
@@ -529,7 +593,7 @@ techguns:radresistance
 
 
 techguns:radregeneration
-   - Id: 65
+   - Id: 73
    - Color: 268050432
    - Is Instant: false
    - Is Bad: false
@@ -537,7 +601,7 @@ techguns:radregeneration
 
 
 extrautils2:effect.xu2.doom
-   - Id: 66
+   - Id: 74
    - Color: 3149840
    - Is Instant: false
    - Is Bad: true
@@ -545,7 +609,7 @@ extrautils2:effect.xu2.doom
 
 
 extrautils2:effect.xu2.gravity
-   - Id: 67
+   - Id: 75
    - Color: 2105376
    - Is Instant: false
    - Is Bad: true
@@ -553,7 +617,7 @@ extrautils2:effect.xu2.gravity
 
 
 extrautils2:effect.xu2.second.chance
-   - Id: 68
+   - Id: 76
    - Color: 6356848
    - Is Instant: false
    - Is Bad: false
@@ -561,7 +625,7 @@ extrautils2:effect.xu2.second.chance
 
 
 extrautils2:effect.xu2.greek.fire
-   - Id: 69
+   - Id: 77
    - Color: 16732160
    - Is Instant: false
    - Is Bad: true
@@ -569,7 +633,7 @@ extrautils2:effect.xu2.greek.fire
 
 
 extrautils2:effect.xu2.fizzy.lifting
-   - Id: 70
+   - Id: 78
    - Color: 10547296
    - Is Instant: false
    - Is Bad: true
@@ -577,7 +641,7 @@ extrautils2:effect.xu2.fizzy.lifting
 
 
 extrautils2:effect.xu2.relapse
-   - Id: 71
+   - Id: 79
    - Color: 6312191
    - Is Instant: false
    - Is Bad: false
@@ -585,7 +649,7 @@ extrautils2:effect.xu2.relapse
 
 
 extrautils2:effect.xu2.love
-   - Id: 72
+   - Id: 80
    - Color: 16761051
    - Is Instant: true
    - Is Bad: false
@@ -593,7 +657,7 @@ extrautils2:effect.xu2.love
 
 
 extrautils2:effect.xu2.purging
-   - Id: 73
+   - Id: 81
    - Color: 16738816
    - Is Instant: true
    - Is Bad: true

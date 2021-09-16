@@ -1,12 +1,11 @@
 {
-	x: -7.5d,
-	y: -4.5d,
+	x: -12.375d,
+	y: -4.875d,
 	shape: "circle",
 	dependencies: [
 		"4ca69ce0"
 	],
 	hide: true,
-	size: 0.75d,
 	tasks: [{
 		uid: "a1777db0",
 		type: "item",

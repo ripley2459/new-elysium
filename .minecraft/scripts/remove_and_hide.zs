@@ -1,19 +1,115 @@
+#no_fix_recipe_book
 #priority -9000
+#ikwid
 
-// This script remove recipes and hide given items.
-// They can still be obtained.
+// This script makes uncraftable and hides items.
+// In order to simplify recipes and remove redundancies.
 
 import mods.jei.JEI;
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-
 import mods.ctintegration.projecte.EMCManager;
+import mods.appliedenergistics2.Grinder;
+import mods.avaritia.ExtremeCrafting;
 
+print("========================= START - REMOVE AND HIDE =========================");
+
+// Replace any machine core
+// Basic Machine Frame
+recipes.replaceAllOccurences(<extrautils2:machine>, <ic2:resource:12>);
+recipes.replaceAllOccurences(<teslacorelib:machine_case>, <ic2:resource:12>);
+recipes.replaceAllOccurences(<enderio:item_material>, <ic2:resource:12>);
+recipes.replaceAllOccurences(<rftools:machine_frame>, <ic2:resource:12>);
+recipes.replaceAllOccurences(<rftools:machine_base>, <ic2:resource:12>);
+recipes.replaceAllOccurences(<libvulpes:structuremachine>, <ic2:resource:12>);
+
+// Advanced Machine Frame
+recipes.replaceAllOccurences(<enderio:item_material:1>, <ic2:resource:13>);
+recipes.replaceAllOccurences(<libvulpes:advstructuremachine>, <ic2:resource:13>);
+
+// Use Industrial Craft Batteries
+recipes.replaceAllOccurences(<libvulpes:battery>, <ic2:re_battery:26>.withTag({}));
+recipes.replaceAllOccurences(<libvulpes:battery:1>, <ic2:advanced_re_battery:26>.withTag({}));
+
+// Replace Basic Generator
+recipes.replaceAllOccurences(<ic2:te:3>, <techguns:itemshared:62>);
+
+// Motor and Engine
+recipes.replaceAllOccurences(<techguns:itemshared:70>, <libvulpes:motor>);
+recipes.replaceAllOccurences(<projectred-core:resource_item:410>, <libvulpes:motor>);
+
+// Coils
+recipes.replaceAllOccurences(<projectred-core:resource_item:400>, <techguns:itemshared:62>);
+recipes.replaceAllOccurences(<projectred-core:resource_item:401>, <techguns:itemshared:62>);
+recipes.replaceAllOccurences(<projectred-core:resource_item:402>, <techguns:itemshared:63>);
+recipes.replaceAllOccurences(<techguns:itemshared:68>, <ic2:crafting:5>);
+
+// REMOVE AND HIDE
 val remove_and_hide = [
+	<techguns:itemshared:85>,
+	<techguns:itemshared:78>,
+	<mysticalagriculture:iridium_essence>,
+	<mysticalagriculture:iridium_seeds>,
+	<mysticalagriculture:iridium_crop>,
+	<mysticaladaptations:netherstar_block>,
+	<mysticaladaptations:hop_graphite_block>,
+	<advancedrocketry:chemicalreactor>,
+	<jaopca:item_stickquartz>,
+	<inspirations:materials:8>,
+	<projectred-core:resource_item:401>,
+	<projectred-core:resource_item:402>,
+	<projectred-core:resource_item:400>,
+	<advancedrocketry:ic:0>,
+	<advancedrocketry:ic:2>,
+	<randomthings:ingredient:8>,
+	<rftools:machine_base>,
+	<libvulpes:creativepowerbattery>,
+	<libvulpes:ic2plug>,
+	<moreavaritia:infinitymsword>,
+	<moreavaritia:infinitympick>,
+	<extrautils2:passivegenerator:6>,
+	<openblocks:tank>.withTag({tank: {FluidName: "refinediron", Amount: 16000}}),
+	<advancedrocketry:lathe>,
+	<libvulpes:productboule:3>,
+	<ic2:crafting:13>,
+	<ic2:crafting:14>,
+	<ic2:crafting:15>,
+	<ic2:crafting:6>,
+	<techguns:itemshared:70>,
+	<projectred-core:resource_item:410>,
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 0}),
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 1}),
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 2}),
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 3}),
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 4}),
+	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 5}),
 	<singularities:compressor>,
+	<avaritia:matter_cluster>,
 	<ic2:te:77>,
 	<ic2:te:78>,
 	<ic2:te:79>,
 	<ic2:te:80>,
+	<ic2:te:46>,
+	<extrautils2:terraformer>,
+	<extrautils2:terraformer:1>,
+	<extrautils2:terraformer:2>,
+	<extrautils2:terraformer:3>,
+	<extrautils2:terraformer:4>,
+	<extrautils2:terraformer:5>,
+	<extrautils2:terraformer:6>,
+	<extrautils2:terraformer:7>,
+	<extrautils2:terraformer:8>,
+	<extrautils2:terraformer:9>,
+	<quark:diamond_heart>,
+	<quark:sugar_block>,
+	<enderio:item_material:32>,
+	<enderio:item_material:33>,
+	<advancedrocketry:arcfurnace>,
+	<advancedrocketry:blastbrick>,
+	<betternether:netherrack_furnace>,
+	<projectred-expansion:machine1>,
+	<advancedrocketry:cuttingmachine>,
+	<spiceoflife:bookfoodjournal>,
 	<chickens:henhouse>,
 	<chickens:henhouse_acacia>,
 	<chickens:henhouse_birch>,
@@ -55,6 +151,11 @@ val remove_and_hide = [
 	<randomthings:plate_collection>,
 	<randomthings:plate_extraction>,
 	<randomthings:plate_processing>,
+	<ic2:te:68>,
+	<techguns:simplemachine:10>,
+	<ic2:te:69>,
+	<ic2:te:70>,
+	<ic2:te:71>,
 	<storagedrawers:basicdrawers>.withTag({material: "oak"}),
 	<storagedrawers:basicdrawers>.withTag({material: "spruce"}),
 	<storagedrawers:basicdrawers>.withTag({material: "birch"}),
@@ -90,6 +191,8 @@ val remove_and_hide = [
 	<storagedrawers:trim:1>,
 	<storagedrawers:trim:2>,
 	<storagedrawers:trim:3>,
+	<enderio:item_material>,
+	<enderio:item_material:1>,
 	<storagedrawers:trim:4>,
 	<storagedrawers:trim:5>,
 	<enderio:item_material:10>,
@@ -101,6 +204,8 @@ val remove_and_hide = [
 	<reccomplex:weighted_command_block>,
 	<minecraft:command_block>,
 	<minecraft:repeating_command_block>,
+	<techguns:itemshared:68>,
+	<ic2:te:41>,
 	<minecraft:chain_command_block>,
 	<minecraft:structure_block>,
 	<minecraft:structure_void>,
@@ -206,6 +311,12 @@ val remove_and_hide = [
 	<appliedenergistics2:material:5>,
 	<techguns:itemshared:54>,
 	<ic2:te:8>,
+	<hammercore:iron_bordered_cobblestone>,
+	<hammercore:gold_bordered_cobblestone>,
+	<hammercore:diamond_bordered_cobblestone>,
+	<hammercore:emerald_bordered_cobblestone>,
+	<hammercore:quartz_bordered_cobblestone>,
+	<hammercore:manual>,
 	<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}),
 	<extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
 	<extrautils2:machine>.withTag({Type: "extrautils2:generator_culinary"}),
@@ -278,11 +389,48 @@ val remove_and_hide = [
 	<rftools:invisible_shield_block>,
 	<rftools:notick_invisible_shield_block>,
 	<rftools:invisible_shield_block_opaque>,
-	<rftools:notick_invisible_shield_block_opaque>
-] as IIngredient[];
+	<techguns:itemshared:96>,
+	<extrautils2:machine>,
+	<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}),
+	<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}),
+	<rftools:notick_invisible_shield_block_opaque>,
+	<randomthings:spectrecoil_ender>,
+	<randomthings:spectresword>,
+	<randomthings:spectrepickaxe>,
+	<randomthings:spectreaxe>,
+	<randomthings:spectreshovel>,
+	<randomthings:spectrecore>,
+	// <advancedrocketry:solarpanel>,
+	<projectred-expansion:solar_panel>,
+	<enderio:item_material:3>,
+	<advancedrocketry:solargenerator>,
+	<enderio:block_decoration2:10>,
+	<enderio:block_decoration3:2>,
+	<enderio:block_combustion_generator>,
+	<enderio:block_enhanced_combustion_generator>,
+	<enderio:block_simple_stirling_generator>,
+	<enderio:block_stirling_generator>,
+	<libvulpes:battery>,
+	<libvulpes:battery:1>,
+	<ic2:te:3>,
+	<enderio:block_simple_furnace>,
+	<techguns:itemshared:95>,
+	<industrialforegoing:black_hole_controller>,
+	<ic2:crafting>,
+	<enderio:block_farm_station>,
+	<enderio:block_zombie_generator>,
+	<enderio:block_franken_zombie_generator>,
+	<enderio:block_ender_generator>,
+	<enderio:block_lava_generator>
+] as IItemStack[];
 
-for toRemove in remove_and_hide{
-    recipes.remove(toRemove);
+for toRemove in remove_and_hide {
+	recipes.remove(toRemove);
+	furnace.remove(toRemove);
+	Grinder.removeRecipe(toRemove);
+	ExtremeCrafting.remove(toRemove);
+	toRemove.addTooltip("§cThis item is disabled.§r");
+	toRemove.addTooltip("§cIf you can see this item, please report it to the modpack author.§r");
 	JEI.removeAndHide(toRemove);
 	EMCManager.setIngredientEMC(toRemove, 0 as long);
 }

@@ -1,10 +1,15 @@
+#no_fix_recipe_book
 #modloaded avaritia singularities
 
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+import mods.advancedrocketry.Crystallizer;
+import mods.avaritia.ExtremeCrafting;
+import mods.techguns.ReactionChamber;
 
-import mods.avaritia.Compressor;
+print("========================= START - ROOST =========================");
 
 // Remove recipes for colored eggs
 val coloredChicken = <chickens:colored_egg>.definition;
@@ -13,6 +18,12 @@ for i in 0 to 16 {
 	recipes.remove(coloredChicken.makeStack(i));
 	JEI.removeAndHide(coloredChicken.makeStack(i));
 }
+
+// Hide some chickens
+<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:refinedironchicken"}}).addTooltip("§cThis item is disabled.§r");
+<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:refinedironchicken", Gain: 1, Strength: 1}).addTooltip("§cIf you can see this item, please report it to the modpack author.§r");
+JEI.removeAndHide(<chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:refinedironchicken"}}));
+JEI.removeAndHide(<roost:chicken>.withTag({Growth: 1, Chicken: "morechickens:refinedironchicken", Gain: 1, Strength: 1}));
 
 // Chicken Catcher
 recipes.remove(<roost:catcher>);
@@ -30,195 +41,200 @@ recipes.addShaped(<roost:roost> * 1, [[<ore:plateBronze>, <ore:plateBronze>, <or
 recipes.remove(<minecraft:chicken>);
 recipes.addShapeless(<minecraft:chicken> * 1, [<roost:chicken>, <harvestcraft:cuttingboarditem>]);
 
-/*
-
-// Create a recipe for each chicken using the Avaritia's Compressor
-Compressor.add("compressor_chickens_whitechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:whitechicken"}}), 125, <ore:dyeWhite>, true);
-Compressor.add("compressor_morechickens_redstonealloychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:redstonealloychicken"}}), 125, <ore:ingotRedstoneAlloy>, true);
-Compressor.add("compressor_morechickens_silverorechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:silverorechicken"}}), 125, <ore:ingotSilver>, true);
-Compressor.add("compressor_chickens_bluechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:bluechicken"}}), 125, <ore:dyeBlue>, true);
-Compressor.add("compressor_morechickens_boopbeepchick", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:boopbeepchick"}}), 125, <ore:grass>, true);
-Compressor.add("compressor_morechickens_chickenosto", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:chickenosto"}}), 125, <ore:cake>, true);
-Compressor.add("compressor_chickens_blackchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:blackchicken"}}), 125, <ore:dyeBlack>, true);
-Compressor.add("compressor_chickens_ironchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ironchicken"}}), 125, <ore:ingotIron>, true);
-Compressor.add("compressor_morechickens_uraniumchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:uraniumchicken"}}), 125, <ore:ingotUranium>, true);
-Compressor.add("compressor_chickens_blazechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:blazechicken"}}), 125, <minecraft:blaze_rod>, true);
-Compressor.add("compressor_morechickens_copperchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:copperchicken"}}), 125, <ore:ingotCopper>, true);
-Compressor.add("compressor_morechickens_funwaychick", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:funwaychick"}}), 125, <minecraft:fireworks>, true);
-Compressor.add("compressor_chickens_snowballchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:snowballchicken"}}), 125, <minecraft:snowball>, true);
-Compressor.add("compressor_morechickens_stoneburntchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:stoneburntchicken"}}), 125, <extrautils2:decorativesolid:3>, true);
-Compressor.add("compressor_chickens_yellowchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:yellowchicken"}}), 125, <ore:dyeYellow>, true);
-Compressor.add("compressor_chickens_quartzchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:quartzchicken"}}), 125, <ore:gemQuartz>, true);
-Compressor.add("compressor_morechickens_titaniumchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:titaniumchicken"}}), 125, <ore:ingotTitanium>, true);
-Compressor.add("compressor_chickens_soulsandchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:soulsandchicken"}}), 125, <minecraft:soul_sand>, true);
-Compressor.add("compressor_morechickens_sapphirechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:sapphirechicken"}}), 125, <ore:gemSapphire>, true);
-Compressor.add("compressor_morechickens_electricalsteelchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:electricalsteelchicken"}}), 125, <ore:ingotElectricalSteel>, true);
-Compressor.add("compressor_morechickens_sulfurchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:sulfurchicken"}}), 125, <ore:dustSulfur>, true);
-Compressor.add("compressor_chickens_glasschicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:glasschicken"}}), 125, <ore:blockGlass>, true);
-Compressor.add("compressor_chickens_obsidianchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:obsidianchicken"}}), 125, <ore:obsidian>, true);
-Compressor.add("compressor_chickens_ghastchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:ghastchicken"}}), 125, <minecraft:ghast_tear>, true);
-Compressor.add("compressor_chickens_flintchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:flintchicken"}}), 125, <minecraft:flint>, true);
-Compressor.add("compressor_chickens_cyanchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:cyanchicken"}}), 125, <ore:dyeCyan>, true);
-Compressor.add("compressor_morechickens_darksteelchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:darksteelchicken"}}), 125, <ore:ingotDarkSteel>, true);
-Compressor.add("compressor_morechickens_lunarreactivedustchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:lunarreactivedustchicken"}}), 125, <ore:dustLunar>, true);
-Compressor.add("compressor_chickens_glowstonechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:glowstonechicken"}}), 125, <ore:dustGlowstone>, true);
-Compressor.add("compressor_chickens_coalchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:coalchicken"}}), 125, <minecraft:coal>, true);
-Compressor.add("compressor_morechickens_energeticalloychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:energeticalloychicken"}}), 125, <ore:ingotEnergeticAlloy>, true);
-Compressor.add("compressor_morechickens_mramericanchick", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:mramericanchick"}}), 125, <minecraft:banner>, true);
-Compressor.add("compressor_chickens_claychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:claychicken"}}), 125, <minecraft:clay_ball>, true);
-Compressor.add("compressor_morechickens_magicalwoodchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:magicalwoodchicken"}}), 125, <ore:blockMagicalWood>, true);
-Compressor.add("compressor_chickens_magmachicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:magmachicken"}}), 125, <minecraft:magma_cream>, true);
-Compressor.add("compressor_chickens_graychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:graychicken"}}), 125, <ore:dyeGray>, true);
-Compressor.add("compressor_chickens_brownchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:brownchicken"}}), 125, <ore:dyeBrown>, true);
-Compressor.add("compressor_morechickens_tinchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:tinchicken"}}), 125, <ore:ingotTin>, true);
-Compressor.add("compressor_chickens_goldchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:goldchicken"}}), 125, <ore:ingotGold>, true);
-Compressor.add("compressor_morechickens_saltchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:saltchicken"}}), 125, <ore:dustSalt>, true);
-Compressor.add("compressor_morechickens_demonmetalchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:demonmetalchicken"}}), 125, <ore:ingotDemonicMetal>, true);
-Compressor.add("compressor_chickens_gunpowderchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:gunpowderchicken"}}), 125, <ore:gunpowder>, true);
-Compressor.add("compressor_morechickens_rubberchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:rubberchicken"}}), 125, <ore:itemRubber>, true);
-Compressor.add("compressor_morechickens_refinedironchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:refinedironchicken"}}), 125, <ore:ingotRefinedIron>, true);
-Compressor.add("compressor_morechickens_redstonecrystalchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:redstonecrystalchicken"}}), 125, <ore:gemRedstone>, true);
-Compressor.add("compressor_chickens_logchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:logchicken"}}), 125, <ore:logWood>, true);
-Compressor.add("compressor_chickens_emeraldchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:emeraldchicken"}}), 125, <ore:gemEmerald>, true);
-Compressor.add("compressor_chickens_stringchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:stringchicken"}}), 125, <ore:string>, true);
-Compressor.add("compressor_chickens_magentachicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:magentachicken"}}), 125, <ore:dyeMagenta>, true);
-Compressor.add("compressor_chickens_limechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:limechicken"}}), 125, <ore:dyeLime>, true);
-Compressor.add("compressor_chickens_pshardchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pshardchicken"}}), 125, <ore:gemPrismarine>, true);
-Compressor.add("compressor_chickens_pcrystalchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pcrystalchicken"}}), 125, <minecraft:prismarine_crystals>, true);
-Compressor.add("compressor_morechickens_rubychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:rubychicken"}}), 125, <ore:gemRuby>, true);
-Compressor.add("compressor_chickens_purplechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:purplechicken"}}), 125, <ore:dyePurple>, true);
-Compressor.add("compressor_chickens_greenchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:greenchicken"}}), 125, <ore:dyeGreen>, true);
-Compressor.add("compressor_morechickens_leadchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:leadchicken"}}), 125, <ore:ingotLead>, true);
-Compressor.add("compressor_morechickens_soulariumchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:soulariumchicken"}}), 125, <ore:ingotSoularium>, true);
-Compressor.add("compressor_chickens_sandchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:sandchicken"}}), 125, <ore:sand>, true);
-Compressor.add("compressor_morechickens_steelchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:steelchicken"}}), 125, <ore:ingotSteel>, true);
-Compressor.add("compressor_morechickens_aluminumchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:aluminumchicken"}}), 125, <ore:ingotAluminum>, true);
-Compressor.add("compressor_chickens_silverdyechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:silverdyechicken"}}), 125, <ore:dyeLightGray>, true);
-Compressor.add("compressor_morechickens_pulsatingironchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:pulsatingironchicken"}}), 125, <ore:ingotPulsatingIron>, true);
-Compressor.add("compressor_chickens_lightbluechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:lightbluechicken"}}), 125, <ore:dyeLightBlue>, true);
-Compressor.add("compressor_chickens_diamondchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:diamondchicken"}}), 125, <ore:gemDiamond>, true);
-Compressor.add("compressor_morechickens_conductiveironchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:conductiveironchicken"}}), 125, <ore:ingotConductiveIron>, true);
-Compressor.add("compressor_morechickens_siliconchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:siliconchicken"}}), 125, <ore:itemSilicon>, true);
-Compressor.add("compressor_chickens_redstonechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redstonechicken"}}), 125, <ore:dustRedstone>, true);
-Compressor.add("compressor_morechickens_bronzechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:bronzechicken"}}), 125, <ore:ingotBronze>, true);
-Compressor.add("compressor_chickens_redchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:redchicken"}}), 125, <ore:dyeRed>, true);
-Compressor.add("compressor_chickens_enderchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:enderchicken"}}), 125, <ore:enderpearl>, true);
-Compressor.add("compressor_chickens_leatherchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:leatherchicken"}}), 125, <ore:leather>, true);
-Compressor.add("compressor_morechickens_peridotchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:peridotchicken"}}), 125, <ore:gemPeridot>, true);
-Compressor.add("compressor_chickens_netherwartchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:netherwartchicken"}}), 125, <ore:cropNetherWart>, true);
-Compressor.add("compressor_morechickens_moonstonechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:moonstonechicken"}}), 125, <ore:gemMoon>, true);
-Compressor.add("compressor_chickens_pinkchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:pinkchicken"}}), 125, <ore:dyePink>, true);
-Compressor.add("compressor_chickens_smartchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:smartchicken"}}), 125, <ore:egg>, true);
-Compressor.add("compressor_chickens_orangechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:orangechicken"}}), 125, <ore:dyeOrange>, true);
-Compressor.add("compressor_chickens_slimechicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "chickens:slimechicken"}}), 125, <ore:slimeball>, true);
-Compressor.add("compressor_morechickens_xpchicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:xpchicken"}}), 125, <minecraft:enchanted_book>, true);
-Compressor.add("compressor_morechickens_vibrantalloychicken", <chickens:spawn_egg>.withTag({ChickenType: {id: "morechickens:vibrantalloychicken"}}), 125, <ore:ingotVibrantAlloy>, true);
-
-
-*/
-
 // Chickens
 // Add recipes for thoses cuty chicks
 val myChickens = {
-	"chickens:whitechicken" : <ore:dyeWhite>,
-	"morechickens:redstonealloychicken" : <ore:ingotRedstoneAlloy>,
-	"morechickens:silverorechicken" : <ore:ingotSilver>,
-	"chickens:bluechicken" : <ore:dyeBlue>, 
-	"morechickens:boopbeepchick" : <ore:grass>,
-	"morechickens:chickenosto" : <ore:cake>,
-	"chickens:blackchicken" : <ore:dyeBlack>,
-	"chickens:ironchicken" : <ore:ingotIron>,
-	"morechickens:uraniumchicken" : <ore:ingotUranium>,
+	"chickens:whitechicken" : <minecraft:dye:15>,
+	"morechickens:redstonealloychicken" : <enderio:item_alloy_ingot:3>,
+	"morechickens:silverorechicken" : <ic2:ingot:4>,
+	"chickens:bluechicken" : <minecraft:dye:4>, 
+	"chickens:blackchicken" : <minecraft:dye>,
 	"chickens:blazechicken" : <minecraft:blaze_rod>,
-	"morechickens:copperchicken" : <ore:ingotCopper>,
-	"morechickens:funwaychick" : <minecraft:fireworks>,
-	"chickens:snowballchicken" : <minecraft:snowball>,
+	"morechickens:copperchicken" : <ic2:ingot:2>,
+	"chickens:snowballchicken" : <minecraft:snow>,
 	"morechickens:stoneburntchicken" : <extrautils2:decorativesolid:3>,
-	"chickens:yellowchicken" : <ore:dyeYellow>,
-	"chickens:quartzchicken" : <ore:gemQuartz>,
-	"morechickens:titaniumchicken" : <ore:ingotTitanium>,
+	"chickens:yellowchicken" : <minecraft:dye:11>,
+	"chickens:quartzchicken" : <minecraft:quartz>,
+	"morechickens:titaniumchicken" : <techguns:itemshared:85>,
 	"chickens:soulsandchicken" : <minecraft:soul_sand>,
-	"morechickens:sapphirechicken" : <ore:gemSapphire>,
-	"morechickens:electricalsteelchicken" : <ore:ingotElectricalSteel>,
-	"morechickens:sulfurchicken" : <ore:dustSulfur>,
-	"chickens:glasschicken" : <ore:blockGlass>,
-	"chickens:obsidianchicken" : <ore:obsidian>,
+	"morechickens:sapphirechicken" : <projectred-core:resource_item:201>,
+	"morechickens:electricalsteelchicken" : <projectred-core:resource_item:104>,
+	"morechickens:sulfurchicken" : <ic2:dust:16>,
+	"chickens:glasschicken" : <minecraft:glass>,
+	"chickens:obsidianchicken" : <minecraft:obsidian>,
 	"chickens:ghastchicken" : <minecraft:ghast_tear>,
 	"chickens:flintchicken" : <minecraft:flint>,
-	"chickens:cyanchicken" : <ore:dyeCyan>,
-	"morechickens:darksteelchicken" : <ore:ingotDarkSteel>,
-	"morechickens:lunarreactivedustchicken" : <ore:dustLunar>,
-	"chickens:glowstonechicken" : <ore:dustGlowstone>,
+	"chickens:cyanchicken" : <minecraft:dye:6>,
+	"morechickens:darksteelchicken" : <enderio:item_alloy_ingot:6>,
+	"morechickens:lunarreactivedustchicken" : <extrautils2:ingredients:3>,
+	"chickens:glowstonechicken" : <minecraft:glowstone_dust>,
 	"chickens:coalchicken" : <minecraft:coal>,
-	"morechickens:energeticalloychicken" : <ore:ingotEnergeticAlloy>,
-	"morechickens:mramericanchick" : <minecraft:banner>,
+	"morechickens:energeticalloychicken" : <enderio:item_alloy_ingot:1>,
 	"chickens:claychicken" : <minecraft:clay_ball>,
-	"morechickens:magicalwoodchicken" : <ore:blockMagicalWood>,
+	"morechickens:magicalwoodchicken" : <extrautils2:decorativesolidwood:1>,	
 	"chickens:magmachicken" : <minecraft:magma_cream>,
-	"chickens:graychicken" : <ore:dyeGray>,
-	"chickens:brownchicken" : <ore:dyeBrown>,
-	"morechickens:tinchicken" : <ore:ingotTin>,
-	"chickens:goldchicken" : <ore:ingotGold>,
-	"morechickens:saltchicken" : <ore:dustSalt>,
-	"morechickens:demonmetalchicken" : <ore:ingotDemonicMetal>,
-	"chickens:gunpowderchicken" : <ore:gunpowder>,
-	"morechickens:rubberchicken" : <ore:itemRubber>,
-	"morechickens:refinedironchicken" : <ore:ingotRefinedIron>,
-	"morechickens:redstonecrystalchicken" : <ore:gemRedstone>,
-	"chickens:logchicken" : <ore:logWood>,
-	"chickens:emeraldchicken" : <ore:gemEmerald>,
-	"chickens:stringchicken" : <ore:string>,
-	"chickens:magentachicken" : <ore:dyeMagenta>,
-	"chickens:limechicken" : <ore:dyeLime>,
-	"chickens:pshardchicken" : <ore:gemPrismarine>,
+	"chickens:graychicken" : <minecraft:dye:8>,
+	"chickens:brownchicken" : <minecraft:dye:3>,
+	"morechickens:redstonecrystalchicken" : <extrautils2:ingredients>,
+	"morechickens:tinchicken" : <ic2:ingot:6>,
+	"morechickens:saltchicken" : <harvestcraft:saltitem>,
+	"morechickens:demonmetalchicken" : <extrautils2:ingredients:11>,
+	"chickens:gunpowderchicken" : <minecraft:gunpowder>,
+	"morechickens:rubberchicken" : <industrialforegoing:tinydryrubber>,
+	"chickens:magentachicken" : <minecraft:dye:13>,
+	"chickens:limechicken" : <minecraft:dye:10>,
+	"chickens:pshardchicken" : <minecraft:prismarine_shard>,
 	"chickens:pcrystalchicken" : <minecraft:prismarine_crystals>,
-	"morechickens:rubychicken" : <ore:gemRuby>,
-	"chickens:purplechicken" : <ore:dyePurple>,
-	"chickens:greenchicken" : <ore:dyeGreen>,
-	"morechickens:leadchicken" : <ore:ingotLead>,
-	"morechickens:soulariumchicken" : <ore:ingotSoularium>,
-	"chickens:sandchicken" : <ore:sand>,
-	"morechickens:steelchicken" : <ore:ingotSteel>,
-	"morechickens:aluminumchicken" : <ore:ingotAluminum>,
-	"chickens:silverdyechicken" : <ore:dyeLightGray>,
-	"morechickens:pulsatingironchicken" : <ore:ingotPulsatingIron>,
-	"chickens:lightbluechicken" : <ore:dyeLightBlue>,
-	"chickens:diamondchicken" : <ore:gemDiamond>,
-	"morechickens:conductiveironchicken" : <ore:ingotConductiveIron>,
-	"morechickens:siliconchicken" : <ore:itemSilicon>,
-	"chickens:redstonechicken" : <ore:dustRedstone>,
-	"morechickens:bronzechicken" : <ore:ingotBronze>,
-	"chickens:redchicken" : <ore:dyeRed>,
-	"chickens:enderchicken" : <ore:enderpearl>,
-	"chickens:leatherchicken" : <ore:leather>,
-	"morechickens:peridotchicken" : <ore:gemPeridot>,
-	"chickens:netherwartchicken" : <ore:cropNetherWart>,
-	"morechickens:moonstonechicken" : <ore:gemMoon>,
-	"chickens:pinkchicken" : <ore:dyePink>,
-	"chickens:smartchicken" : <ore:egg>,
-	"chickens:orangechicken" : <ore:dyeOrange>,
-	"chickens:slimechicken" : <ore:slimeball>,
-	"morechickens:xpchicken" : <minecraft:enchanted_book>,
-	"morechickens:vibrantalloychicken" : <ore:ingotVibrantAlloy>
-} as IIngredient[string];
+	"morechickens:rubychicken" : <projectred-core:resource_item:200>,
+	"chickens:greenchicken" : <minecraft:dye:2>,
+	"morechickens:leadchicken" : <ic2:ingot:3>,
+	"morechickens:soulariumchicken" : <enderio:item_alloy_ingot:7>,
+	"morechickens:steelchicken" : <ic2:ingot:5>,
+	"morechickens:aluminumchicken" : <libvulpes:productingot:9>,
+	"chickens:purplechicken" : <minecraft:dye:5>,
+	"chickens:silverdyechicken" : <minecraft:dye:7>,
+	"morechickens:pulsatingironchicken" : <enderio:item_alloy_ingot:5>,
+	"chickens:sandchicken" : <minecraft:sand>,
+	"chickens:goldchicken" : <minecraft:gold_ingot>,
+	"chickens:ironchicken" : <minecraft:iron_ingot>,
+	"chickens:logchicken" : <minecraft:log>,
+	"chickens:emeraldchicken" : <minecraft:emerald>,
+	"chickens:stringchicken" : <minecraft:string>,
+	"chickens:lightbluechicken" : <minecraft:dye:12>,
+	"chickens:diamondchicken" : <minecraft:diamond>,
+	"morechickens:conductiveironchicken" : <enderio:item_alloy_ingot:4>,
+	"morechickens:siliconchicken" : <projectred-core:resource_item:300>,
+	"chickens:redstonechicken" : <minecraft:redstone>,
+	"morechickens:bronzechicken" : <ic2:ingot:1>,
+	"chickens:redchicken" : <minecraft:dye:1>,
+	"chickens:enderchicken" : <minecraft:ender_pearl>,
+	"chickens:leatherchicken" : <minecraft:leather>,
+	"morechickens:peridotchicken" : <projectred-core:resource_item:202>,
+	"chickens:netherwartchicken" : <minecraft:nether_wart>,
+	"morechickens:moonstonechicken" : <extrautils2:ingredients:5>,
+	"chickens:pinkchicken" : <minecraft:dye:9>,
+	"chickens:orangechicken" : <minecraft:dye:14>,
+	"chickens:slimechicken" : <minecraft:slime_ball>,
+	"morechickens:xpchicken" : <minecraft:book>,
+	"morechickens:vibrantalloychicken" : <enderio:item_alloy_ingot:2>,
+	"minecraft:chicken" : <tp:fried_egg>,
+	"morechickens:knightslimechicken" : <tconstruct:ingots:3>,
+	"morechickens:cobaltchicken" : <tconstruct:ingots>,
+	"morechickens:blueslime" : <tconstruct:edible:1>,
+	"morechickens:bloodslime" : <tconstruct:edible:3>,
+	"morechickens:arditechicken" : <tconstruct:ingots:1>,
+	"morechickens:magmaslime" : <tconstruct:edible:4>,
+	"morechickens:manyullynchicken" : <tconstruct:ingots:2>,
+	"morechickens:pigironchicken" : <tconstruct:ingots:4>,
+	"morechickens:purpleslime" : <tconstruct:edible:2>,
+	"contenttweaker:infinitychicken" : <avaritia:resource:6>,
+	"contenttweaker:neutroniumchicken" : <avaritia:resource:4>,
+	"contenttweaker:netherstarchicken" : <minecraft:nether_star>,
+	"contenttweaker:ivorypsimetalchicken" : <psi:material:2>,
+	"contenttweaker:ebonypsimetalchicken" : <psi:material:3>,
+	"contenttweaker:psimetalchicken" : <psi:material:1>,
+	"contenttweaker:netherrackchicken" : <minecraft:netherrack>,
+	"contenttweaker:certusquartzchicken" : <appliedenergistics2:material>,
+	"contenttweaker:dilithiumchicken" : <libvulpes:productgem>,
+	"contenttweaker:endstonechicken" : <minecraft:end_stone>,
+	"contenttweaker:inferiumchicken" : <mysticalagriculture:crafting>,
+	"contenttweaker:prosperitychicken" : <mysticalagriculture:crafting:5>
+} as IItemStack[string];
 
 // Create a recipe for each chicken using the Avaritia's Compressor
 for key in myChickens {
 
-	var jobRecipeName = "dum" as string;
-
+	var recipeName = "dum" as string; // DUM
 	if (key.contains("morechickens:")) {
-		jobRecipeName = key.replace("morechickens:", "") as string;
+		recipeName = "avaritia_crafting_" + key.replace("morechickens:", "") as string;
 	}
 	else if (key.contains("chickens:")) {
-		jobRecipeName = key.replace("chickens:", "") as string;
+		recipeName = "avaritia_crafting_" + key.replace("chickens:", "") as string;
 	}
 
-	//var spawnEgg = <chickens:spawn_egg>.withTag({ChickenType: {id: key}});
-	var spawnEgg = <roost:chicken>.withTag({Growth: 1, Chicken: key, Gain: 1, Strength: 10});
-	Compressor.add(jobRecipeName + "_compressing", spawnEgg as IItemStack, 125, myChickens[key], true);
+	var result = <chickens:spawn_egg>.withTag({ChickenType: {id: key}}) as IItemStack;
+
+	Crystallizer.addRecipe(result, 200, 20000, <ic2:lapotron_crystal>, <enderio:item_material:20>*12, myChickens[key]*12);
+
+	ExtremeCrafting.addShaped(recipeName, result, [
+		[null, null, null, null, null, null, null, null, null],
+		[null, null, null, null, <avaritia:resource:4>, null, null, null, null],
+		[null, null, <avaritia:resource:4>, null, null, null, <avaritia:resource:4>, null, null],
+		[null, null, null, myChickens[key], null, myChickens[key], null, null, null],
+		[null, <avaritia:resource:4>, null, null, <ic2:lapotron_crystal>, null, null, <avaritia:resource:4>, null],
+		[null, null, null, myChickens[key], null, myChickens[key], null, null, null],
+		[null, null, <avaritia:resource:4>, null, null, null, <avaritia:resource:4>, null, null],
+		[null, null, null, null, <avaritia:resource:4>, null, null, null, null],
+		[null, null, null, null, null, null, null, null, null]
+	]);
+}
+
+val myMetalChickens = {
+	"morechickens:redstonealloychicken" : <liquid:redstone_alloy>,
+	"morechickens:silverorechicken" : <liquid:silver>,
+	"morechickens:copperchicken" : <liquid:copper>,
+	"morechickens:electricalsteelchicken" : <liquid:electrical_steel>,
+	"chickens:glasschicken" : <liquid:glass>,
+	"chickens:obsidianchicken" : <liquid:obsidian>,
+	"morechickens:darksteelchicken" : <liquid:dark_steel>,
+	"chickens:glowstonechicken" : <liquid:glowstone>,
+	"morechickens:energeticalloychicken" : <liquid:energetic_alloy>,
+	"chickens:claychicken" : <liquid:clay>,
+	"morechickens:demonmetalchicken" : <liquid:xu_demonic_metal>,
+	"chickens:gunpowderchicken" : <liquid:creeper_acid>,
+	"morechickens:rubberchicken" : <liquid:latex>,
+	"morechickens:leadchicken" : <liquid:lead>,
+	"morechickens:soulariumchicken" : <liquid:soularium>,
+	"morechickens:steelchicken" : <liquid:steel>,
+	"morechickens:pulsatingironchicken" : <liquid:pulsating_iron>,
+	"chickens:goldchicken" : <liquid:gold>,
+	"chickens:ironchicken" : <liquid:iron>,
+	"chickens:emeraldchicken" : <liquid:emerald>,
+	"morechickens:conductiveironchicken" : <liquid:conductive_iron>,
+	"chickens:redstonechicken" : <liquid:redstone>,
+	"morechickens:bronzechicken" : <liquid:bronze>,
+	"chickens:enderchicken" : <liquid:ender>,
+	"morechickens:xpchicken" : <liquid:xpjuice>,
+	"morechickens:vibrantalloychicken" : <liquid:vibrant_alloy>,
+	"morechickens:knightslimechicken" : <liquid:knightslime>,
+	"morechickens:cobaltchicken" : <liquid:cobalt>,
+	"morechickens:bloodslime" : <liquid:blood>,
+	"morechickens:arditechicken" : <liquid:ardite>,
+	"morechickens:manyullynchicken" : <liquid:manyullyn>,
+	"morechickens:pigironchicken" : <liquid:pigiron>,
+	"contenttweaker:infinitychicken" : <liquid:infinity>,
+	"contenttweaker:psimetalchicken" : <liquid:psimetal>,
+	"contenttweaker:souliumchicken" : <liquid:soulium>,
+	"contenttweaker:inferiumchicken" : <liquid:inferium>,
+	"chickens:waterchicken" : <liquid:water>,
+	"chickens:lavachicken" : <liquid:lava>
+} as ILiquidStack[string];
+
+// Create the chicken using the reaction chamber
+for key in myMetalChickens {
+
+	var recipeName = "dum" as string; // DUM
+	if (key.contains("morechickens:")) {
+		recipeName = "reaction_chamber_crafting_" + key.replace("morechickens:", "") as string;
+	}
+	else if (key.contains("chickens:")) {
+		recipeName = "reaction_chamber_crafting_" + key.replace("chickens:", "") as string;
+	}
+
+	var result = <chickens:spawn_egg>.withTag({ChickenType: {id: key}}) as IItemStack;
+	var liquid = myMetalChickens[key] as ILiquidStack;
+
+	ReactionChamber.addRecipe(recipeName, <ic2:lapotron_crystal>, liquid, [result], <techguns:itemshared:104>, 5, 4, 5, 2, 8, 5000, 0.95, "EXPLOSION_LOW", 75000);
 }
 
 // TODO
 // "chickens:waterchicken"
 // "chickens:lavachicken"
+// "morechickens:mramericanchick"
+// "morechickens:funwaychick"
+// "chickens:smartchicken"
+// "morechickens:refinedironchicken"
+// "morechickens:mramericanchick"
+// "morechickens:uraniumchicken"
+// "morechickens:boopbeepchick"
+// "morechickens:chickenosto"

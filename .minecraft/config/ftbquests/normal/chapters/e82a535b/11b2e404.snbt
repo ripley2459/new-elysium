@@ -1,0 +1,11 @@
+{
+	x: 21.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "da2bd1d4",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:xp_tap"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"The §2Induction Furnace§r can smelt §e2 items at the same time§e and §ethe more it work the more its process speed increase§r."
+	],
+	dependencies: [
+		"1d49bc66"
+	],
+	tasks: [{
+		uid: "68c22710",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}]
+}

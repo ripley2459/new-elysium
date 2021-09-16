@@ -1,3 +1,10 @@
+#no_fix_recipe_book
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+print("========================= START - ARCHITECTURECRAFT =========================");
+
 // Architect's Sawbench
 recipes.remove(<architecturecraft:sawbench>);
 recipes.addShaped(<architecturecraft:sawbench> * 1, [[<ore:plateIron>, <ore:sawBladeIron>, <ore:plateIron>], [<ore:stickWood>, <architecturecraft:largepulley>, <ore:stickWood>],[<ore:stickWood>, <ore:pressurePlateWood>, <ore:stickWood>]]);

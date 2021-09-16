@@ -1,0 +1,11 @@
+{
+	x: 19.5d,
+	y: -7.5d,
+	tasks: [{
+		uid: "9fd1c669",
+		type: "item",
+		items: [{
+			item: "openblocks:tank"
+		}]
+	}]
+}

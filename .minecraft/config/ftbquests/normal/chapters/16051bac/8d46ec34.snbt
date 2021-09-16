@@ -1,8 +1,17 @@
 {
 	title: "Temperature",
 	icon: "toughasnails:thermometer",
-	x: -3.5d,
+	x: -7.875d,
 	y: 0.0d,
+	text: [
+		"You have to take care of your §ebody temperature§r.",
+		"",
+		"You can be handicapped if your temperature rise too high or became too low.",
+		"",
+		"In early stages you should looking for §ewarmth sources like fire or lava§r and some ways to §erefresh yourself like water§r. Choose carefully the biome of your first base.",
+		"",
+		"§eLater§r you can develop ways to §ebe less dependent of your environment§r by using §rspecial items§r or §emodify your body§r."
+	],
 	dependencies: [
 		"293f66b0"
 	],
@@ -11,5 +20,10 @@
 	tasks: [{
 		uid: "e980a8e1",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ef4f4127",
+		type: "item",
+		item: "toughasnails:thermometer"
 	}]
 }

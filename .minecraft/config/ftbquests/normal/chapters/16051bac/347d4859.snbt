@@ -1,9 +1,9 @@
 {
 	title: "Optimize your game",
-	x: 1.0d,
-	y: 0.0d,
+	x: 0.5d,
+	y: 1.5d,
 	text: [
-		"§cNew Elysium§r have arround §d300 mods§r. This is a big pack with a lot of features.",
+		"§cNew Elysium§r have arround §d250 mods§r. This is a big pack with a lot of features.",
 		"",
 		"It's normal to not have a very high fps amount, but with a decent computer you can easily hit §dconstant 60 fps§r (without §bOptifine§r).",
 		"",
@@ -16,6 +16,7 @@
 		"* Smooth Lighting;",
 		"* Particles;",
 		"* Render Distance.",
+		"* MipMap",
 		"",
 		"§o§bBetterFps§r options menu...§r",
 		"* Fog.",
@@ -24,6 +25,9 @@
 		"* Disable §bBetter Foliage§r;",
 		"* Disable §bConnected Textures Mod§r;",
 		"* Reduce the size of the font from §bSmooth Font§r."
+	],
+	dependencies: [
+		"293f66b0"
 	],
 	tasks: [{
 		uid: "882d0d14",

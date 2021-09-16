@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"f7e50433"
+	],
+	tasks: [{
+		uid: "15665f6c",
+		type: "item",
+		items: [{
+			item: "tp:octuple_compressed_sugar_cane"
+		}]
+	}]
+}

@@ -1,4 +1,6 @@
 {
+	title: "Will it start?",
+	icon: "inspirations:edibles",
 	x: 0.0d,
 	y: 0.0d,
 	text: [
@@ -6,6 +8,7 @@
 		"",
 		"§cNew Elysium§r is not an \"expert\" or a hard pack. The questline is pretty easy to follow and even if the monsters can be really rought, nothing is impossible."
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "bc40b1f5",
 		type: "checkmark",

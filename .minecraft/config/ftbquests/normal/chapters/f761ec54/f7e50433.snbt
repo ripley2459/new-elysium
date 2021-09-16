@@ -1,0 +1,12 @@
+{
+	x: -4.5d,
+	y: 2.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "656abc1c",
+		type: "item",
+		items: [{
+			item: "compacter:compacter"
+		}]
+	}]
+}

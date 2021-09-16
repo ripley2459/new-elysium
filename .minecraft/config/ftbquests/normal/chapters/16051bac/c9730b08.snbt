@@ -1,13 +1,16 @@
 {
 	title: "Backups",
-	x: -0.5d,
-	y: 1.0d,
+	x: 0.0d,
+	y: -2.0d,
 	text: [
 		"§cNew Elysium§r use §bAromaBackup§r to save your worlds.",
 		"",
 		"Each time you load a world or each §d30 minutes§r, the mod will create an archive with your world inside.",
 		"",
 		"To restore a backup you have to click on the world to restore (in the worlds selection menu) then §oBackups§r. Select the backup to restore then §oRestore Backups§r."
+	],
+	dependencies: [
+		"293f66b0"
 	],
 	tasks: [{
 		uid: "2f63e13e",

@@ -1,0 +1,16 @@
+{
+	x: 20.5d,
+	y: -4.5d,
+	dependencies: [
+		"42aac80a"
+	],
+	tasks: [{
+		uid: "c98707d7",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

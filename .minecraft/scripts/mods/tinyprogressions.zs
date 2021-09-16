@@ -1,3 +1,10 @@
+#no_fix_recipe_book
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+print("========================= START - TINY PROGRESSIONS =========================");
+
 // Reinforced Obsidian
 recipes.remove(<tp:reinforced_obsidian>);
 recipes.addShaped(<tp:reinforced_obsidian> * 1, [[<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>], [<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>],[<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>]]);

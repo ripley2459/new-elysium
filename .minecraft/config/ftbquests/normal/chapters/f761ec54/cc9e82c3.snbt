@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"f7e50433"
+	],
+	tasks: [{
+		uid: "9ad1f665",
+		type: "item",
+		items: [{
+			item: "tp:octuple_compressed_nether_block"
+		}]
+	}]
+}

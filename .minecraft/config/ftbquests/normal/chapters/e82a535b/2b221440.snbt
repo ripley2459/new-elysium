@@ -1,0 +1,11 @@
+{
+	x: 18.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "8114b85b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:energy_acceptor"
+		}]
+	}]
+}

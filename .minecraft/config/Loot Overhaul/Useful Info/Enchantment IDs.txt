@@ -304,40 +304,48 @@ enderio:witherarrow
    - Max Level: 1
 
 
-enderio:soulbound
-   - Id: 37
-   - Rarity: VERY_RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-enderio:witherweapon
-   - Id: 38
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 enderio:repellent
-   - Id: 39
+   - Id: 37
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 4
 
 
+enderio:soulbound
+   - Id: 38
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
 enderio:shimmer
-   - Id: 40
+   - Id: 39
    - Rarity: VERY_RARE
    - Treasure: true
    - Min Level: 1
    - Max Level: 1
 
 
-vt:homing
+enderio:witherweapon
+   - Id: 40
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+vt:hops
    - Id: 41
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
+vt:vigor
+   - Id: 42
    - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
@@ -345,16 +353,8 @@ vt:homing
 
 
 vt:siphon
-   - Id: 42
-   - Rarity: UNCOMMON
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
-vt:veteran
    - Id: 43
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
@@ -368,15 +368,15 @@ vt:nimble
    - Max Level: 3
 
 
-vt:hops
+vt:blazing
    - Id: 45
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
-   - Max Level: 3
+   - Max Level: 1
 
 
-vt:vigor
+vt:homing
    - Id: 46
    - Rarity: VERY_RARE
    - Treasure: false
@@ -384,7 +384,7 @@ vt:vigor
    - Max Level: 3
 
 
-vt:blazing
+vt:veteran
    - Id: 47
    - Rarity: VERY_RARE
    - Treasure: false

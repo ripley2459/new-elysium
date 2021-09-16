@@ -1,0 +1,14 @@
+{
+	x: 26.5d,
+	y: -0.5d,
+	dependencies: [
+		"6741ec43"
+	],
+	tasks: [{
+		uid: "dc7a7f52",
+		type: "item",
+		items: [{
+			item: "tp:iron_furnace_block"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 21.5d,
+	y: 0.5d,
+	dependencies: [
+		"f856c4d7"
+	],
+	tasks: [{
+		uid: "9676aed4",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}]
+	}]
+}

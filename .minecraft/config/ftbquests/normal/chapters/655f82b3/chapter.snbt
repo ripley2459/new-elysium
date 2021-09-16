@@ -1,7 +1,0 @@
-{
-	title: "Design Your Universe",
-	icon: "architecturecraft:sawbench",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

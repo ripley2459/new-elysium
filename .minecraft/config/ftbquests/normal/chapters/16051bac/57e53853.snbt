@@ -1,5 +1,5 @@
 {
-	x: 5.5d,
+	x: 10.0d,
 	y: -4.0d,
 	dependencies: [
 		"080a0ba0"
@@ -15,22 +15,22 @@
 		}]
 	},
 	{
-		uid: "648f9ade",
-		type: "item",
-		items: [{
-			id: "tconstruct:pattern",
-			tag: {
-				PartType: "tconstruct:axe_head"
-			}
-		}]
-	},
-	{
 		uid: "01ca22a1",
 		type: "item",
 		items: [{
 			id: "tconstruct:pattern",
 			tag: {
 				PartType: "tconstruct:shovel_head"
+			}
+		}]
+	},
+	{
+		uid: "c3182e8e",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
 			}
 		}]
 	}]

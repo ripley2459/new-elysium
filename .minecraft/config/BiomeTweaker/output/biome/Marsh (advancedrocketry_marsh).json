@@ -26,12 +26,6 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
-      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
-    },
-    {
       "Entity Class": "vibrantjourneys.entities.passive.EntityDuck",
       "Weight": 7,
       "Min Group Count": 2,
@@ -113,9 +107,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

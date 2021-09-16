@@ -1,7 +1,7 @@
 {
 	title: "Bind your inputs",
-	x: 0.5d,
-	y: 1.0d,
+	x: -0.5d,
+	y: 1.5d,
 	text: [
 		"There is like §d250 inputs§r in this pack but don't worry, a lot of them are used very occasionally.",
 		"",
@@ -20,6 +20,9 @@
 		"",
 		"Other mid game categories like §bPsi§r, §bTechguns§r or §bIron Jetpacks§r can be bind when you start to use the concerned mod.",
 		"Some mods introduce some similar features, i recommend to bind the same key in these rare cases."
+	],
+	dependencies: [
+		"293f66b0"
 	],
 	tasks: [{
 		uid: "14fd8292",

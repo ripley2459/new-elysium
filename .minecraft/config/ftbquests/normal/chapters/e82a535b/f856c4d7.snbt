@@ -1,0 +1,18 @@
+{
+	x: 20.5d,
+	y: 0.5d,
+	dependencies: [
+		"e43b0f25"
+	],
+	tasks: [{
+		uid: "0d00d084",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {
+				internalMaxPower: 200000.0d,
+				internalCurrentPower: 200000.0d
+			}
+		}]
+	}]
+}

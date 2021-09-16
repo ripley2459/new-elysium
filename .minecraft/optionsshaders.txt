@@ -1,5 +1,5 @@
-#Mon Jul 26 00:47:34 CEST 2021
-shaderPack=BSL_v8.0.01.zip
+#Wed Sep 08 15:31:34 CEST 2021
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

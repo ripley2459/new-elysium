@@ -27,6 +27,7 @@ text transform in net.minecraft.client.gui.*;
 
 # Vanilla
 exclude $gui/bars.png;
+exclude $gui/book.png;
 exclude $gui/icons.png;
 exclude $gui/resource_packs.png;
 exclude $gui/server_selection.png;
@@ -42,6 +43,8 @@ exclude cofh:textures/gui/elements/tab_right.png;
 exclude custommainmenu:textures/gui/logo.png;
 
 exclude ftbquests:textures/gui/*;
+
+exclude colorfulhealthbar:textures/gui/*;
 
 # Advancements
 exclude $gui/advancements/backgrounds/*;
@@ -94,6 +97,7 @@ color #373737 -> #353535;
 color #555555 -> #121212;
 color #8B8B8B -> #171717;
 color #686868 -> #000000;
+color #CCCCCC -> #232323;
 
 # color #00073E -> #1E2631;
 # color #8892C9 -> #4A5F78;

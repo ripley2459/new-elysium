@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: 3.5d,
+	dependencies: [
+		"be4b0241"
+	],
+	tasks: [{
+		uid: "eb44ff2b",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_wireless_charger"
+		}]
+	}]
+}

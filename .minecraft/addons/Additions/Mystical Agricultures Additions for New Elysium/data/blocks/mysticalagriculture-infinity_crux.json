@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "Infinity Crux",
+    "type": "additions:block_simple"
+  },
+  "name": "Infinity Crux",
+  "material": "minecraft:stone",
+  "hardness": 5.0,
+  "resistance": 15.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "effective_tools": "pickaxe",
+  "type": "additions:simple"
+}

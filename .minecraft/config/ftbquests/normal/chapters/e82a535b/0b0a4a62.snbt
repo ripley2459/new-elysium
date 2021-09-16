@@ -1,0 +1,11 @@
+{
+	x: 20.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b96190d8",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:tank"
+		}]
+	}]
+}

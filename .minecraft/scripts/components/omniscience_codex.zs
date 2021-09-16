@@ -1,6 +1,10 @@
+#no_fix_recipe_book
 #priority 20000
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+print("========================= START - CODEX OF OMNISCIENCE =========================");
 
 global omniscienceCodex as IItemStack = <akashictome:tome>.withTag({
 	display: {

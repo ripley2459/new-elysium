@@ -1,6 +1,6 @@
 {
 	icon: "tconstruct:pattern",
-	x: 4.5d,
+	x: 9.0d,
 	y: -1.0d,
 	dependencies: [
 		"71c23dd1"

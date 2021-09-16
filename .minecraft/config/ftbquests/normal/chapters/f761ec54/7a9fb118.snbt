@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"25be7f99"
+	],
+	tasks: [{
+		uid: "fa0d1cc1",
+		type: "item",
+		items: [{
+			item: "avaritia:ultimate_stew"
+		}]
+	},
+	{
+		uid: "8989285c",
+		type: "item",
+		items: [{
+			item: "avaritia:cosmic_meatballs"
+		}]
+	}]
+}

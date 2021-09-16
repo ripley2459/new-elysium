@@ -1,11 +1,9 @@
 {
 	title: "No tools? Whatever",
 	icon: "minecraft:wooden_pickaxe",
-	x: 3.5d,
+	x: 8.0d,
 	y: 0.0d,
 	text: [
-		"You have probably noticed (or not), basic tools aren't enabled.",
-		"",
 		"You have to build the main part of the tool and combine it with a stick.",
 		"",
 		"In the early game you have access to basics materials, i recommand to start with the flint tools."

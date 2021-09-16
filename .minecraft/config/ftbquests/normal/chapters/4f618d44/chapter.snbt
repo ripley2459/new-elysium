@@ -1,7 +1,0 @@
-{
-	title: "Achievements",
-	icon: "extrautils2:suncrystal",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

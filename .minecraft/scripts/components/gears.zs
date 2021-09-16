@@ -1,7 +1,10 @@
+#no_fix_recipe_book
 #priority 8000
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+
+print("========================= START - GEARS =========================");
 
 // Wooden Gear from Applied Energistics
 recipes.remove(<appliedenergistics2:material:40>);
@@ -22,5 +25,5 @@ val gears = {
 
 for gear in gears{
 	recipes.remove(gear);
-	recipes.addShaped(gear * 1, [[null, gears[gear], null], [gears[gear], <appliedenergistics2:material:40>, gears[gear]],[null, gears[gear], null]]);
+	recipes.addShaped(gear * 1, [[null, gears[gear], null], [gears[gear], <ore:ingotIron>, gears[gear]],[null, gears[gear], null]]);
 }

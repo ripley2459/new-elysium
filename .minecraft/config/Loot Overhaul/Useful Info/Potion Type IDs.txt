@@ -231,16 +231,6 @@ enderio:long_withering
        minecraft:wither - 2400 - 0 - false - true
 
 
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
 enderio:floating
    - Effects: 
        minecraft:levitation - 140 - 0 - false - true
@@ -254,6 +244,46 @@ enderio:strong_floating
 enderio:long_floating
    - Effects: 
        minecraft:levitation - 560 - 0 - false - true
+
+
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
+
+
+rpsideas:psishock
+   - Effects: 
+       rpsideas:psishock - 160 - 0 - false - true
+
+
+rpsideas:psishock_long
+   - Effects: 
+       rpsideas:psishock - 240 - 0 - false - true
+
+
+rpsideas:psishock_strong
+   - Effects: 
+       rpsideas:psishock - 125 - 1 - false - true
+
+
+rpsideas:psipulse
+   - Effects: 
+       rpsideas:psipulse - 400 - 0 - false - true
+
+
+rpsideas:psipulse_strong
+   - Effects: 
+       rpsideas:psipulse - 250 - 1 - false - true
+
+
+rpsideas:psipulse_long
+   - Effects: 
+       rpsideas:psipulse - 600 - 0 - false - true
 
 
 quark:haste
@@ -399,36 +429,6 @@ inspirations:decay
 inspirations:long_decay
    - Effects: 
        minecraft:wither - 300 - 1 - false - true
-
-
-rpsideas:psishock
-   - Effects: 
-       rpsideas:psishock - 160 - 0 - false - true
-
-
-rpsideas:psishock_long
-   - Effects: 
-       rpsideas:psishock - 240 - 0 - false - true
-
-
-rpsideas:psishock_strong
-   - Effects: 
-       rpsideas:psishock - 125 - 1 - false - true
-
-
-rpsideas:psipulse
-   - Effects: 
-       rpsideas:psipulse - 400 - 0 - false - true
-
-
-rpsideas:psipulse_strong
-   - Effects: 
-       rpsideas:psipulse - 250 - 1 - false - true
-
-
-rpsideas:psipulse_long
-   - Effects: 
-       rpsideas:psipulse - 600 - 0 - false - true
 
 
 netherex:freezing

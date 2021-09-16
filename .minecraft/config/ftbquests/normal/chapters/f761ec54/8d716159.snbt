@@ -1,0 +1,31 @@
+{
+	title: "Impossible material creation",
+	x: 4.5d,
+	y: 2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"25be7f99"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "79c78907",
+		type: "item",
+		items: [{
+			item: "enderio:block_creative_spawner"
+		}]
+	},
+	{
+		uid: "1b09ca2d",
+		type: "item",
+		items: [{
+			item: "compacter:cobbler"
+		}]
+	},
+	{
+		uid: "593aa09f",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativeharvest"
+		}]
+	}]
+}

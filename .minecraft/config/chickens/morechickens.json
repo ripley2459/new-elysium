@@ -152,8 +152,8 @@
     "Name": "rubberchicken",
     "Is Enabled": true,
     "Lay Coefficient": 1.0,
-    "Lay Item": "ic2:crafting",
-    "Drop Item": "ic2:crafting",
+    "Lay Item": "industrialforegoing:dryrubber",
+    "Drop Item": "industrialforegoing:dryrubber",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""
@@ -334,6 +334,96 @@
     "Lay Coefficient": 1.0,
     "Lay Item": "galaxyspace:ingots:2",
     "Drop Item": "galaxyspace:ingots:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:arditechicken": {
+    "Name": "arditeChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:ingots:1",
+    "Drop Item": "tconstruct:ingots:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:cobaltchicken": {
+    "Name": "cobaltChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:ingots",
+    "Drop Item": "tconstruct:ingots",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:manyullynchicken": {
+    "Name": "manyullynChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:ingots:2",
+    "Drop Item": "tconstruct:ingots:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:pigironchicken": {
+    "Name": "pigIronChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:ingots:4",
+    "Drop Item": "tconstruct:ingots:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:knightslimechicken": {
+    "Name": "knightSlimeChicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:ingots:3",
+    "Drop Item": "tconstruct:ingots:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:bloodslime": {
+    "Name": "bloodSlime",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:edible:3",
+    "Drop Item": "tconstruct:edible:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:purpleslime": {
+    "Name": "purpleSlime",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:edible:2",
+    "Drop Item": "tconstruct:edible:2",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:magmaslime": {
+    "Name": "magmaSlime",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:edible:4",
+    "Drop Item": "tconstruct:edible:4",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:blueslime": {
+    "Name": "blueSlime",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "tconstruct:edible:1",
+    "Drop Item": "tconstruct:edible:1",
     "Spawn Type": "NONE",
     "Parent 1": "",
     "Parent 2": ""

@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "ea9fc31c",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 110L
+	},
+	{
+		uid: "cfdbe320",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 110L
+	},
+	{
+		uid: "ec45d73d",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 110L
+	}]
+}

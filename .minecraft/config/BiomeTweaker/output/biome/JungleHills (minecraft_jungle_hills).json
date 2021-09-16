@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WET",
     "DENSE",
-    "JUNGLE",
+    "HILLS",
     "HOT",
-    "HILLS"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -63,12 +63,6 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.setycz.chickens.entity.EntityChickensChicken",
-      "Weight": 10,
-      "Min Group Count": 3,
-      "Max Group Count": 5
     }
   ],
   "Spawnable Monsters": [
@@ -176,9 +170,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

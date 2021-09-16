@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "OCEAN",
-    "COLD",
     "BEACH",
+    "OCEAN",
+    "WATER",
     "SNOWY",
-    "WATER"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -115,9 +115,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 15,
-      "Min Group Count": 1,
-      "Max Group Count": 1
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

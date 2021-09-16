@@ -1,0 +1,11 @@
+{
+	x: 19.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "39633aa1",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}]
+}

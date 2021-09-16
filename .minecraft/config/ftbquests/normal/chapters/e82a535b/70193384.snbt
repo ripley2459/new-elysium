@@ -1,0 +1,11 @@
+{
+	x: 25.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "d0436935",
+		type: "item",
+		items: [{
+			item: "projecte:dm_furnace"
+		}]
+	}]
+}

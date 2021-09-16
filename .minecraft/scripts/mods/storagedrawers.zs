@@ -1,3 +1,10 @@
+#no_fix_recipe_book
+
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+print("========================= START - STORAGE DRAWERS =========================");
+
 // Framing Table
 recipes.remove(<storagedrawers:framingtable>);
 recipes.addShaped(<storagedrawers:framingtable> * 1, [[null, null, null], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],[<ore:stickWood>, null, <ore:stickWood>]]);

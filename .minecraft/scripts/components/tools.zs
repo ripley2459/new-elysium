@@ -1,7 +1,12 @@
+#no_fix_recipe_book
 #priority 9000
+#norun
 
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+print("========================= START - TOOLS =========================");
 
 val hoes = [
 	<minecraft:wooden_hoe>,
