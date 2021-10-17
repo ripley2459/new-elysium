@@ -1,0 +1,11 @@
+{
+	x: 21.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "a3a3ebb5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ender_biotite_seeds"
+		}]
+	}]
+}

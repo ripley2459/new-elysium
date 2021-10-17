@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	dependencies: [
+		"d0c2cadb"
+	],
+	tasks: [{
+		uid: "26fcd269",
+		type: "item",
+		items: [{
+			item: "netherex:lively_nether_brick"
+		}]
+	}]
+}

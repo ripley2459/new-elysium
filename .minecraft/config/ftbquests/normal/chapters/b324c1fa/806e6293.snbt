@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"be44d181"
+	],
+	tasks: [{
+		uid: "b2cb1400",
+		type: "item",
+		items: [{
+			item: "appliedintegrations:energystoragecomponent_16k"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
     "parent": "builtin/text",
-    "image": "customloadingscreen:font/ascii.png",
+    "image": "customloadingscreen:fonts/ascii.png",
     "position_type": "BOTTOM_LEFT",
     "offset_pos": "BOTTOM_LEFT",
     "text": "memory_used() + 'MB / ' + memory_max() + 'MB' + ' (' + floor(mem_percent * 100) + '%) '",

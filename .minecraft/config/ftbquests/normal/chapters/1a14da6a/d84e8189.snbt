@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: 3.0d,
+	dependencies: [
+		"fd6733cf"
+	],
+	tasks: [{
+		uid: "7baefa32",
+		type: "item",
+		items: [{
+			item: "minecraft:purpur_block"
+		}]
+	}]
+}

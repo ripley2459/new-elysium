@@ -1,0 +1,15 @@
+{
+	x: 35.5d,
+	y: -0.5d,
+	dependencies: [
+		"6963043e"
+	],
+	tasks: [{
+		uid: "74a4daba",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:pressuretank 1 3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

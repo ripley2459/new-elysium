@@ -11,6 +11,7 @@ import crafttweaker.item.IIngredient;
 import mods.ctintegration.projecte.EMCManager;
 import mods.appliedenergistics2.Grinder;
 import mods.avaritia.ExtremeCrafting;
+import mods.ltt.LootTable;
 
 print("========================= START - REMOVE AND HIDE =========================");
 
@@ -46,11 +47,17 @@ recipes.replaceAllOccurences(<techguns:itemshared:68>, <ic2:crafting:5>);
 
 // REMOVE AND HIDE
 val remove_and_hide = [
+	<appliedenergistics2:part:140>,
+	<projectred-expansion:machine2>,
+	<projectred-expansion:machine2:12>,
+	<projectred-expansion:machine2:2>,
+	<randomthings:blockbreaker>,
+	<rftools:relay>,
+	<randomthings:fluiddisplay>,
+	<enderio:block_holy_fog>,
+	<advancedrocketry:centrifuge>,
 	<techguns:itemshared:85>,
 	<techguns:itemshared:78>,
-	<mysticalagriculture:iridium_essence>,
-	<mysticalagriculture:iridium_seeds>,
-	<mysticalagriculture:iridium_crop>,
 	<mysticaladaptations:netherstar_block>,
 	<mysticaladaptations:hop_graphite_block>,
 	<advancedrocketry:chemicalreactor>,
@@ -85,6 +92,12 @@ val remove_and_hide = [
 	<randomthings:customworkbench>.withTag({woodName: "minecraft:planks", woodMeta: 5}),
 	<singularities:compressor>,
 	<avaritia:matter_cluster>,
+	<ic2:te:45>,
+	<ic2:te:58>,
+	<ic2:te:59>,
+	<ic2:crop_stick>,
+	<ic2:cropnalyzer>,
+	<ic2:te:39>,
 	<ic2:te:77>,
 	<ic2:te:78>,
 	<ic2:te:79>,
@@ -286,7 +299,6 @@ val remove_and_hide = [
 	<microblockcbe:stone_rod>,
 	<advancedrocketry:airlock_door>,
 	<advancedrocketry:lightsource>,
-	<advancedrocketry:astrobed>,
 	<advancedrocketry:forcefield>,
 	<advancedrocketry:spacestation>,
 	<enderio:item_material:9>,
@@ -339,6 +351,9 @@ val remove_and_hide = [
 	<enderio:block_simple_crafter>,
 	<enderio:block_crafter>,
 	<extrautils2:crafter>,
+	<appliedenergistics2:facade>.withTag({damage: 0, item: "mysticaladaptations:netherstar_block"}),
+	<stevescarts:modulecomponents:11>,
+	<stevescarts:modulecomponents:12>,
 	<extrautils2:analogcrafter>,
 	<rftools:powercell_simple>,
 	<rftools:powercell_creative>,
@@ -402,6 +417,12 @@ val remove_and_hide = [
 	<randomthings:spectrecore>,
 	// <advancedrocketry:solarpanel>,
 	<projectred-expansion:solar_panel>,
+	<projecte:item.pe_arcana_ring>.withTag({Mode: 0 as byte}),
+	<projecte:item.pe_arcana_ring>.withTag({Mode: 1 as byte}),
+	<projecte:item.pe_arcana_ring>.withTag({Mode: 2 as byte}),
+	<projecte:item.pe_arcana_ring>.withTag({Mode: 3 as byte}),
+	<projecte:item.pe_randomizer>,
+	<projecte:item.pe_lens_explosive>,
 	<enderio:item_material:3>,
 	<advancedrocketry:solargenerator>,
 	<enderio:block_decoration2:10>,
@@ -420,8 +441,10 @@ val remove_and_hide = [
 	<enderio:block_farm_station>,
 	<enderio:block_zombie_generator>,
 	<enderio:block_franken_zombie_generator>,
+	<ic2:te:86>,
 	<enderio:block_ender_generator>,
-	<enderio:block_lava_generator>
+	<enderio:block_lava_generator>,
+	<enderio:block_reinforced_obsidian>
 ] as IItemStack[];
 
 for toRemove in remove_and_hide {
@@ -432,6 +455,7 @@ for toRemove in remove_and_hide {
 	toRemove.addTooltip("§cThis item is disabled.§r");
 	toRemove.addTooltip("§cIf you can see this item, please report it to the modpack author.§r");
 	JEI.removeAndHide(toRemove);
+	LootTable.removeGlobalItem(toRemove.definition.id as string);
 	EMCManager.setIngredientEMC(toRemove, 0 as long);
 }
 

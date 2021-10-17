@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "7d9697b6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:experience_seeds"
+		}]
+	}]
+}

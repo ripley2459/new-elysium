@@ -1,0 +1,14 @@
+{
+	x: -5.0d,
+	y: 2.5d,
+	dependencies: [
+		"a28ea3ea"
+	],
+	tasks: [{
+		uid: "335510ac",
+		type: "item",
+		items: [{
+			item: "chisel:offsettool"
+		}]
+	}]
+}

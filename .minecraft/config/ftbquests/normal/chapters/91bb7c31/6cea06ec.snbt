@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 9.5d,
+	dependencies: [
+		"47671099"
+	],
+	tasks: [{
+		uid: "3f27848d",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_katar",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "357c533d",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_morning_star",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

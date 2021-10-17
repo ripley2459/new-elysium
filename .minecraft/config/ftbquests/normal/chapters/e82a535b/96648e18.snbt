@@ -1,0 +1,11 @@
+{
+	x: 27.5d,
+	y: 9.5d,
+	tasks: [{
+		uid: "83d75e2d",
+		type: "item",
+		items: [{
+			item: "openblocks:block_breaker"
+		}]
+	}]
+}

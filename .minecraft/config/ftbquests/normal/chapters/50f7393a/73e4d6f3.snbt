@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bd0b8b6e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:tier1_inferium_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 7.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "a8e13cf5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:creeper_seeds"
+		}]
+	}]
+}

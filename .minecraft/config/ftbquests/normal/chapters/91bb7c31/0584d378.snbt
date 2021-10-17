@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 15.5d,
+	tasks: [{
+		uid: "cab5248a",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_hyperkinetic_lens",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

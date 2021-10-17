@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"4c32c048"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "67156b2c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

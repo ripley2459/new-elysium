@@ -1,0 +1,74 @@
+{
+	x: -6.0d,
+	y: 9.5d,
+	tasks: [{
+		uid: "a9ca195e",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_pick",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "074ce6af",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_axe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73872092",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_shovel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53a3534c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea8d14e8",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_hoe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5331b3f7",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_shears",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "373a8cf6",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_dm_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

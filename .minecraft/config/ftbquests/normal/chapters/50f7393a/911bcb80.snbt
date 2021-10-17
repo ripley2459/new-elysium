@@ -1,0 +1,11 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "8a2b76e4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_steel_seeds"
+		}]
+	}]
+}

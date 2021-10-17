@@ -1,6 +1,6 @@
 {
-	x: 21.5d,
-	y: -6.5d,
+	x: 34.5d,
+	y: 2.5d,
 	dependencies: [
 		"35be821e"
 	],
@@ -9,8 +9,8 @@
 		type: "item",
 		items: [{
 			id: "ic2:te",
-			tag: {},
-			Damage: 134s
+			Damage: 134s,
+			tag: {}
 		}]
 	}]
 }

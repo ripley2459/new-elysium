@@ -7,7 +7,6 @@ print("========================= START - TINY PROGRESSIONS =====================
 
 // Reinforced Obsidian
 recipes.remove(<tp:reinforced_obsidian>);
-recipes.addShaped(<tp:reinforced_obsidian> * 1, [[<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>], [<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>],[<ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>, <ore:ingotObsidianSteel>]]);
 
 // Reinforced Watering Can
 recipes.remove(<tp:watering_can_upgrade>);
@@ -24,3 +23,15 @@ recipes.addShapeless(<tp:tiny_coal> * 9, [<ic2:forge_hammer>.anyDamage().transfo
 // Tiny Charcoal
 recipes.remove(<tp:tiny_charcoal>);
 recipes.addShapeless(<tp:tiny_charcoal> * 9, [<ic2:forge_hammer>.anyDamage().transformDamage(), <ore:charcoal>]);
+
+// Growth Crystal
+recipes.remove(<tp:growth_block>);
+recipes.addShaped(<tp:growth_block> * 1, [[<ic2:casing:3>, <tp:bone_block>, <ic2:casing:3>], [<minecraft:potion>, <mysticalagriculture:growth_accelerator>, <minecraft:potion>],[<ic2:casing:3>, <tp:bone_block>, <ic2:casing:3>]]);
+
+// Growth Crystal Tier 2
+recipes.remove(<tp:growth_upgrade>);
+recipes.addShaped(<tp:growth_upgrade> * 1, [[<tp:growth_block>, <ic2:casing:4>, <tp:growth_block>], [<minecraft:potion>, <minecraft:nether_star>, <minecraft:potion>],[<tp:growth_block>, <ic2:casing:4>, <tp:growth_block>]]);
+
+// Growth Crystal Tier 3
+recipes.remove(<tp:growth_upgrade_two>);
+recipes.addShaped(<tp:growth_upgrade_two> * 1, [[<tp:growth_upgrade>, <techguns:itemshared:51>, <tp:growth_upgrade>], [<minecraft:potion>, <tp:netherstar_block>, <minecraft:potion>],[<tp:growth_upgrade>, <techguns:itemshared:51>, <tp:growth_upgrade>]]);

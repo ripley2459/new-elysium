@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 1.5d,
+	dependencies: [
+		"76e1cd16"
+	],
+	tasks: [{
+		uid: "dec9ac3b",
+		type: "item",
+		items: [{
+			item: "libvulpes:coil0 1 10"
+		}]
+	}]
+}

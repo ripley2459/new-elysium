@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: -7.0d,
+	dependencies: [
+		"744cbf70",
+		"b511ccfc"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d5bf5ac3",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}]
+}

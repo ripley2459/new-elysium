@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 4.5d,
+	dependencies: [
+		"4cd35630"
+	],
+	tasks: [{
+		uid: "0faf69ea",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

@@ -25,13 +25,6 @@
 		}]
 	},
 	{
-		uid: "35dc08fc",
-		type: "item",
-		items: [{
-			item: "ic2:te 1 86"
-		}]
-	},
-	{
 		uid: "311448aa",
 		type: "item",
 		items: [{

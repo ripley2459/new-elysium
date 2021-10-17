@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "c0784366",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:titanium_seeds"
+		}]
+	}]
+}

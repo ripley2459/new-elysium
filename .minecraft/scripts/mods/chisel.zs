@@ -28,3 +28,11 @@ for xtoneBlock in xtonesNames{
 		Carving.addVariation(group, block.makeStack(i));
 	}
 }
+
+// Ender Offset Wand
+recipes.remove(<chisel:offsettool>);
+recipes.addShaped(<chisel:offsettool> * 1, [[<chisel:chisel_diamond>, <minecraft:ender_pearl>, null], [<minecraft:gold_ingot>, null, null],[null, null, null]]);
+
+// Auto Chisel
+recipes.remove(<chisel:auto_chisel>);
+recipes.addShaped(<chisel:auto_chisel> * 1, [[<minecraft:glass>, <minecraft:glass>, <minecraft:glass>], [<randomthings:dyeingmachine>, <ic2:resource:12>, <ic2:crafting:1>],[<ic2:casing:6>, <ic2:casing:6>, <ic2:casing:6>]]);

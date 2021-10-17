@@ -62,7 +62,7 @@ val seedsTier1 = {
 for seed in seedsTier1 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:17>,1, seedsTier1[seed],4, <liquid:base_essence>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagriculture:crafting:17>,1, seedsTier1[seed],4, <liquid:inferium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
 
 // Tier 2
@@ -92,7 +92,7 @@ val seedsTier2 = {
 for seed in seedsTier2 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:18>,1, seedsTier2[seed],4, <liquid:inferium>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagriculture:crafting:18>,1, seedsTier2[seed],4, <liquid:prudentium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
 
 // Tier 3
@@ -128,7 +128,7 @@ val seedsTier3 = {
 for seed in seedsTier3 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:18>,1, seedsTier3[seed],4, <liquid:prudentium>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagriculture:crafting:19>,1, seedsTier3[seed],4, <liquid:intermedium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
 
 // Tier 4
@@ -158,7 +158,7 @@ val seedsTier4 = {
 for seed in seedsTier4 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:19>,1, seedsTier4[seed],4, <liquid:superium>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagriculture:crafting:20>,1, seedsTier4[seed],4, <liquid:superium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
 
 // Tier 5
@@ -179,7 +179,7 @@ val seedsTier5 = {
 for seed in seedsTier5 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:20>,1, seedsTier5[seed],4, <liquid:supremium>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagriculture:crafting:21>,1, seedsTier5[seed],4, <liquid:supremium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
 
 // Tier 6
@@ -188,11 +188,15 @@ val seedsTier6 = {
 	<mysticalagradditions:nether_star_seeds> : <minecraft:nether_star>,
 	<mysticalagradditions:dragon_egg_seeds> : <minecraft:dragon_egg>,
 	<mysticalagradditions:neutronium_seeds> : <avaritia:resource:3>,
-	<mysticalagradditions:tier6_inferium_seeds> : <mysticalagriculture:crafting:5>	
+	<mysticalagradditions:tier6_inferium_seeds> : <mysticalagradditions:insanium>	
 } as IItemStack[IItemStack];
 
 for seed in seedsTier6 {
 	var recipeName = seed.definition.id as string;
 	recipes.removeByRecipeName(recipeName);
-	ChemLab.addRecipe(<mysticalagriculture:crafting:21>,1, seedsTier6[seed],4, <liquid:insanium>*576, false, seed*1, <liquid:water>*0, 15000);
+	ChemLab.addRecipe(<mysticalagradditions:insanium:1>,1, seedsTier6[seed],4, <liquid:insanium>*576, false, seed*1, <liquid:water>*0, 15000);
 }
+
+// Growth Accelerator
+recipes.remove(<mysticalagriculture:growth_accelerator>);
+recipes.addShaped(<mysticalagriculture:growth_accelerator> * 1, [[<minecraft:stone:0>, <mysticalagriculture:storage:0>, <minecraft:stone:0>], [<mysticalagriculture:storage:0>, <minecraft:potion>, <mysticalagriculture:storage:0>],[<minecraft:stone:0>, <mysticalagriculture:storage:0>, <minecraft:stone:0>]]);

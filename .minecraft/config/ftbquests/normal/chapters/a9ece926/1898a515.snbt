@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	text: [
+		"§cAdvanced Rocketry§r machines can be hard to construct, but to help you, you can use the §2Holo-Projector§r. Select the machine you want to build and place the hologram in the world, then place blocks.",
+		"",
+		"Due to large recipes changes, some machines are totally useless now. Look at machine usage before built it to avoid resource lose."
+	],
+	tasks: [{
+		uid: "cc45610d",
+		type: "checkmark",
+		title: "Holograms",
+		icon: "libvulpes:holoprojector"
+	}],
+	rewards: [{
+		uid: "a94129d0",
+		type: "item",
+		item: "libvulpes:holoprojector"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"91c0d5c0"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ae835b43",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_klein_star",
+			Damage: 5s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

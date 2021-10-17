@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"a28ea3ea"
+	],
+	tasks: [{
+		uid: "8faf11e5",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 32.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "b0e9fedc",
+		type: "item",
+		items: [{
+			item: "libvulpes:hatch 1 2"
+		}]
+	}]
+}

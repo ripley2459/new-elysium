@@ -11,6 +11,7 @@ import mods.advancedrocketry.CuttingMachine;
 import mods.advancedrocketry.ChemicalReactor;
 import mods.advancedrocketry.Crystallizer;
 import mods.advancedrocketry.PrecisionAssembler;
+// import mods.advancedrocketry.Centrifuge;
 
 print("========================= START - ADVANCED ROCKETERY =========================");
 
@@ -21,6 +22,7 @@ RollingMachine.clear();
 ArcFurnace.clear();
 CuttingMachine.clear();
 ChemicalReactor.clear();
+// Centrifuge.clear();
 
 // Tracking Circuit
 recipes.remove(<advancedrocketry:ic:1>);

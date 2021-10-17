@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 13.0d,
+	dependencies: [
+		"a5311bc2"
+	],
+	tasks: [{
+		uid: "0a785025",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_harvest_god",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

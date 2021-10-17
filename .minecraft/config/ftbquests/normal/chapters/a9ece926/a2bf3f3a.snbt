@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 3.0d,
+	dependencies: [
+		"3b5b1db8"
+	],
+	tasks: [{
+		uid: "4871960f",
+		type: "item",
+		items: [{
+			item: "libvulpes:advancedmotor"
+		}]
+	}]
+}

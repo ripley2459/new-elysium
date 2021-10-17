@@ -1,0 +1,11 @@
+{
+	x: 20.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "62341782",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrotine_seeds"
+		}]
+	}]
+}

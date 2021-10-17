@@ -1,0 +1,11 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "036093e1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silver_seeds"
+		}]
+	}]
+}

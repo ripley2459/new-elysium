@@ -1,0 +1,14 @@
+{
+	x: 28.5d,
+	y: 9.5d,
+	dependencies: [
+		"96648e18"
+	],
+	tasks: [{
+		uid: "31bdc1ac",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:block_destroyer"
+		}]
+	}]
+}

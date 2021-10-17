@@ -1,0 +1,77 @@
+{
+	x: -5.0d,
+	y: 9.5d,
+	dependencies: [
+		"5d788c23"
+	],
+	tasks: [{
+		uid: "8179d6d0",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_pick",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9813bafb",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_axe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8635f53e",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_shovel",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d18372b1",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "10468359",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_hoe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41b99379",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_shears",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea6ba2a9",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_rm_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

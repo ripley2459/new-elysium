@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"b035ba44"
+	],
+	tasks: [{
+		uid: "7931c3ab",
+		type: "item",
+		items: [{
+			item: "quark:blaze_lantern"
+		}]
+	}]
+}

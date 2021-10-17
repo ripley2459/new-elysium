@@ -1,5 +1,5 @@
 {
-	title: "The Nether",
+	title: "Dimensions",
 	icon: "minecraft:netherrack",
 	always_invisible: false,
 	group: 0,

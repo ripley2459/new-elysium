@@ -1,0 +1,16 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	dependencies: [
+		"fd6733cf",
+		"1129e72c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "bb65323a",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"d0c2cadb"
+	],
+	tasks: [{
+		uid: "45090aca",
+		type: "item",
+		items: [{
+			item: "betternether:cincinnasite_block"
+		}]
+	}]
+}

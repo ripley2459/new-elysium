@@ -11,7 +11,15 @@ ChemLab.addRecipe("logWood",1, <minecraft:dirt>,0, <liquid:water>*2000, false, <
 
 // Pitiful Fuel Generator
 recipes.remove(<industrialforegoing:pitiful_fuel_generator>);
-recipes.addShaped(<industrialforegoing:pitiful_fuel_generator> * 1, [[<minecraft:cobblestone>, <ic2:re_battery>, <minecraft:cobblestone>], [<teslacorelib:gear_iron>, <minecraft:furnace>, <projectred-core:resource_item:104>],[<minecraft:cobblestone>, <ic2:crafting:7>, <minecraft:cobblestone>]]);
+recipes.addShaped(<industrialforegoing:pitiful_fuel_generator> * 1, [[<ore:cobblestone>, <ore:reBattery>, <ore:cobblestone>], [<teslacorelib:gear_iron>, <minecraft:furnace>, <projectred-core:resource_item:104>],[<ore:cobblestone>, <ic2:crafting:7>, <ore:cobblestone>]]);
+
+// Block Breaker
+recipes.remove(<industrialforegoing:block_destroyer>);
+recipes.addShaped(<industrialforegoing:block_destroyer> * 1, [[<ic2:casing:3>, <ic2:block_cutting_blade:2>, <ic2:casing:3>], [<teslacorelib:gear_iron>, <openblocks:block_breaker>, <teslacorelib:gear_iron>],[<industrialforegoing:plastic>, <ic2:resource:12>, <industrialforegoing:plastic>]]);
+
+// Block Placer
+recipes.remove(<industrialforegoing:block_placer>);
+recipes.addShaped(<industrialforegoing:block_placer> * 1, [[<industrialforegoing:plastic>, <minecraft:dropper>, <industrialforegoing:plastic>], [<minecraft:dropper>, <openblocks:block_placer>, <minecraft:dropper>],[<ic2:plate:3>, <ic2:resource:12>, <ic2:plate:3>]]);
 
 // Petrified Fuel Generator
 recipes.remove(<industrialforegoing:petrified_fuel_generator>);

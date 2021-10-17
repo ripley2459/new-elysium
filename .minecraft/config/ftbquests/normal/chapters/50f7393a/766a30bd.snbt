@@ -1,0 +1,11 @@
+{
+	x: 11.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "e5d6ad7d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:peridot_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "42137db6",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:manyullyn_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 14.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "4c40402e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_steel_seeds"
+		}]
+	}]
+}

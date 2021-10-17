@@ -1,0 +1,14 @@
+{
+	x: 16.0d,
+	y: 1.0d,
+	dependencies: [
+		"ea8a117d"
+	],
+	tasks: [{
+		uid: "2e80f6cb",
+		type: "item",
+		items: [{
+			item: "minecraft:shulker_shell"
+		}]
+	}]
+}

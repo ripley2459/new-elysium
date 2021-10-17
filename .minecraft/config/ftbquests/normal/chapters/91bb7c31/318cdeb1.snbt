@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	dependencies: [
+		"a5311bc2"
+	],
+	tasks: [{
+		uid: "2ff86454",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_swrg",
+			tag: {
+				UnprocessedEMC: 0.0d,
+				StoredEMC: 64L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

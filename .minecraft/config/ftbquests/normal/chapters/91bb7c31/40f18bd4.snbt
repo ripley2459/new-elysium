@@ -1,0 +1,22 @@
+{
+	x: -10.5d,
+	y: 5.0d,
+	text: [
+		"§2Energy Collector§r §egenerate EMC§r from light source.",
+		"",
+		"You can put an EMC receptacle inside to store generated EMC.",
+		"",
+		"Also you can create items  by inserting others (see JEI to view conversion)."
+	],
+	dependencies: [
+		"fcf9444d",
+		"e7cf501f"
+	],
+	tasks: [{
+		uid: "c11953e1",
+		type: "item",
+		items: [{
+			item: "projecte:collector_mk3"
+		}]
+	}]
+}

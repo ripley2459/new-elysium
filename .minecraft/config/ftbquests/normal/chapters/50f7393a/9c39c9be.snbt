@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "610d753d",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:infinity_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"731cf0f4"
+	],
+	tasks: [{
+		uid: "daac475f",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}]
+}

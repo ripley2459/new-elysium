@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -7.0d,
+	dependencies: [
+		"b511ccfc"
+	],
+	tasks: [{
+		uid: "7a6dafbe",
+		type: "item",
+		items: [{
+			item: "witherskelefix:fragment"
+		}]
+	}]
+}

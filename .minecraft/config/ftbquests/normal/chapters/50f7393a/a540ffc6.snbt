@@ -1,0 +1,11 @@
+{
+	x: 18.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "41993381",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:limestone_seeds"
+		}]
+	}]
+}

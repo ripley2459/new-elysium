@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "7a88cf92",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_seeds"
+		}]
+	}]
+}

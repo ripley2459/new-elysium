@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "a0b01f55",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:diamond_seeds"
+		}]
+	}]
+}

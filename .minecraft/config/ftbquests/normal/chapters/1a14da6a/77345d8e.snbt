@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 1.5d,
+	text: [
+		"You will need between §d0§r and §d12§r of theses."
+	],
+	dependencies: [
+		"b035ba44",
+		"a3fd748b"
+	],
+	tasks: [{
+		uid: "236330bc",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

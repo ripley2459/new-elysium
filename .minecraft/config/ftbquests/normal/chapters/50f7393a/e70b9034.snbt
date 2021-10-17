@@ -1,0 +1,11 @@
+{
+	x: 25.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "bda7ef53",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:soulium_seeds"
+		}]
+	}]
+}

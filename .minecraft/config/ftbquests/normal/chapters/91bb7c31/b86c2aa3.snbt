@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 15.5d,
+	tasks: [{
+		uid: "b5fe6a12",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_mercurial_eye",
+			tag: {},
+			ForgeCaps: {
+				Parent: {
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

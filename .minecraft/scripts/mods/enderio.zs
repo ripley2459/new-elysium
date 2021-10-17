@@ -68,7 +68,7 @@ recipes.addShaped(<enderio:block_cap_bank:1> * 1, [[<ic2:plate:3>, <ic2:crafting
 
 // Capacitor Bank
 recipes.remove(<enderio:block_cap_bank:2>);
-recipes.addShaped(<enderio:block_cap_bank:2> * 1, [[<ic2:plate:7>, <ic2:crafting:2>, <ic2:plate:7>], [<enderio:item_alloy_ingot:1>, <enderio:block_cap_bank:2>, <enderio:item_alloy_ingot:1>],[<ic2:plate:7>, <enderio:block_cap_bank:2>, <ic2:plate:7>]]);
+recipes.addShaped(<enderio:block_cap_bank:2> * 1, [[<ic2:plate:7>, <ic2:crafting:2>, <ic2:plate:7>], [<enderio:item_alloy_ingot:1>, <enderio:block_cap_bank:1>, <enderio:item_alloy_ingot:1>],[<ic2:plate:7>, <enderio:block_cap_bank:1>, <ic2:plate:7>]]);
 
 // Vibrant Capacitor Bank
 recipes.remove(<enderio:block_cap_bank:3>);

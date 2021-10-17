@@ -1,0 +1,16 @@
+{
+	x: 34.5d,
+	y: -1.5d,
+	dependencies: [
+		"d84c43ab"
+	],
+	tasks: [{
+		uid: "83812a20",
+		type: "item",
+		items: [{
+			item: "randomthings:reinforcedenderbucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

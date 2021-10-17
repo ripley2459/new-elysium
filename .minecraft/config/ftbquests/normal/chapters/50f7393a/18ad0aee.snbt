@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "5bc7899c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds"
+		}]
+	}]
+}

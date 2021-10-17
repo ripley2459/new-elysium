@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: 14.5d,
+	tasks: [{
+		uid: "8f33dfe4",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_water_orb"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: 12.5d,
+	tasks: [{
+		uid: "0fa99392",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_ring_iron_band"
+		}]
+	}]
+}

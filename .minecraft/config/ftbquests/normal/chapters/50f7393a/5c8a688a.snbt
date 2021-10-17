@@ -1,0 +1,11 @@
+{
+	x: 18.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "35d5775c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_alloy_seeds"
+		}]
+	}]
+}

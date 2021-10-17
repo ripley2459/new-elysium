@@ -57,17 +57,17 @@ neutroniumChicken.setSpawnType("NONE");
 neutroniumChicken.register();
 
 // Soulium Chicken
-var souliumChicken = ChickenFactory.createChicken("souliumchicken", Color.fromInt(0x3a1201), <mysticalagriculture:crafting:29>);
+var souliumChicken = ChickenFactory.createChicken("souliumchicken", Color.fromInt(0x3a1201), <item:mysticalagriculture:crafting:29>);
 souliumChicken.setSpawnType("NONE");
 souliumChicken.register();
 
 // Inferium Chicken
-var inferiumChicken = ChickenFactory.createChicken("inferiumchicken", Color.fromInt(0x0f3a01), <mysticalagriculture:crafting>);
+var inferiumChicken = ChickenFactory.createChicken("inferiumchicken", Color.fromInt(0x0f3a01), <item:mysticalagriculture:crafting>);
 inferiumChicken.setSpawnType("NONE");
 inferiumChicken.register();
 
 // Properity Chicken
-var prosperityChicken = ChickenFactory.createChicken("prosperitychicken", Color.fromInt(0x317d74), <mysticalagriculture:crafting:5>);
+var prosperityChicken = ChickenFactory.createChicken("prosperitychicken", Color.fromInt(0x317d74), <item:mysticalagriculture:crafting:5>);
 prosperityChicken.setSpawnType("NONE");
 prosperityChicken.register();
 

@@ -1,0 +1,11 @@
+{
+	x: 23.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "6a6d528b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:certus_quartz_seeds"
+		}]
+	}]
+}

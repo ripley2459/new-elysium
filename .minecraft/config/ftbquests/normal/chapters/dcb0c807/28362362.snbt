@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"f076ca2d"
+	],
+	tasks: [{
+		uid: "8da9c124",
+		type: "item",
+		items: [{
+			item: "tp:growth_block"
+		}]
+	}]
+}

@@ -10,7 +10,7 @@ print("========================= START - RF TOOLS =========================");
 
 // Crafter Tier 1
 recipes.remove(<rftools:crafter1>);
-recipes.addShaped(<rftools:crafter1> * 1, [[<ic2:casing:5>, <advancedrocketry:misc:0>, <ic2:casing:5>], [<advancedrocketry:ic:4>, <ic2:te:89>, <ic2:crafting:2>],[<ic2:casing:5>, <ic2:re_battery>, <ic2:casing:5>]]);
+recipes.addShaped(<rftools:crafter1> * 1, [[<ic2:casing:5>, <advancedrocketry:misc:0>, <ic2:casing:5>], [<ic2:crafting:2>, <ic2:te:88>, <ic2:crafting:2>],[<ic2:casing:5>, <ore:reBattery>, <ic2:casing:5>]]);
 
 // Crafter Tier 2
 recipes.remove(<rftools:crafter2>);

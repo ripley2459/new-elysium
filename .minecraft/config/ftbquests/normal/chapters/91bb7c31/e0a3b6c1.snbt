@@ -1,0 +1,15 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	dependencies: [
+		"11ae9f9d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "88a6e5a6",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}]
+	}]
+}

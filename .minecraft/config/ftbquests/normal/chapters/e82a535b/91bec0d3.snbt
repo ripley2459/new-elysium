@@ -1,0 +1,11 @@
+{
+	x: 27.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "a8c0b4e4",
+		type: "item",
+		items: [{
+			item: "openblocks:block_placer"
+		}]
+	}]
+}

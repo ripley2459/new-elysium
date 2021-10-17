@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "6b4228cf",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wither_skeleton_seeds"
+		}]
+	}]
+}
