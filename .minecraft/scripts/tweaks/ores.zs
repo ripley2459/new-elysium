@@ -48,9 +48,6 @@ for i in 0 to 15 {
 // Enchanted Book
 <ore:enchantedBook>.add(<minecraft:enchanted_book>);
 
-// Crystal Fluix
-<ore:crystalFluix>.add(<appliedenergistics2:material:12>);
-
 // Magma Cream
 <ore:creamMagma>.add(<minecraft:magma_cream>);
 

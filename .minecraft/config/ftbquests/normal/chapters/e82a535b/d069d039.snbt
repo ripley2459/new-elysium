@@ -1,6 +1,6 @@
 {
-	x: 11.0d,
-	y: 7.5d,
+	x: 18.5d,
+	y: 13.5d,
 	shape: "gear",
 	text: [
 		"Allow a drawer to store up to §d229 376§r items."

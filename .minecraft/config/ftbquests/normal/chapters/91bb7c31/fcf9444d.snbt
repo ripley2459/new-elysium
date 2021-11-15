@@ -1,6 +1,6 @@
 {
-	x: -9.5d,
-	y: 4.0d,
+	x: -5.0d,
+	y: 3.5d,
 	text: [
 		"§2Energy Collector§r §egenerate EMC§r from light source.",
 		"",
@@ -9,8 +9,7 @@
 		"Also you can create items  by inserting others (see JEI to view conversion)."
 	],
 	dependencies: [
-		"9795096d",
-		"36c55763"
+		"9795096d"
 	],
 	tasks: [{
 		uid: "8dbd9b55",

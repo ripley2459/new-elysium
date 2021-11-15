@@ -77,22 +77,6 @@ recipes.addShapeless(<ic2:crafting:1>, [<ore:dustRedstone>, <ore:plateIron>, <or
 recipes.remove(<ic2:crafting:2>);
 recipes.addShapeless(<ic2:crafting:2>, [<ic2:crafting:1>, <ore:plateTitanium>, <ore:dustLapis>, <ore:dustGlowstone>]);
 
-// Small Power Unit
-recipes.remove(<ic2:crafting:11>);
-recipes.addShaped(<ic2:crafting:11> * 1, [[<techguns:itemshared:56>, <ic2:casing:6>, null], [<ic2:crafting:1>, <libvulpes:motor>, <ic2:re_battery>],[<techguns:itemshared:56>, <ic2:casing:6>, null]]);
-
-// Power Unit
-recipes.remove(<ic2:crafting:12>);
-recipes.addShaped(<ic2:crafting:12> * 1, [[<techguns:itemshared:56>, <ic2:casing:6>, <ic2:re_battery>], [<ic2:crafting:1>, <libvulpes:motor>, <ic2:re_battery>],[<techguns:itemshared:56>, <ic2:casing:6>, <ic2:re_battery>]]);
-
-// Diamond Drill
-recipes.remove(<ic2:diamond_drill>);
-recipes.addShapeless(<ic2:diamond_drill> * 1, [<ic2:crafting:12>, <techguns:itemshared:135>]);
-
-// Mining Drill
-recipes.remove(<ic2:drill>);
-recipes.addShapeless(<ic2:drill> * 1, [<ic2:crafting:12>, <techguns:itemshared:134>]);
-
 // Basic Machine Casing
 recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:resource:12> * 1, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>], [<jaopca:item_geartin>, <techguns:itemshared:62>, <projectred-core:resource_item:104>],[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
@@ -130,17 +114,5 @@ recipes.remove(<ic2:lapotron_crystal:26>.withTag({}));
 Crystallizer.addRecipe(<ic2:lapotron_crystal:26>.withTag({}), 200, 2000, <ic2:energy_crystal:26>.withTag({}), <ic2:dust:9>*6, <ic2:crafting:2>*2);
 
 // RE-Battery
-recipes.remove(<ore:reBattery>);
+recipes.remove(<ic2:re_battery>);
 recipes.addShaped(<ic2:re_battery:26>.withTag({}) * 1, [[<ic2:casing:6>, <techguns:itemshared:63>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>],[<ic2:casing:6>, <projectred-core:resource_item:104>, <ic2:casing:6>]]);
-
-// Electric Boat
-recipes.remove(<ic2:boat:3>);
-recipes.addShaped(<ic2:boat:3> * 1, [[null, null, null], [<ic2:plate:3>, <libvulpes:motor>, <ic2:plate:3>],[<ic2:plate:3>, <ic2:rotor_iron>, <ic2:plate:3>]]);
-
-// Obsidian Boat
-recipes.remove(<netherex:obsidian_boat>);
-recipes.addShaped(<netherex:obsidian_boat> * 1, [[null, null, null], [<ic2:plate:6>, null, <ic2:plate:6>],[<ic2:plate:6>, <ic2:plate:6>, <ic2:plate:6>]]);
-
-// Batch Crafter
-recipes.remove(<ic2:te:89>);
-recipes.addShaped(<ic2:te:89> * 1, [[<ic2:plate:2>, <enderio:item_basic_capacitor:0>, <ic2:plate:4>], [<ic2:crafting:2>, <ic2:te:88>, <ic2:crafting:2>],[<ic2:forge_hammer>, <ore:reBattery>, <ic2:cutter>]]);

@@ -18,7 +18,6 @@
 		title: "Backups",
 		icon: {
 			id: "opencomputers:storage",
-			Damage: 1s,
 			tag: {
 				"oc:data": {
 					"oc:fs.label": "irc"
@@ -28,7 +27,8 @@
 					Name: "OpenIRC (IRC Client)"
 				},
 				"oc:lootFactory": "opencomputers:irc"
-			}
+			},
+			Damage: 1s
 		}
 	}]
 }

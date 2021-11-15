@@ -2,7 +2,7 @@
 	x: 3.0d,
 	y: -5.0d,
 	text: [
-		"Put chickens (at least 1 per left slots) and seeds to breed them."
+		"§ePut chickens§r (at least 1 per left slots) and some S§2eeds§r to breed them."
 	],
 	hide_dependency_lines: true,
 	dependencies: [

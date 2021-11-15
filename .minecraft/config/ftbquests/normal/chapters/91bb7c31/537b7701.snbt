@@ -1,6 +1,6 @@
 {
-	x: -10.0d,
-	y: 0.5d,
+	x: -4.0d,
+	y: 4.5d,
 	text: [
 		"You can use this block to §echarge your EMC devices§r.",
 		"",

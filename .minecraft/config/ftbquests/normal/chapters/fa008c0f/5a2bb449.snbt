@@ -1,6 +1,6 @@
 {
-	x: -0.5d,
-	y: -2.5d,
+	x: -1.5d,
+	y: -0.5d,
 	text: [
 		"The §2Induction Furnace§r can smelt §e2 items at the same time§e and §ethe more it work the more its process speed increase§r."
 	],

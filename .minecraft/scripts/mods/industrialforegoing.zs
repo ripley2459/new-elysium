@@ -11,7 +11,7 @@ ChemLab.addRecipe("logWood",1, <minecraft:dirt>,0, <liquid:water>*2000, false, <
 
 // Pitiful Fuel Generator
 recipes.remove(<industrialforegoing:pitiful_fuel_generator>);
-recipes.addShaped(<industrialforegoing:pitiful_fuel_generator> * 1, [[<ore:cobblestone>, <ore:reBattery>, <ore:cobblestone>], [<teslacorelib:gear_iron>, <minecraft:furnace>, <projectred-core:resource_item:104>],[<ore:cobblestone>, <ic2:crafting:7>, <ore:cobblestone>]]);
+recipes.addShaped(<industrialforegoing:pitiful_fuel_generator> * 1, [[<minecraft:cobblestone>, <ic2:re_battery>, <minecraft:cobblestone>], [<teslacorelib:gear_iron>, <minecraft:furnace>, <projectred-core:resource_item:104>],[<minecraft:cobblestone>, <ic2:crafting:7>, <minecraft:cobblestone>]]);
 
 // Block Breaker
 recipes.remove(<industrialforegoing:block_destroyer>);

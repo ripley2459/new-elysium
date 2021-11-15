@@ -37,14 +37,14 @@ exclude $gui/widgets.png;
 exclude $gui/stream_indicator.png;
 exclude $gui/options_background.png;
 
-# Modded
 exclude cofh:textures/gui/elements/tab_left.png;
 exclude cofh:textures/gui/elements/tab_right.png;
+
 exclude custommainmenu:textures/gui/logo.png;
+
 exclude ftbquests:textures/gui/*;
+
 exclude colorfulhealthbar:textures/gui/*;
-exclude malisisdoors:textures/gui/*;
-exclude malisiscore:textures/gui/widgets/*;
 
 # Advancements
 exclude $gui/advancements/backgrounds/*;

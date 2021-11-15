@@ -1,6 +1,6 @@
 {
-	x: 10.0d,
-	y: 10.5d,
+	x: 17.5d,
+	y: 16.5d,
 	shape: "gear",
 	text: [
 		"Right click on a drawer to display how many items there is inside."

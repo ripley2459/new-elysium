@@ -22,10 +22,6 @@ OreCluster.addOre("COMMON_GEM", <mysticalagriculture:inferium_ore>, 25);
 OreCluster.addOre("COMMON_GEM", <projectred-exploration:ore:6>, 30);
 OreCluster.addOre("COMMON_GEM", <tp:ender_ore>, 15);
 OreCluster.addOre("COMMON_GEM", <appliedenergistics2:quartz_ore>, 25);
-OreCluster.addOre("COMMON_GEM", <byg:tamreliteore>, 15);
-OreCluster.addOre("COMMON_GEM", <byg:pendoriteore>, 15);
-OreCluster.addOre("COMMON_GEM", <byg:lathariumore>, 15);
-OreCluster.addOre("COMMON_GEM", <tp:wub_ore>, 15);
 
 OreCluster.addOre("SHINY_GEM", <rftools:dimensional_shard_ore>, 5);
 OreCluster.addOre("SHINY_GEM", <projectred-exploration:ore>, 30);
@@ -40,7 +36,6 @@ OreCluster.addOre("NETHER_CRYSTAL", <tconstruct:ore>, 45);
 OreCluster.addOre("NETHER_CRYSTAL", <tconstruct:ore:1>, 45);
 OreCluster.addOre("NETHER_CRYSTAL", <mysticalagriculture:nether_prosperity_ore>, 15);
 OreCluster.addOre("NETHER_CRYSTAL", <mysticalagriculture:nether_inferium_ore>, 25);
-OreCluster.addOre("NETHER_CRYSTAL", <tp:nether_wub_ore>, 15);
 
 // Raw Rubber
 ChemLab.removeRecipe(<techguns:itemshared:95>, null);
@@ -50,7 +45,7 @@ ChemLab.removeRecipe(<techguns:itemshared:96>, null);
 
 // Carbon Fiber
 ChemLab.removeRecipe(<techguns:itemshared:64>, null);
-ChemLab.addRecipe(<advancedrocketry:misc:1>,1, <minecraft:diamond>,1, <liquid:lava>*5000, false, <techguns:itemshared:64>*3, <liquid:water>*0, 50);
+ChemLab.addRecipe(<advancedrocketry:misc:1>,1, <minecraft:diamond>,1, <liquid:lava>*5000, false, <techguns:itemshared:64>*3, <liquid:water>*0, 5000);
 
 // Rubber Bar
 furnace.remove(<techguns:itemshared:56>);
@@ -77,17 +72,14 @@ MetalFormer.addCuttingRecipe(<techguns:itemshared:63>*6, <ic2:plate:2>);
 // Fabricator Glass
 recipes.remove(<techguns:multiblockmachine:1>);
 AlloySmelter.addRecipe(<techguns:multiblockmachine:1>, [<libvulpes:productdust:7>, <enderio:block_fused_glass:0>]);
-<techguns:multiblockmachine:1>.addTooltip("To create one fabricator you will need 4 of theses.");
 
 // Fabricator Housing
 recipes.remove(<techguns:multiblockmachine:0>);
-recipes.addShaped(<techguns:multiblockmachine:0> * 1, [[<ore:plateSteel>, <techguns:itemshared:57>, <ore:plateSteel>], [<ic2:crafting:1>, <ore:blockMotor>, <ic2:crafting:1>],[<ore:plateSteel>, <teslacorelib:gear_diamond>, <ore:plateSteel>]]);
-<techguns:multiblockmachine:0>.addTooltip("To create one fabricator you will need 3 of theses.");
+recipes.addShaped(<techguns:multiblockmachine:0> * 1, [[<ic2:plate:7>, <techguns:itemshared:59>, <ic2:plate:7>], [<ic2:crafting:1>, <techguns:itemshared:70>, <ic2:crafting:1>],[<ic2:plate:7>, <teslacorelib:gear_diamond>, <ic2:plate:7>]]);
 
 // Fabricator Controller
 recipes.remove(<techguns:multiblockmachine:2>);
-recipes.addShaped(<techguns:multiblockmachine:2> * 1, [[<ore:plateSteel>, <techguns:itemshared:57>, <ore:plateSteel>], [<ic2:crafting:2>, <advancedrocketry:misc:0>, <ic2:crafting:2>],[<ore:plateSteel>, <teslacorelib:gear_diamond>, <ore:plateSteel>]]);
-<techguns:multiblockmachine:2>.addTooltip("To create one fabricator you will need 1 of that.");
+recipes.addShaped(<techguns:multiblockmachine:2> * 1, [[<ic2:plate:7>, <techguns:itemshared:59>, <ic2:plate:7>], [<ic2:crafting:2>, <advancedrocketry:misc:0>, <ic2:crafting:2>],[<ic2:plate:7>, <teslacorelib:gear_diamond>, <ic2:plate:7>]]);
 
 // Circuit Board
 recipes.remove(<techguns:itemshared:65>);
@@ -99,7 +91,7 @@ PrecisionAssembler.addRecipe(<techguns:itemshared:66>, 100, 400, <techguns:items
 
 // Reaction Chamber Glass
 recipes.remove(<techguns:multiblockmachine:4>);
-recipes.addShaped(<techguns:multiblockmachine:4> * 4, [[<ic2:casing:5>, <ore:fusedQuartz>, <ic2:casing:5>], [<ore:fusedQuartz>, <ic2:resource:12>, <ore:fusedQuartz>],[<ic2:casing:5>, <ore:fusedQuartz>, <ic2:casing:5>]]);
+recipes.addShaped(<techguns:multiblockmachine:4> * 4, [[<ic2:casing:5>, <enderio:block_fused_quartz:0>, <ic2:casing:5>], [<enderio:block_fused_quartz:0>, <ic2:resource:12>, <enderio:block_fused_quartz:0>],[<ic2:casing:5>, <enderio:block_fused_quartz:0>, <ic2:casing:5>]]);
 
 // Reaction Chamber Controller
 recipes.remove(<techguns:multiblockmachine:5>);
@@ -107,7 +99,7 @@ recipes.addShaped(<techguns:multiblockmachine:5> * 1, [[<ic2:casing:5>, <advance
 
 // Reaction Chamber Housing
 recipes.remove(<techguns:multiblockmachine:3>);
-recipes.addShaped(<techguns:multiblockmachine:3> * 4, [[<ic2:casing:5>, <techguns:itemshared:59>, <ic2:casing:5>], [<advancedrocketry:ic:4>, <ic2:resource:13>, <advancedrocketry:ic:5>],[<ic2:casing:5>, <ore:reBattery>, <ic2:casing:5>]]);
+recipes.addShaped(<techguns:multiblockmachine:3> * 4, [[<ic2:casing:5>, <techguns:itemshared:59>, <ic2:casing:5>], [<advancedrocketry:ic:4>, <ic2:resource:13>, <advancedrocketry:ic:5>],[<ic2:casing:5>, <ic2:re_battery>, <ic2:casing:5>]]);
 
 // Grinder
 recipes.remove(<techguns:simplemachine2:8>);
@@ -123,4 +115,4 @@ recipes.addShaped(<techguns:basicmachine:0> * 1, [[<techguns:itemshared:63>, <ic
 
 // Chemical Laboratory
 recipes.remove(<techguns:basicmachine:2>);
-recipes.addShaped(<techguns:basicmachine:2> * 1, [[<ic2:crafting:1>, <ore:plateSilver>, <ic2:crafting:1>], [<enderio:item_liquid_conduit:1>, <techguns:multiblockmachine:4>, <enderio:item_liquid_conduit:1>],[<ic2:casing:6>, <ore:plateSilver>, <ic2:casing:6>]]);
+recipes.addShaped(<techguns:basicmachine:2> * 1, [[<ic2:crafting:1>, <jaopca:item_platesilver>, <advancedrocketry:ic:5>], [<enderio:item_liquid_conduit:1>, <techguns:multiblockmachine:4>, <enderio:item_liquid_conduit:1>],[<ic2:casing:6>, <jaopca:item_platedensesilver>, <ic2:casing:6>]]);
