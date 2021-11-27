@@ -1,6 +1,6 @@
 
 {
-  "ID": 106,
+  "ID": 79,
   "Name": "Alps",
   "Resource Location": "byg:balps",
   "Class": "net.mcreator.byg.MCreatorBAlps$BiomeGenCustom",
@@ -20,7 +20,6 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "HILLS",
     "SNOWY",
     "MOUNTAIN"

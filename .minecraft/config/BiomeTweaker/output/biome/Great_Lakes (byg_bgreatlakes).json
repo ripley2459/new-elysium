@@ -1,6 +1,6 @@
 
 {
-  "ID": 173,
+  "ID": 124,
   "Name": "Great Lakes",
   "Resource Location": "byg:bgreatlakes",
   "Class": "net.mcreator.byg.MCreatorBGreatLakes$BiomeGenCustom",
@@ -20,11 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
-    "WATER",
+    "FOREST",
     "COLD",
-    "RIVER",
-    "FOREST"
+    "WATER",
+    "RIVER"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -54,6 +53,12 @@
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
       "Weight": 8,
       "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityDuck",
+      "Weight": 7,
+      "Min Group Count": 2,
       "Max Group Count": 4
     }
   ],
@@ -132,9 +137,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
@@ -145,10 +150,10 @@
   ],
   "Spawnable Water Creatures": [
     {
-      "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Entity Class": "vibrantjourneys.entities.passive.EntityClam",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     }
   ],
   "Spawnable Cave Creatures": [
@@ -157,6 +162,12 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntitySnail",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "vibrantjourneys.entities.passive.EntityFly",
@@ -175,12 +186,6 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 6
-    },
-    {
-      "Entity Class": "vibrantjourneys.entities.passive.EntityStarfish",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 4
     }
   ],
   "Spawn Biome": true,

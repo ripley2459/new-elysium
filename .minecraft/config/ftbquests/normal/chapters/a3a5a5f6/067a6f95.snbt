@@ -1,0 +1,36 @@
+{
+	title: "Ender Storage",
+	x: 0.0d,
+	y: 19.0d,
+	text: [
+		"You have discovered that ender pearls can created limited alternate realities that you decide to use to store objects or liquids.",
+		"",
+		"With more work, you have succeeded in linking realities to color codes."
+	],
+	dependencies: [
+		"8fa7415e"
+	],
+	tasks: [{
+		uid: "432645e6",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e081cbde",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	},
+	{
+		uid: "f4b63a05",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}]
+}

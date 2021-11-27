@@ -1,6 +1,6 @@
 
 {
-  "ID": 81,
+  "ID": 54,
   "Name": "Ruthless Sands",
   "Resource Location": "netherex:ruthless_sands",
   "Class": "logictechcorp.netherex.world.biome.BiomeRuthlessSands",
@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "PLAINS",
-    "SAVANNA",
     "NETHER",
-    "HOT",
-    "SANDY"
+    "SANDY",
+    "SAVANNA",
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

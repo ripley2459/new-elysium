@@ -1,0 +1,19 @@
+{
+	title: "Liquid Infinity",
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"64776603"
+	],
+	tasks: [{
+		uid: "dc566162",
+		type: "fluid",
+		fluid: "infinity",
+		amount: 10000
+	}],
+	rewards: [{
+		uid: "89d085b4",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	}]
+}

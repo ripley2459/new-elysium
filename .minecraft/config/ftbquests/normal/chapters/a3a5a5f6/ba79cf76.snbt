@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 13.0d,
+	dependencies: [
+		"cc5182b2"
+	],
+	tasks: [{
+		uid: "39d7c6b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "elevator",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any elevator"
+				}
+			}
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 118,
+  "ID": 91,
   "Name": "Sonoran Desert",
   "Resource Location": "byg:bsonorandesert",
   "Class": "net.mcreator.byg.MCreatorBSonoranDesert$BiomeGenCustom",
@@ -22,7 +22,6 @@
   "Dictionary Types": [
     "SANDY",
     "HOT",
-    "PLAINS",
     "DRY"
   ],
   "BiomeManager Entries": {

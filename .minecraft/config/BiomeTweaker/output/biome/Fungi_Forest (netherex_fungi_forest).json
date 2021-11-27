@@ -1,6 +1,6 @@
 
 {
-  "ID": 82,
+  "ID": 55,
   "Name": "Fungi Forest",
   "Resource Location": "netherex:fungi_forest",
   "Class": "logictechcorp.netherex.world.biome.BiomeFungiForest",
@@ -20,14 +20,14 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "WET",
     "PLAINS",
-    "SAVANNA",
-    "MUSHROOM",
     "NETHER",
-    "HOT",
-    "COLD"
+    "MUSHROOM",
+    "COLD",
+    "SAVANNA",
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

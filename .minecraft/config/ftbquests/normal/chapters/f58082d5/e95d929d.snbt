@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -11.0d,
+	text: [
+		"You have decided to create the most \"diamonded\" object possible. For what? Probably because you have something to compensate for."
+	],
+	tasks: [{
+		uid: "79f666bd",
+		type: "item",
+		items: [{
+			item: "avaritia:resource"
+		}]
+	}]
+}

@@ -1,0 +1,95 @@
+{
+	title: "What an outfit",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"64776603"
+	],
+	tasks: [{
+		uid: "da95f34c",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8adbe0bf",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "353dceee",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fac0e06a",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfe73327",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ac9ae45",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9af9c7bb",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "24b4e4f3",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2208dbc1",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

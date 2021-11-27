@@ -1,0 +1,10 @@
+{
+	title: "Nuclear Craft",
+	icon: "nuclearcraft:nuclear_furnace_idle",
+	x: 10.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "393599cf",
+		type: "checkmark"
+	}]
+}

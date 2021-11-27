@@ -6,4 +6,5 @@ import crafttweaker.item.IIngredient;
 print("========================= START - TOUGH AS NAILS =========================");
 
 // Purified Water Bottle
-recipes.addShapeless(<toughasnails:purified_water_bottle> * 3, [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:potion>.withTag({Potion: "minecraft:water"}), <minecraft:potion>.withTag({Potion: "minecraft:water"}), <toughasnails:charcoal_filter>]);
+recipes.remove(<toughasnails:purified_water_bottle>);
+recipes.addShapeless(<toughasnails:purified_water_bottle>, [<minecraft:potion>.withTag({Potion: "minecraft:water"}), <toughasnails:charcoal_filter>]);

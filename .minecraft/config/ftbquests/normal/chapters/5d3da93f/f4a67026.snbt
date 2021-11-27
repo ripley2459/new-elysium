@@ -1,0 +1,27 @@
+{
+	title: "Keyboard is too small",
+	icon: "openblocks:cursor",
+	x: -2.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"§4New Elysium§r has around §e230 inputs§r. I recommend to §eunbind everything that is not use in the early game§r/you don't known what is it.",
+		"",
+		"As you progress, you can reassign the useful keys.",
+		"",
+		"Also, don't forget you can adapt §bThe One Probe§r, §bJourney Map§r, §bJust Enough Item§r, §bInventory HUD+§r, etc. as you want."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7da9436f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a6004887",
+		type: "item",
+		item: "opencomputers:keyboard"
+	}]
+}

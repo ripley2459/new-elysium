@@ -1,0 +1,24 @@
+{
+	title: "Ender Dragon",
+	x: 6.0d,
+	y: 17.0d,
+	text: [
+		"Eyes have guided you to a dangerous underground fortress containing what appears to be a portal frame.",
+		"",
+		"After placing some eyes on the portal frame, a disturbing noise occurred and a thin black layer studded with stars appeared.",
+		"",
+		"With great courage, you decided to jump in the portal.",
+		"",
+		"After a blackout, you have entered inside a strange place. Entirely populated by Endermans, The End (you have called it like that) seems to be a calm place... without the killing dragon obviously."
+	],
+	dependencies: [
+		"cf22323f"
+	],
+	tasks: [{
+		uid: "7f2fed5d",
+		type: "kill",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}]
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 104,
+  "ID": 77,
   "Name": "Skyris Highlands",
   "Resource Location": "byg:bskyrishighlands",
   "Class": "net.mcreator.byg.MCreatorBSkyrisHighlands$BiomeGenCustom",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "COLD",
     "HILLS",
+    "COLD",
     "MAGICAL",
+    "RARE",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {
@@ -138,9 +138,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

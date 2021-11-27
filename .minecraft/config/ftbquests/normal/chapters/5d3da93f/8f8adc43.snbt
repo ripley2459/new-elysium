@@ -1,0 +1,22 @@
+{
+	title: "New Elysium",
+	icon: "rftools:notick_invisible_shield_block_opaque",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "elysium",
+	text: [
+		"Welcome in §4New Elysium§r, the 100% tech, sci-fi & automation modpack.",
+		"",
+		"§4New Elysium§r §eisn't a kitchen sink modpack§r. There is §eno magic mod or clunky mechanics§r and most of mods's mechanisms have been §etweaked to be the more \"tech\"§r way possible."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "99cb33a6",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "70fd53d3",
+		type: "item",
+		item: "harvestcraft:starfruititem"
+	}]
+}

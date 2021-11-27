@@ -1,0 +1,18 @@
+{
+	title: "Basic Management",
+	icon: "ironchest:iron_chest 1 2",
+	always_invisible: false,
+	group: 533447683,
+	default_quest_shape: "",
+	images: [{
+		x: 7.5d,
+		y: -1.5d,
+		width: 3.5d,
+		height: 3.5d,
+		rotation: 0.0d,
+		image: "newelysium:images/framing.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

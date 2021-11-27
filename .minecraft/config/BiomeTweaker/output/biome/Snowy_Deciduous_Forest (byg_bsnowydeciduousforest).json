@@ -1,6 +1,6 @@
 
 {
-  "ID": 189,
+  "ID": 148,
   "Name": "Snowy Deciduous Forest",
   "Resource Location": "byg:bsnowydeciduousforest",
   "Class": "net.mcreator.byg.MCreatorBSnowyDeciduousForest$BiomeGenCustom",
@@ -20,11 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "SNOWY",
-    "PLAINS",
-    "SPARSE",
-    "FOREST"
+    "FOREST",
+    "SNOWY"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -144,9 +141,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

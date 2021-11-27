@@ -1,6 +1,6 @@
 
 {
-  "ID": 143,
+  "ID": 108,
   "Name": "Seasonal Deciduous",
   "Resource Location": "byg:bseasonaldeciduous",
   "Class": "net.mcreator.byg.MCreatorBSeasonalDeciduous$BiomeGenCustom",
@@ -20,10 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "PLAINS",
-    "SPARSE",
-    "FOREST"
+    "FOREST",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -137,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

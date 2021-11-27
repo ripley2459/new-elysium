@@ -1,0 +1,34 @@
+{
+	title: "Feed to grow",
+	icon: "harvestcraft:toastitem",
+	x: 0.0d,
+	y: -2.5d,
+	shape: "circle",
+	text: [
+		"Who doesn't like to eat? No one, everyone loves food.",
+		"",
+		"In §4New Elysium§r, §ethe more different foods you eat, the more your maximum life increases§r.",
+		"",
+		"The §enutritional value of a food decreases if you eat that food often§r.",
+		"",
+		"Remember to check a food's tooltip to see if you've eaten that food recently and if it has been involved in giving you a new heart."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b4e8494",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "11b302cc",
+		type: "item",
+		item: "harvestcraft:netherstartoastitem"
+	},
+	{
+		uid: "7b98dd43",
+		type: "item",
+		item: "solcarrot:food_book"
+	}]
+}

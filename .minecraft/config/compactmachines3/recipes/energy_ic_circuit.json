@@ -1,0 +1,144 @@
+{
+	"name": "custom:energy_ic_board_compact",
+	"target-item": "contenttweaker:energy_ic_board",
+	"target-count": 3,
+	"duration": 500,
+	"catalyst": "minecraft:ender_pearl",
+	"input-types": {
+		"a": {
+			"id": "thermaldynamics:duct_0",
+			"meta": 0
+		},
+		"b": {
+			"id": "minecraft:redstone_block",
+			"meta": 0
+		},
+		"c": {
+			"id": "quark:iron_plate_slab",
+			"meta": 0
+		},
+		"d": {
+			"id": "minecraft:light_weighted_pressure_plate",
+			"meta": 0
+		}
+	},
+	  "input-nbt": {
+		"a:A": {
+			"nbt": "{Energy:{},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thermaldynamics:duct_energy_basic\",Attachments:[],\"cm3_extra:ThermalDynamicsGrid\":{Connections:[0,0,0,0,2,0]}}"
+		},
+		"a:B": {
+			"nbt": "{Energy:{},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thermaldynamics:duct_energy_basic\",Attachments:[],\"cm3_extra:ThermalDynamicsGrid\":{Connections:[0,0,0,0,2,2]}}"
+		},
+		"a:C": {
+			"nbt": "{Energy:{},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thermaldynamics:duct_energy_basic\",Attachments:[],\"cm3_extra:ThermalDynamicsGrid\":{Connections:[0,0,2,0,0,0]}}"
+		},
+		"a:D": {
+			"nbt": "{Energy:{},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thermaldynamics:duct_energy_basic\",Attachments:[],\"cm3_extra:ThermalDynamicsGrid\":{Connections:[0,0,2,2,0,0]}}"
+		},
+		"a:E": {
+			"nbt": "{Energy:{},ForgeCaps:{\"nuclearcraft:capability_default_radiation_resistance\":{radiationResistance:0.0d}},id:\"thermaldynamics:duct_energy_basic\",Attachments:[],\"cm3_extra:ThermalDynamicsGrid\":{Connections:[0,0,0,2,0,2]}}"
+		}
+	  },
+	  "shape": [
+		[
+		  [
+			"a:E",
+			"a:B",
+			"a:B",
+			"a:B",
+			"a:B",
+			"a:A"
+		  ],
+		  [
+			"a:D",
+			"c",
+			"_",
+			"c",
+			"_",
+			"_"
+		  ],
+		  [
+			"a:D",
+			"_",
+			"a:E",
+			"a:B",
+			"a:B",
+			"a:A"
+		  ],
+		  [
+			"a:D",
+			"c",
+			"a:D",
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"a:C",
+			"_",
+			"a:C",
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"d",
+			"d",
+			"d",
+			"_",
+			"_",
+			"_"
+		  ]
+		],
+		[
+		  [
+			"b",
+			"b",
+			"b",
+			"b",
+			"b",
+			"b"
+		  ],
+		  [
+			"b",
+			"b",
+			"b",
+			"b",
+			"b",
+			"b"
+		  ],
+		  [
+			"b",
+			"b",
+			"b",
+			"b",
+			"b",
+			"b"
+		  ],
+		  [
+			"b",
+			"b",
+			"b",
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"b",
+			"b",
+			"b",
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"b",
+			"b",
+			"b",
+			"_",
+			"_",
+			"_"
+		  ]
+		]
+	]
+}

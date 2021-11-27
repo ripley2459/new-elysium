@@ -1,6 +1,6 @@
 
 {
-  "ID": 49,
+  "ID": 50,
   "Name": "Blossoming Fields",
   "Resource Location": "pvj:blossoming_fields",
   "Class": "vibrantjourneys.biomes.BiomeBlossomingFields",
@@ -134,9 +134,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

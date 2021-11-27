@@ -1,6 +1,6 @@
 
 {
-  "ID": 125,
+  "ID": 98,
   "Name": "Savanna Canopy",
   "Resource Location": "byg:bsavannacanopy",
   "Class": "net.mcreator.byg.MCreatorBSavannaCanopy$BiomeGenCustom",
@@ -20,12 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "FOREST",
     "DENSE",
-    "HOT",
-    "PLAINS",
     "SAVANNA",
-    "SPARSE",
-    "FOREST"
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -133,9 +131,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

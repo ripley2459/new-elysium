@@ -1,0 +1,29 @@
+{
+	title: "Techguns",
+	icon: "techguns:itemshared 1 57",
+	always_invisible: false,
+	group: 357415815,
+	default_quest_shape: "",
+	images: [{
+		x: -0.5d,
+		y: 0.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/fabricator.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 2.5d,
+		y: 0.0d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/reaction_chamber.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

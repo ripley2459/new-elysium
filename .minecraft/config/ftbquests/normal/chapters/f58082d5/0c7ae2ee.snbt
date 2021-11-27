@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"You will need §e1 377 495 072§r §2Cobblestone Block§r."
+	],
+	dependencies: [
+		"624292a0"
+	],
+	tasks: [{
+		uid: "a2c8ae6d",
+		type: "item",
+		items: [{
+			item: "minecraft:bedrock"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:ender_pearl",
+	x: 0.0d,
+	y: 15.0d,
+	text: [
+		"What are they? Their eyes seem to be looking directly at your soul.",
+		"",
+		"After some research, you figured out that an Enderman's body contains a pearl that can be used to transfer matter into space.",
+		"",
+		"Even if the operation is unknown to you for the moment, you think you can use these properties to create simple systems of management of inanimate objects, or even energy.",
+		"",
+		"For your experimentations, you need some §2Ender Pearls§r."
+	],
+	tasks: [{
+		uid: "f45de2ad",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 3L
+	}]
+}

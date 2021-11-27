@@ -1,6 +1,6 @@
 
 {
-  "ID": 115,
+  "ID": 88,
   "Name": "Stellata Pasture",
   "Resource Location": "byg:bstellatapasture",
   "Class": "net.mcreator.byg.MCreatorBStellataPasture$BiomeGenCustom",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "PLAINS"
+    "PLAINS",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -135,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

@@ -1,0 +1,16 @@
+{
+	title: "Hamburghini",
+	icon: "minecraft:porkchop",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Imagine traveling on the back of a pig."
+	],
+	tasks: [{
+		uid: "9ab0f1bc",
+		type: "stat",
+		icon: "tconstruct:ingots 1 4",
+		stat: "stat.pigOneCm",
+		value: 100000
+	}]
+}

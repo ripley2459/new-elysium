@@ -1,0 +1,30 @@
+{
+	title: "Walking Dead",
+	icon: "minecraft:bone",
+	x: 2.5d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"You have probably seen the green deadly monsters.",
+		"",
+		"They are §eaware of noise and blood particle§r. Be careful while you're exploring."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "553fef7a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "3d9668d4",
+		type: "item",
+		item: "xlfoodmod:super_energy_drink"
+	},
+	{
+		uid: "4030bca4",
+		type: "item",
+		item: "minecraft:skull 1 2"
+	}]
+}

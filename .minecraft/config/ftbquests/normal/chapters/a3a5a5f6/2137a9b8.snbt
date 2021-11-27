@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "8b788bc7",
+		type: "item",
+		items: [{
+			item: "randomthings:enderbridge"
+		}]
+	}]
+}

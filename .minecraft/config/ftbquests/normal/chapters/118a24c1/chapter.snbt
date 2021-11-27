@@ -1,0 +1,7 @@
+{
+	title: "Chapter V",
+	icon: "contenttweaker:roman_v_letter",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

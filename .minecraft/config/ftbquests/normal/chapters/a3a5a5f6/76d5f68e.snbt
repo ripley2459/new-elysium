@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 13.0d,
+	dependencies: [
+		"ba79cf76"
+	],
+	tasks: [{
+		uid: "2b243130",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rotatinglevator",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any rotatinglevator"
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "8ed20e9f",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxconfigurator"
+		}]
+	},
+	{
+		uid: "ffc71414",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:adminconfigurator"
+		}]
+	}]
+}

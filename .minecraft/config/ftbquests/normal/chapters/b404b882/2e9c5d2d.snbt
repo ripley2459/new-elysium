@@ -1,0 +1,46 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"On a particularly rainy day you gathered resources that you never use and set out to create new furniture to store your brothel."
+	],
+	dependencies: [
+		"5dd097f0"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4136cb28",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 7"
+		}]
+	},
+	{
+		uid: "d371a8c3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:smooth_sky_stone_chest"
+		}]
+	},
+	{
+		uid: "c60d8593",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_chest"
+		}]
+	},
+	{
+		uid: "aac8b5d8",
+		type: "item",
+		items: [{
+			item: "extrautils2:largishchest"
+		}]
+	},
+	{
+		uid: "96f16064",
+		type: "item",
+		items: [{
+			item: "betternether:chest_of_drawers"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 179,
+  "ID": 137,
   "Name": "Tropical Islands",
   "Resource Location": "byg:btropical_islands",
   "Class": "net.mcreator.byg.MCreatorBTropical_Islands$BiomeGenCustom",
@@ -22,9 +22,8 @@
   "Dictionary Types": [
     "OCEAN",
     "WATER",
-    "HOT",
-    "FOREST",
-    "JUNGLE"
+    "JUNGLE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -132,9 +131,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

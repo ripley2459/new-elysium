@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	text: [
+		"Even if your turrets are already very efficient, you have kept going searching for improvements.",
+		"",
+		"You have established a blueprint of a special tower which can use weapons humanly usables."
+	],
+	dependencies: [
+		"8762e810"
+	],
+	tasks: [{
+		uid: "edd21ef8",
+		type: "item",
+		items: [{
+			item: "techguns:basicmachine 1 3"
+		}]
+	}]
+}

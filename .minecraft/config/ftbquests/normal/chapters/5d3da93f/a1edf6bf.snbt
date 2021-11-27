@@ -1,0 +1,27 @@
+{
+	title: "Shaders",
+	icon: "openblocks:technicolor_glasses",
+	x: 2.625d,
+	y: 2.625d,
+	shape: "rsquare",
+	text: [
+		"Imagine Playing §4Minecraft§r, with §e200 mods§r, what a banger.",
+		"",
+		"Now imagine playing §4Minecraft§r, with §e200 mods and a shader§r, wow, incredible.",
+		"",
+		"§eNew Elysium is compatible with §bOptifine§r and shaders§r. If your computer can run it... well why not?"
+	],
+	dependencies: [
+		"c7e86a05"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "e52da7dc",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f030f0ed",
+		type: "item",
+		item: "openblocks:technicolor_glasses"
+	}]
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 91,
+  "ID": 64,
   "Name": "Deep Swamp",
   "Resource Location": "advancedrocketry:deepswamp",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET"
+    "WET",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -137,9 +137,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

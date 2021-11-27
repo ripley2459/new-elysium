@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "6ceaf796",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum"
+		}]
+	},
+	{
+		uid: "bbe7f967",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 1"
+		}]
+	},
+	{
+		uid: "df24d473",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 2"
+		}]
+	},
+	{
+		uid: "dad5ce3f",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 3"
+		}]
+	}]
+}

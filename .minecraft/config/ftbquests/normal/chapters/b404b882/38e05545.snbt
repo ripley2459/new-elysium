@@ -1,0 +1,19 @@
+{
+	x: 7.5d,
+	y: -3.5d,
+	text: [
+		"With the §2Framing Table§r you can create §eyour own drawers§r."
+	],
+	dependencies: [
+		"a82107a9",
+		"5eba1cc5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e1e91cea",
+		type: "item",
+		items: [{
+			item: "storagedrawers:framingtable"
+		}]
+	}]
+}

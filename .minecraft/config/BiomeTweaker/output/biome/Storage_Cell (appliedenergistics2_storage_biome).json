@@ -1,6 +1,6 @@
 
 {
-  "ID": 50,
+  "ID": 51,
   "Name": "Storage Cell",
   "Resource Location": "appliedenergistics2:storage_biome",
   "Class": "appeng.spatial.BiomeGenStorage",

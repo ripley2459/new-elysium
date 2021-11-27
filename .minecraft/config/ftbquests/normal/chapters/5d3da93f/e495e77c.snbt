@@ -1,0 +1,10 @@
+{
+	title: "Advanced Rocketry",
+	icon: "advancedrocketry:rocketbuilder",
+	x: 11.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "987c6604",
+		type: "checkmark"
+	}]
+}

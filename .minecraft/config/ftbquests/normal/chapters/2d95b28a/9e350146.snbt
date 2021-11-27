@@ -1,0 +1,75 @@
+{
+	x: 1.0d,
+	y: 0.5d,
+	text: [
+		"Your mind is very prolific at creating tools of death.",
+		"",
+		"You want to try any possibilities to keep your base safe."
+	],
+	dependencies: [
+		"8762e810"
+	],
+	tasks: [{
+		uid: "9a1ff976",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rail_gun_turret"
+		}]
+	},
+	{
+		uid: "7360dfe6",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:laser_turret"
+		}]
+	},
+	{
+		uid: "82abf4c5",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:teleporter_turret"
+		}]
+	},
+	{
+		uid: "30d5da0d",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:rocket_turret"
+		}]
+	},
+	{
+		uid: "353de9c1",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:relativistic_turret"
+		}]
+	},
+	{
+		uid: "2b66193d",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:disposable_item_turret"
+		}]
+	},
+	{
+		uid: "7c6e59f9",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:machine_gun_turret"
+		}]
+	},
+	{
+		uid: "53a4c01c",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:incendiary_turret"
+		}]
+	},
+	{
+		uid: "0f1743d0",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:grenade_turret"
+		}]
+	}]
+}

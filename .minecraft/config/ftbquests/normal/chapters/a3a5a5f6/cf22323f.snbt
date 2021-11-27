@@ -1,0 +1,19 @@
+{
+	title: "La Fin",
+	icon: "minecraft:end_stone",
+	x: 4.0d,
+	y: 17.0d,
+	text: [
+		"Once in hand, the eyes seemed to move in one direction.",
+		"",
+		"You have decided to follow them."
+	],
+	dependencies: [
+		"fb09b47e"
+	],
+	tasks: [{
+		uid: "800b3e50",
+		type: "dimension",
+		dim: 1
+	}]
+}

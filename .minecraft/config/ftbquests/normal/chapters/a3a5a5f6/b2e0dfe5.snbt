@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 15.0d,
+	text: [
+		"Tired of risking your life for a few pearls, you have decided to find a more efficient way to obtain this precious resource.",
+		"",
+		"After some research, you finally found out that pearls could be cultivated.",
+		"",
+		"The seeds only grow in the dark and seem to call out strange creatures."
+	],
+	dependencies: [
+		"8fa7415e"
+	],
+	tasks: [{
+		uid: "9c350cc7",
+		type: "item",
+		items: [{
+			item: "endercrop:ender_seeds"
+		}]
+	}]
+}

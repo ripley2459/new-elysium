@@ -1,0 +1,117 @@
+{
+	title: "Introduction",
+	icon: "extrautils2:suncrystal",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 7.5d,
+		y: 4.5d,
+		width: 1.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/i.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: 2.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/ii.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: 0.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/iii.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -1.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/iv.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.5d,
+		y: -3.5d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/v.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: 0.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/arrow_progression.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: 2.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/arrow_progression.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: -4.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/arrow_progression.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: 4.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/arrow_progression.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 11.0d,
+		y: -2.0d,
+		width: 5.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "newelysium:images/arrow_progression.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

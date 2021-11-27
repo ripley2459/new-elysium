@@ -1,6 +1,6 @@
 
 {
-  "ID": 124,
+  "ID": 97,
   "Name": "Glaciers",
   "Resource Location": "byg:bglaciers",
   "Class": "net.mcreator.byg.MCreatorBGlaciers$BiomeGenCustom",
@@ -20,10 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
     "HILLS",
     "SNOWY",
-    "PLAINS",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {

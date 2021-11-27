@@ -1,0 +1,40 @@
+{
+	title: "Reaction Chamber",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"To create objects requiring unstable procedures you created plans for a brand new machine: the §2Reaction Chamber§r.",
+		"",
+		"§nThe use is simple:§r",
+		"1) Choose the amount of liquid you want and send it to the tank.",
+		"2) Put the base element and the beam in their place.",
+		"3) Set the beam strength to the right level to start the process.",
+		"",
+		"Be careful! During the process, the level of intensity may change. You have to keep the beam strength at the right level, otherwise something really bad can happen.",
+		"",
+		"If you keep the beam strength at the right level you will see the green bar fill up and when it is full the recipe successful. On the other hand, if the orange bar fills up before the green one, you risk having problems."
+	],
+	tasks: [{
+		uid: "8b680c5c",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 5"
+		}]
+	},
+	{
+		uid: "4f0d7e23",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 3"
+		}],
+		count: 17L
+	},
+	{
+		uid: "d7e20a0e",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 4"
+		}],
+		count: 18L
+	}]
+}

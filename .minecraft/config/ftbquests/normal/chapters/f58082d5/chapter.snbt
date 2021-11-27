@@ -1,0 +1,7 @@
+{
+	title: "Beyond The Matrix",
+	icon: "avaritia:resource 1 6",
+	always_invisible: false,
+	group: 294266049,
+	default_quest_shape: "circle"
+}

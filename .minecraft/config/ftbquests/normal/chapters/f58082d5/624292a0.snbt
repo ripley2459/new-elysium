@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"64776603"
+	],
+	tasks: [{
+		uid: "066b3769",
+		type: "item",
+		items: [{
+			item: "compacter:cobbler"
+		}]
+	}]
+}

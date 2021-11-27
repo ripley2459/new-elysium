@@ -34,7 +34,7 @@
 <Recipes useDefault="true">
 	<Recipe timeRequired="9000" power ="20">
 		<input>
-			<itemStack>libvulpes:productingot;7;9</itemStack>
+			<itemStack>thermalfoundation:material;7;132</itemStack>
 			<itemStack>libvulpes:productingot;3;7</itemStack>
 		</input>
 		<output>
@@ -47,7 +47,7 @@
 			<itemStack>minecraft:iron_ingot</itemStack>
 		</input>
 		<output>
-			<itemStack>ic2:ingot;1;5</itemStack>
+			<itemStack>thermalfoundation:material;1;160</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="12000" power ="1">
@@ -60,7 +60,7 @@
 	</Recipe>
 	<Recipe timeRequired="3000" power ="20">
 		<input>
-			<itemStack>ic2:misc_resource;1;1</itemStack>
+			<itemStack>thermalfoundation:material;1;135</itemStack>
 			<itemStack>libvulpes:productingot;1;7</itemStack>
 		</input>
 		<output>

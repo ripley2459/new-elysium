@@ -1,0 +1,14 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"bd609664"
+	],
+	tasks: [{
+		uid: "5918a312",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:matter_analyzer"
+		}]
+	}]
+}

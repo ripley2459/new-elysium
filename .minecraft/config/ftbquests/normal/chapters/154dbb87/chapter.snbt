@@ -1,0 +1,7 @@
+{
+	title: "Chapter III",
+	icon: "contenttweaker:roman_iii_letter",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,6 +1,6 @@
 
 {
-  "ID": 147,
+  "ID": 112,
   "Name": "Weeping Witch Forest",
   "Resource Location": "byg:bweepingwitchforest",
   "Class": "net.mcreator.byg.MCreatorBWeepingWitchForest$BiomeGenCustom",
@@ -20,13 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
+    "FOREST",
     "COLD",
-    "MAGICAL",
-    "PLAINS",
-    "SPARSE",
     "SPOOKY",
-    "FOREST"
+    "MAGICAL",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -140,9 +138,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

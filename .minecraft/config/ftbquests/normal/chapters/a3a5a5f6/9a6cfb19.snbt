@@ -1,0 +1,36 @@
+{
+	title: "Black Holes",
+	x: 0.0d,
+	y: 20.0d,
+	text: [
+		"By iterating through simpler systems you have found a way to create amazingly large storage spaces."
+	],
+	dependencies: [
+		"067a6f95"
+	],
+	tasks: [{
+		uid: "5bcfe73c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "00721879",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_tank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "45302a18",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:black_hole_controller_reworked"
+		}]
+	}]
+}

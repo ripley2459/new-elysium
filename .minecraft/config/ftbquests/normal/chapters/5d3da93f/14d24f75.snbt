@@ -1,0 +1,15 @@
+{
+	title: "Applied Energetics",
+	icon: "chisel:futura 1 2",
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"§bApplied Energetics§r is a very good storage solution.",
+		"",
+		"With this mod you can §estore a very large amount of items inside server§r and create your own §enetwork of server and machines that can automate most of your crafting task§r."
+	],
+	tasks: [{
+		uid: "a28483c1",
+		type: "checkmark"
+	}]
+}

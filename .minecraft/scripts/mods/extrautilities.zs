@@ -2,21 +2,26 @@
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import mods.advancedrocketry.Crystallizer;
+import mods.nuclearcraft.infuser;
+import scripts.utils.recipes as RecipesFunc;
 
 print("========================= START - EXTRA UTILITIES =========================");
 
-// Flat Item Conduit
-recipes.remove(<extrautils2:flattransfernode>);
-recipes.addShapeless(<extrautils2:flattransfernode> * 1, [<ic2:forge_hammer>.anyDamage().transformDamage(), <enderio:item_item_conduit>]);
+// Stonebrunt
+recipes.remove(<extrautils2:decorativesolid:3>);
+infuser.addRecipe([<extrautils2:decorativesolid:2>, <liquid:lava> * 1000, <extrautils2:decorativesolid:3>]);
 
-// Flat Fluid Conduit
-recipes.remove(<extrautils2:flattransfernode:1>);
-recipes.addShapeless(<extrautils2:flattransfernode:1> * 1, [<ic2:forge_hammer>.anyDamage().transformDamage(), <enderio:item_liquid_conduit:1>]);
+// Quartzburnt
+recipes.remove(<extrautils2:decorativesolid:7>);
+infuser.addRecipe([<ore:blockQuartz>, <liquid:lava> * 1000, <extrautils2:decorativesolid:7>]);
 
-// Sun Crystal
-recipes.remove(<extrautils2:suncrystal:250>);
-Crystallizer.addRecipe(<extrautils2:suncrystal:250>, 1200, 2000, <minecraft:diamond>, <enderio:block_holier_fog>*8);
+// Rainbow Stone
+recipes.remove(<extrautils2:decorativesolid:8>);
+infuser.addRecipe([<extrautils2:decorativesolid:3>, <liquid:experience> * 1000, <extrautils2:decorativesolid:8>]);
+
+// Redstone Glass
+recipes.remove(<extrautils2:decorativeglass:5>);
+infuser.addRecipe([<ore:blockGlass>, <liquid:redstone> * 1000, <extrautils2:decorativeglass:5>]);
 
 // Bedrock Bricks
 recipes.remove(<extrautils2:decorativebedrock:0>);
@@ -29,3 +34,11 @@ recipes.addShaped(<extrautils2:decorativebedrock:1> * 9, [[<minecraft:bedrock>, 
 // Bedrock Cobblestone
 recipes.remove(<extrautils2:decorativebedrock:2>);
 recipes.addShaped(<extrautils2:decorativebedrock:2> * 5, [[<minecraft:bedrock>, null, <minecraft:bedrock>], [null, <minecraft:bedrock>, null],[<minecraft:bedrock>, null, <minecraft:bedrock>]]);
+
+// Flat Item Conduit
+recipes.remove(<extrautils2:flattransfernode>);
+RecipesFunc.addhammeringRecipe(<ore:itemDuctThatCanBeFlattened>, <extrautils2:flattransfernode>);
+
+// Flat Fluid Conduit
+recipes.remove(<extrautils2:flattransfernode:1>);
+RecipesFunc.addhammeringRecipe(<ore:fluidDuctThatCanBeFlattened>, <extrautils2:flattransfernode:1>);

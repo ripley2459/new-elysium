@@ -1,6 +1,6 @@
 
 {
-  "ID": 136,
+  "ID": 102,
   "Name": "Dunes",
   "Resource Location": "byg:bdunes",
   "Class": "net.mcreator.byg.MCreatorBDunes$BiomeGenCustom",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
     "HILLS",
+    "SANDY",
     "HOT",
     "DRY"
   ],

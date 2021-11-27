@@ -1,0 +1,7 @@
+{
+	title: "The Defender",
+	icon: "openmodularturrets:rail_gun_turret",
+	always_invisible: false,
+	group: 357415815,
+	default_quest_shape: ""
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "ibris_echo",
+  "Registry ID": "minejurassic:ibris_echo",
+  "Class": "net.mcreator.minejurassic.entity.EntityIBRIS_Echo.EntityCustom"
+}

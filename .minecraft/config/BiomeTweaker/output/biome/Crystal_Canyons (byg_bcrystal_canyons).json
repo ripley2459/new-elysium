@@ -1,6 +1,6 @@
 
 {
-  "ID": 192,
+  "ID": 153,
   "Name": "Crystal Canyons",
   "Resource Location": "byg:bcrystal_canyons",
   "Class": "net.mcreator.byg.MCreatorBCrystal_Canyons$BiomeGenCustom",
@@ -20,13 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "MAGICAL",
-    "HOT",
-    "PLAINS",
-    "DRY",
     "MESA",
-    "MOUNTAIN"
+    "MAGICAL",
+    "RARE",
+    "MOUNTAIN",
+    "HOT",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

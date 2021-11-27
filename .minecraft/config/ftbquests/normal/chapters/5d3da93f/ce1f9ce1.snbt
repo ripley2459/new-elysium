@@ -1,0 +1,29 @@
+{
+	title: "Ore Excavation",
+	icon: "minecraft:diamond_pickaxe",
+	x: -2.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"§4New Elysium§r contains the §bOre Excavation§r mod.",
+		"",
+		"For those in the background who do not follow, §bOre Excavation§r is a mod that allows you to §emine thousands of blocks in record time§r.",
+		"",
+		"§eThat work on everything§r, ore veins, trees, even your ugly constructions...",
+		"",
+		"So bind the feature and abuse it."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be7fd2ce",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "367f31ed",
+		type: "item",
+		item: "tp:birthday_pickaxe"
+	}]
+}

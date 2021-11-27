@@ -1,6 +1,6 @@
 
 {
-  "ID": 123,
+  "ID": 96,
   "Name": "Shrublands",
   "Resource Location": "byg:bshrublands",
   "Class": "net.mcreator.byg.MCreatorBShrublands$BiomeGenCustom",
@@ -21,10 +21,7 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
-    "PLAINS",
-    "DRY",
-    "SAVANNA",
-    "SPARSE"
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -54,6 +51,12 @@
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
       "Weight": 8,
       "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityDuck",
+      "Weight": 7,
+      "Min Group Count": 2,
       "Max Group Count": 4
     }
   ],
@@ -132,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

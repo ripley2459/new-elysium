@@ -1,0 +1,87 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"64776603"
+	],
+	tasks: [{
+		uid: "bdc91955",
+		type: "item",
+		items: [{
+			id: "wct:wct_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9922b39e",
+		type: "item",
+		items: [{
+			id: "wft:wft_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d934c522",
+		type: "item",
+		items: [{
+			id: "wit:wit_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ebfd91f8",
+		type: "item",
+		items: [{
+			id: "wpt:wpt_creative",
+			tag: {
+				IsInRange: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ebd8aa2",
+		type: "item",
+		item: {
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wit:wit_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wpt:wpt_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wft:wft_creative",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					id: "wct:wct_creative",
+					Count: 1b,
+					Damage: 0s
+				}],
+				IsInRange: 0b,
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}
+	}]
+}

@@ -11,10 +11,8 @@ In addition, the pack has a complete overhaul of the appearance. Most of the men
 The pack has a large quest line to guide your progression and teach you how to use most of the modpack's mods.
 
 COLORS
-YELLOW      fcf1ce
-BLUE        192c3b
-RED         e2584f
-LIGHT GREY  3e3e3e
-DARK GREY   232323
-
-Roadmap : https://trello.com/b/W0hpQJqO/new-elysium
+* YELLOW      fcf1ce
+* BLUE        192c3b
+* RED         e2584f
+* LIGHT GREY  3e3e3e
+* DARK GREY   232323

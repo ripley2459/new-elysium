@@ -1,6 +1,6 @@
 
 {
-  "ID": 186,
+  "ID": 145,
   "Name": "Aspen Forest",
   "Resource Location": "byg:baspenforest",
   "Class": "net.mcreator.byg.MCreatorBAspenForest$BiomeGenCustom",
@@ -20,7 +20,6 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
     "FOREST"
   ],
   "BiomeManager Entries": {
@@ -135,9 +134,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

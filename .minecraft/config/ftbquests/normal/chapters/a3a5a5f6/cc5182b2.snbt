@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: 13.0d,
+	text: [
+		"You've found a method to delay the teleportation process. It's not perfect yet, but it works."
+	],
+	dependencies: [
+		"8fa7415e"
+	],
+	tasks: [{
+		uid: "e5aec519",
+		type: "item",
+		items: [{
+			item: "randomthings:stableenderpearl"
+		}]
+	}]
+}

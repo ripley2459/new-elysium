@@ -1,5 +1,5 @@
-#Wed Sep 08 15:31:34 CEST 2021
-shaderPack=OFF
+#Thu Nov 18 19:20:30 CET 2021
+shaderPack=
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
@@ -7,8 +7,8 @@ renderResMul=1.0
 shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false
-oldHandLight=true
-oldLighting=true
+oldHandLight=default
+oldLighting=default
 tweakBlockDamage=false
 shadowClipFrustrum=true
 TexMinFilB=0

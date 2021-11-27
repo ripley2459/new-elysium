@@ -1,6 +1,6 @@
 
 {
-  "ID": 126,
+  "ID": 99,
   "Name": "Allium Fields",
   "Resource Location": "byg:balliumfields",
   "Class": "net.mcreator.byg.MCreatorBAlliumFields$BiomeGenCustom",
@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "PLAINS"
+    "PLAINS",
+    "RARE"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -135,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

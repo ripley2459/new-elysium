@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "SUPER_BIRCH_TREES",
-    "FOREST",
-    "RARE",
     "THEMED_TREES",
+    "FOREST",
+    "SUPER_BIRCH_TREES",
+    "DENSE",
+    "RARE",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
@@ -128,6 +128,36 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityMeleeRougeAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "matteroverdrive.entity.monster.EntityRangedRogueAndroidMob",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "vibrantjourneys.entities.neutral.EntityGhost",
       "Weight": 65,
       "Min Group Count": 1,
@@ -153,9 +183,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

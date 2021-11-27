@@ -1,6 +1,6 @@
 
 {
-  "ID": 181,
+  "ID": 139,
   "Name": "Outlands",
   "Resource Location": "byg:boutlands",
   "Class": "net.mcreator.byg.MCreatorBOutlands$BiomeGenCustom",
@@ -20,19 +20,24 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
     "WASTELAND",
+    "SANDY",
     "HOT",
-    "PLAINS",
-    "DRY",
-    "SAVANNA"
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
       4
     ]
   },
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityDuck",
+      "Weight": 7,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "vibrantjourneys.entities.neutral.EntityGhost",

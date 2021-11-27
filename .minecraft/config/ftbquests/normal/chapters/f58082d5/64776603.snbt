@@ -1,0 +1,21 @@
+{
+	title: "Infinity Ingot",
+	icon: "avaritia:resource 1 6",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"The §2Ultimate Singularity§r isn't useful in that primitive form. After some research you have elaborated a protocol to reshape it in a more common state."
+	],
+	dependencies: [
+		"e204d007"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c92c6075",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

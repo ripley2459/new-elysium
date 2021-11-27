@@ -1,6 +1,6 @@
 
 {
-  "ID": 43,
+  "ID": 44,
   "Name": "Redwood Peaks",
   "Resource Location": "pvj:redwood_peaks",
   "Class": "vibrantjourneys.biomes.BiomeRedwoods",
@@ -154,9 +154,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

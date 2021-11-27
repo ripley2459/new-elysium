@@ -1,6 +1,6 @@
 
 {
-  "ID": 177,
+  "ID": 135,
   "Name": "Prairie",
   "Resource Location": "byg:bprairie",
   "Class": "net.mcreator.byg.MCreatorBPrairie$BiomeGenCustom",
@@ -135,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

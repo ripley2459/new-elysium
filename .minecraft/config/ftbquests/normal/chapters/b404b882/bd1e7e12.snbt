@@ -1,0 +1,51 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	text: [
+		"If you want to store more items in one chest you have to reinforce this chest (unless you want to be submerged by random §mgarbages§r items).",
+		"",
+		"  *  §2Copper Chest§r: §e45 slots§r;",
+		"  *  §2Iron Chest§r: §e54 slots§r;",
+		"  *  §2Silver Chest§r: §e72 slots§r;",
+		"  *  §2Iron Chest§r: §e81 slots§r;",
+		"  *  §2Diamond Chest§r: §e108 slots§r."
+	],
+	dependencies: [
+		"5dd097f0"
+	],
+	tasks: [{
+		uid: "56e6975a",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 3"
+		}]
+	},
+	{
+		uid: "5f0978a1",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	},
+	{
+		uid: "e6b4a7ab",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 4"
+		}]
+	},
+	{
+		uid: "a8587f7e",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 1"
+		}]
+	},
+	{
+		uid: "dc2e69ad",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}]
+}

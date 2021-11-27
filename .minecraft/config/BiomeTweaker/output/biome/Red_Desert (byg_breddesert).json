@@ -1,6 +1,6 @@
 
 {
-  "ID": 137,
+  "ID": 103,
   "Name": "Red Desert",
   "Resource Location": "byg:breddesert",
   "Class": "net.mcreator.byg.MCreatorBRedDesert$BiomeGenCustom",
@@ -22,7 +22,6 @@
   "Dictionary Types": [
     "SANDY",
     "HOT",
-    "PLAINS",
     "DRY"
   ],
   "BiomeManager Entries": {

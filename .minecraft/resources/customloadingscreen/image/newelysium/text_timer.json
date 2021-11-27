@@ -1,6 +1,6 @@
 {
     "parent": "builtin/text",
-    "image": "customloadingscreen:font/ascii.png",
+    "image": "minecraft:textures/font/ascii.png",
     "position_type": "BOTTOM_LEFT",
     "offset_pos": "BOTTOM_LEFT",
     "text": "floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's'",

@@ -1,6 +1,6 @@
 
 {
-  "ID": 139,
+  "ID": 105,
   "Name": "Dead Sea",
   "Resource Location": "byg:bdeadsea",
   "Class": "net.mcreator.byg.MCreatorBDeadSea$BiomeGenCustom",
@@ -21,11 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "OCEAN",
-    "WATER",
     "DEAD",
-    "HOT",
-    "PLAINS",
-    "SPOOKY"
+    "SPOOKY",
+    "WATER",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

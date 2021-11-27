@@ -1,0 +1,39 @@
+{
+	title: "Ender's Eyes",
+	icon: "minecraft:ender_eye",
+	x: 2.0d,
+	y: 17.0d,
+	text: [
+		"The use of Ender's pearls has created some kind of visions in you.",
+		"",
+		"One night when you were almost asleep, a perfect eye appeared followed by strange feelings. Some kind of voice asked you to find those eyes.",
+		"",
+		"Unfortunately, nothing you could see matched your vision.",
+		"",
+		"And as the vision disappeared you saw particles that might be useful to you."
+	],
+	dependencies: [
+		"8fa7415e"
+	],
+	tasks: [{
+		uid: "49e39384",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}]
+	},
+	{
+		uid: "f1c42c69",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	},
+	{
+		uid: "487e2ae8",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}]
+	}]
+}

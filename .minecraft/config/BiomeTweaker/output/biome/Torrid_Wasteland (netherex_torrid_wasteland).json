@@ -1,6 +1,6 @@
 
 {
-  "ID": 83,
+  "ID": 56,
   "Name": "Torrid Wasteland",
   "Resource Location": "netherex:torrid_wasteland",
   "Class": "logictechcorp.netherex.world.biome.BiomeTorridWasteland",
@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "PLAINS",
-    "SAVANNA",
     "NETHER",
-    "HOT",
-    "WASTELAND"
+    "WASTELAND",
+    "SAVANNA",
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

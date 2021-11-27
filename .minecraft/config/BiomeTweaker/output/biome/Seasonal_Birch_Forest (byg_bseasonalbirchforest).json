@@ -1,6 +1,6 @@
 
 {
-  "ID": 168,
+  "ID": 119,
   "Name": "Seasonal Birch Forest",
   "Resource Location": "byg:bseasonalbirchforest",
   "Class": "net.mcreator.byg.MCreatorBSeasonalBirchForest$BiomeGenCustom",
@@ -20,9 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "PLAINS",
-    "FOREST"
+    "FOREST",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -136,9 +135,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

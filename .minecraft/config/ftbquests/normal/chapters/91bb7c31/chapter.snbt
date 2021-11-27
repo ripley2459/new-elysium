@@ -1,7 +1,0 @@
-{
-	title: "Matter Manipulation",
-	icon: "projecte:item.pe_transmutation_tablet",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

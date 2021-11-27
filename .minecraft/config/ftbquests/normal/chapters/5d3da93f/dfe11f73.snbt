@@ -1,0 +1,10 @@
+{
+	title: "Industrial Foregoing",
+	icon: "industrialforegoing:latex_processing_unit",
+	x: 10.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "869d1c57",
+		type: "checkmark"
+	}]
+}

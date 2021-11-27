@@ -1,0 +1,13 @@
+{
+	title: "RF Tools",
+	icon: "rftools:crafter3",
+	x: 10.0d,
+	y: -2.0d,
+	text: [
+		"§bRF Tools§r provide §eoverpowered machines§r that can handle and §eautomated a lot of tasks§r."
+	],
+	tasks: [{
+		uid: "eb5f0e66",
+		type: "checkmark"
+	}]
+}

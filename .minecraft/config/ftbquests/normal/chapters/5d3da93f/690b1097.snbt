@@ -1,0 +1,23 @@
+{
+	title: "Teams",
+	icon: "openblocks:generic",
+	x: -2.5d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"If your are playing on server, your can use the §bFTB§r's mods. With theses mods you can create teams for data synchronization and chunk guarding."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eb0c9355",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b0f7da9b",
+		type: "item",
+		item: "betterbuilderswands:wandiron"
+	}]
+}

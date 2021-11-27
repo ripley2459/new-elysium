@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: -7.5d,
+	tasks: [{
+		uid: "a4f7260e",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:network_pipe"
+		}]
+	},
+	{
+		uid: "da1d365b",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:network_switch"
+		}]
+	}]
+}

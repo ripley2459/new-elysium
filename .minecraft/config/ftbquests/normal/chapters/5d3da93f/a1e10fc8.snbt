@@ -1,0 +1,30 @@
+{
+	title: "Quests",
+	icon: "ftbquests:book",
+	x: 2.0d,
+	y: -2.0d,
+	shape: "circle",
+	text: [
+		"Due to some changes, progressing through mods can be a bit §emore difficult than usual§r.",
+		"",
+		"Besides §etelling you a story§r, quests are a good way to §elearn how to use mods and to progress§r.",
+		"",
+		"If you want a concrete objective for this pack, you can try to complete the quests line: §2Beyond the Matrix§r.",
+		"",
+		"§4§nQUESTS AREN'T FINISHED YET.§r"
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "98c1db0a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "331dfc79",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 10
+	}]
+}

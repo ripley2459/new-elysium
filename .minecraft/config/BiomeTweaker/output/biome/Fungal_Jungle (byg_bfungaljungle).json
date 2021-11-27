@@ -1,6 +1,6 @@
 
 {
-  "ID": 108,
+  "ID": 81,
   "Name": "Fungal Jungle",
   "Resource Location": "byg:bfungaljungle",
   "Class": "net.mcreator.byg.MCreatorBFungalJungle$BiomeGenCustom",
@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
-    "HOT",
     "WET",
-    "JUNGLE"
+    "DENSE",
+    "JUNGLE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -137,9 +137,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

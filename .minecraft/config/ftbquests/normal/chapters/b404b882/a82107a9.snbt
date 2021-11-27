@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "38f008b5",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers"
+		}]
+	},
+	{
+		uid: "384de4d8",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers 1 1"
+		}]
+	},
+	{
+		uid: "154a8960",
+		type: "item",
+		items: [{
+			item: "storagedrawers:customdrawers 1 2"
+		}]
+	}]
+}

@@ -7,69 +7,121 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.utils.recipes as RecipesFunc;
 import mods.techguns.MetalPress;
-import mods.ic2.MetalFormer;
+import mods.nuclearcraft.pressurizer;
+import mods.tconstruct.Casting;
 
 print("========================= START - PLATES =========================");
 
-// Plates
-val plates = {
-	<ic2:plate> : <ic2:ingot:1>,
-	<ic2:plate:1> : <ic2:ingot:2>,
-	<ic2:plate:2> : <minecraft:gold_ingot>,
-	<ic2:plate:3> : <minecraft:iron_ingot>,
-	<ic2:plate:4> : <minecraft:dye:4>,
-	<ic2:plate:5> : <ic2:ingot:3>,
-	<advancedrocketry:productplate> : <advancedrocketry:productingot>,
-	<advancedrocketry:productplate:1> : <advancedrocketry:productingot:1>,
-	<libvulpes:productplate:3> : <libvulpes:productingot:3>,
-	<libvulpes:productplate:7> : <libvulpes:productingot:7>,
-	<libvulpes:productplate:9> : <libvulpes:productingot:9>,
-	<libvulpes:productplate:10> : <libvulpes:productgem>,
-	<techguns:itemshared:51> : <techguns:itemshared:84>,
-	<techguns:itemshared:53> : <techguns:itemshared:64>,
-	<jaopca:item_platequartz> : <minecraft:quartz>,
-	<jaopca:item_plateruby> : <projectred-core:resource_item:200>,
-	<jaopca:item_platesapphire> : <projectred-core:resource_item:201>,
-	<jaopca:item_plateperidot> : <projectred-core:resource_item:202>,
-	<jaopca:item_plateenderbiotite> : <quark:biotite>,
-	<jaopca:item_plateemerald> : <minecraft:emerald>,
-	<jaopca:item_platedimensionalshard> : <rftools:dimensional_shard>,
-	<jaopca:item_platedilithium> : <libvulpes:productgem>,
-	<jaopca:item_platediamond> : <minecraft:diamond>,
-	<jaopca:item_platecoal> : <minecraft:coal>,
-	<jaopca:item_platechargedcertusquartz> : <appliedenergistics2:material:1>,
-	<jaopca:item_platecertusquartz> : <appliedenergistics2:material>,
-	<ic2:plate:6> : <minecraft:obsidian>,
-	<ic2:plate:7> : <ic2:ingot:5>,
-	<ic2:plate:8> : <ic2:ingot:6>,
-	<jaopca:item_plateardite> : <tconstruct:ingots:1>,
-	<jaopca:item_platecobalt> : <tconstruct:ingots>,
-	<jaopca:item_platesilver> : <ic2:ingot:4>,
-	<jaopca:item_plateuranium> : <techguns:itemshared:97>
+// A plate is manufactured using hand method, pressurizer from Nuclearcraft, casting from Tinker's Construct and metal Press from Techguns.
 
-	// <ic2:plate:3> : <ore:ingotIron>,
-	// <ic2:plate:5> : <ore:ingotLead>,
-	// <ic2:plate:7> : <ore:ingotSteel>,
-	// <ic2:plate:8> : <ore:ingotTin>,
-	//<ic2:crafting:15> : <ore:ingotfiberCarbon>,
-	// <techguns:itemshared:51> : <ore:ingotObsidianSteel>,
-	//<techguns:itemshared:53> : <ore:ingotfiberCarbon>,
-	// <techguns:itemshared:54> : <ore:ingotTitanium>,
-	// <advancedrocketry:productplate> : <ore:ingotTitaniumAluminide>,
-	// <advancedrocketry:productplate:1> : <ore:ingotTitaniumIridium>,
-	// <libvulpes:productplate:3> : <ore:ingotSilicon>,
-	// <libvulpes:productplate:7> : <ore:ingotTitanium>,
-	// <libvulpes:productplate:9> : <ore:ingotAluminum>,
-	// <libvulpes:productplate:10> : <ore:ingotIridium>
-} as IItemStack[IItemStack];
+// Variables
+var processCastingAmount = 144 as int;
+var processCastingTimer = 200 as int;
 
-for plate in plates {
-	recipes.remove(plate);
-	MetalPress.removeRecipe(plate);
-	RecipesFunc.hammeringRecipe(plates[plate], plate);
-	MetalPress.addRecipe(plates[plate], plates[plate], plate * 2, true);
-	MetalFormer.addRollingRecipe(plate, plates[plate]);
-}
+// Obsidian Steel Plate
+// This plate can't be casted due to the absence of Molten Obsidian Steel.
+RecipesFunc.addhammeringRecipe(<ore:ingotObsidianSteel>, <techguns:itemshared:51>);
 
-// Steel Casing
-recipes.addShapeless(<ic2:casing:5>*2, [<ore:plateSteel>, <ic2:forge_hammer>.anyDamage().transformDamage()]);
+// Carbon Plate
+MetalPress.removeRecipe(<techguns:itemshared:53>);
+MetalPress.addRecipe("ingotCarbon", "ingotCarbon", <techguns:itemshared:53> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotCarbon>, <techguns:itemshared:53>);
+
+// Tritanium Plate
+recipes.remove(<matteroverdrive:tritanium_plate>);
+MetalPress.addRecipe("ingotTritanium", "ingotTritanium", <matteroverdrive:tritanium_plate> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotTritanium>, <matteroverdrive:tritanium_plate>);
+pressurizer.addRecipe([<ore:ingotTritanium>, <matteroverdrive:tritanium_plate>]);
+Casting.addTableRecipe(<matteroverdrive:tritanium_plate>, <tconstruct:cast_custom:3>, <liquid:molten_tritanium>, processCastingAmount, false, processCastingTimer);
+
+// Titanium Plate
+MetalPress.addRecipe("ingotTitanium", "ingotTitanium", <libvulpes:productplate:7> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotTitanium>, <libvulpes:productplate:7>);
+
+// Aluminum Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotAluminum>, <thermalfoundation:material:324>);
+MetalPress.addRecipe("ingotAluminum", "ingotAluminum", <thermalfoundation:material:324> * 2, true);
+
+// Silver Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotSilver>, <thermalfoundation:material:322>);
+MetalPress.addRecipe("ingotSilver", "ingotSilver", <thermalfoundation:material:322> * 2, true);
+
+// Copper Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotCopper>, <thermalfoundation:material:320>);
+MetalPress.addRecipe("ingotCopper", "ingotCopper", <thermalfoundation:material:320> * 2, true);
+
+// Iron Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotIron>, <thermalfoundation:material:32>);
+MetalPress.addRecipe("ingotIron", "ingotIron", <thermalfoundation:material:32> * 2, true);
+
+// Steel Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotSteel>, <thermalfoundation:material:352>);
+MetalPress.addRecipe("ingotSteel", "ingotSteel", <thermalfoundation:material:352> * 2, true);
+
+// Bronze Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotBronze>, <thermalfoundation:material:355>);
+MetalPress.addRecipe("ingotBronze", "ingotBronze", <thermalfoundation:material:355> * 2, true);
+
+// Invar Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotInvar>, <thermalfoundation:material:354>);
+MetalPress.addRecipe("ingotInvar", "ingotInvar", <thermalfoundation:material:354> * 2, true);
+
+// Constantan Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotConstantan>, <thermalfoundation:material:356>);
+MetalPress.addRecipe("ingotConstantan", "ingotConstantan", <thermalfoundation:material:356> * 2, true);
+
+// Signalum Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotSignalum>, <thermalfoundation:material:357>);
+MetalPress.addRecipe("ingotSignalum", "ingotSignalum", <thermalfoundation:material:357> * 2, true);
+
+// Lumium Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotLumium>, <thermalfoundation:material:358>);
+MetalPress.addRecipe("ingotLumium", "ingotLumium", <thermalfoundation:material:358> * 2, true);
+
+// Electrum Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotElectrum>, <thermalfoundation:material:353>);
+MetalPress.addRecipe("ingotElectrum", "ingotElectrum", <thermalfoundation:material:353> * 2, true);
+
+// Lead Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotLead>, <thermalfoundation:material:323>);
+MetalPress.addRecipe("ingotLead", "ingotLead", <thermalfoundation:material:323> * 2, true);
+
+// Tin Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotTin>, <thermalfoundation:material:321>);
+MetalPress.addRecipe("ingotTin", "ingotTin", <thermalfoundation:material:321> * 2, true);
+
+// Gold Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotGold>, <thermalfoundation:material:33>);
+MetalPress.addRecipe("ingotGold", "ingotGold", <thermalfoundation:material:33> * 2, true);
+
+// Nickel Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotNickel>, <thermalfoundation:material:325>);
+MetalPress.addRecipe("ingotNickel", "ingotNickel", <thermalfoundation:material:325> * 2, true);
+
+// Iridium Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotIridium>, <thermalfoundation:material:327>);
+MetalPress.addRecipe("ingotIridium", "ingotIridium", <thermalfoundation:material:327> * 2, true);
+
+// Enderium Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotEnderium>, <thermalfoundation:material:359>);
+MetalPress.addRecipe("ingotEnderium", "ingotEnderium", <thermalfoundation:material:359> * 2, true);
+
+// Mithril Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotMithril>, <thermalfoundation:material:328>);
+MetalPress.addRecipe("ingotMithril", "<ingotMithril>", <thermalfoundation:material:328> * 2, true);
+
+// Platinum Plate
+RecipesFunc.addhammeringRecipe(<ore:ingotPlatinum>, <thermalfoundation:material:326>);
+MetalPress.addRecipe("ingotPlatinum", "ingotPlatinum", <thermalfoundation:material:326> * 2, true);
+
+// Titanum Iridium Plate
+MetalPress.addRecipe("ingotTitaniumIridium", "ingotTitaniumIridium", <advancedrocketry:productplate:1> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotTitaniumIridium>, <advancedrocketry:productplate:1>);
+
+// Titanum Aluminide Plate
+MetalPress.addRecipe("ingotTitaniumAluminide", "ingotTitaniumAluminide", <advancedrocketry:productplate> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotTitaniumAluminide>, <advancedrocketry:productplate>);
+
+// Silicon Plate
+MetalPress.addRecipe("ingotSilicon", "ingotSilicon", <libvulpes:productplate:3> * 2, true);
+RecipesFunc.addhammeringRecipe(<ore:ingotSilicon>, <libvulpes:productplate:3>);

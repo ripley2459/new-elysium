@@ -1,0 +1,28 @@
+{
+	title: "Fabricator",
+	x: -0.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "49df885a",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 2"
+		}]
+	},
+	{
+		uid: "c2983a63",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e1a5872f",
+		type: "item",
+		items: [{
+			item: "techguns:multiblockmachine 1 1"
+		}],
+		count: 4L
+	}]
+}

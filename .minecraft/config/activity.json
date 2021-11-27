@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Ripley2459",
+      "uniqueId": "2dcb4b7e-764d-4987-b996-007e70ab5978"
+    },
+    "time": 1637256009380,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/2ZTt66Ggq4"
+    }
+  }
+]

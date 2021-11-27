@@ -1,0 +1,7 @@
+{
+	title: "Chapter II",
+	icon: "contenttweaker:roman_ii_letter",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	dependencies: [
+		"b0fe714e",
+		"bee9d953",
+		"9364e807",
+		"b7855328"
+	],
+	tasks: [{
+		uid: "940864d2",
+		type: "item",
+		items: [{
+			item: "matteroverdrive:replicator"
+		}]
+	}]
+}

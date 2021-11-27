@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 11.0d,
+	dependencies: [
+		"2137a9b8"
+	],
+	tasks: [{
+		uid: "ddbe4eb8",
+		type: "item",
+		items: [{
+			item: "randomthings:prismarineenderbridge"
+		}]
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Backups",
+	icon: {
+		id: "opencomputers:storage",
+		tag: {
+			"oc:data": {
+				"oc:fs.label": "irc"
+			},
+			"oc:color": 12,
+			display: {
+				Name: "OpenIRC (IRC Client)"
+			},
+			"oc:lootFactory": "opencomputers:irc"
+		},
+		Damage: 1s
+	},
+	x: 0.0d,
+	y: 2.5d,
+	shape: "circle",
+	text: [
+		"With §bAromaBackup§r, §eyour world is regularly backed up§r.",
+		"",
+		"Your mistakes (like unexpected explosions) or modpack update (recipes, configs or mod updates) can break your world, in this case §eyou can get your world back in the world creation menu§r or directly §ein the modpack folders§r."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a696721",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a51338ca",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	}]
+}

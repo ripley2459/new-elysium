@@ -1,7 +1,0 @@
-{
-	title: "Progression",
-	icon: "opencomputers:upgrade 1 10",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

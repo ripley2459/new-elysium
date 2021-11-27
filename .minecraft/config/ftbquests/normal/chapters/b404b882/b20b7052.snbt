@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	or_tasks: true,
+	tasks: [{
+		uid: "ecd2043f",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16"
+		}]
+	},
+	{
+		uid: "96e55d81",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 1"
+		}]
+	}]
+}

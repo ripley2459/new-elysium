@@ -1,15 +1,13 @@
-entity.certusquartzchicken.name=Certus Quartz Chicken
-entity.netherrackchicken.name=Netherrack Chicken
-entity.psimetalchicken.name=Psimetal Chicken
-entity.ebonypsimetalchicken.name=Ebony Psimetal Chicken
-entity.ivorypsimetalchicken.name=Ivory Psimetal Chicken
-entity.netherstarchicken.name=Nether Star Chicken
-entity.neutroniumchicken.name=Neutronium Chicken
-entity.infinitychicken.name=Infinity Chicken
-entity.endstonechicken.name=End Stone Chicken
-entity.dilithiumchicken.name=Dilithium Chicken
-entity.inferiumchicken.name=Inferium Chicken
-entity.prosperitychicken.name=Prosperity Chicken
-entity.souliumchicken.name=Soulium Chicken
+item.contenttweaker.iron_hammer.name=Iron Hammer
+item.contenttweaker.iron_mortar.name=Iron Mortar
+item.contenttweaker.iron_pincer.name=Iron Pincer
 
-tile.contenttweaker.infinity_crux.name=Infinity Crux
+item.contenttweaker.new_elysium_icon.name=New Elysium Icon
+item.contenttweaker.star_shaped_biscuit.name=Star Shaped Biscuit
+item.contenttweaker.energy_ic_board.name=Energy IO Circuit Board
+
+item.contenttweaker.roman_i_letter.name=I
+item.contenttweaker.roman_ii_letter.name=II
+item.contenttweaker.roman_iii_letter.name=III
+item.contenttweaker.roman_iv_letter.name=IV
+item.contenttweaker.roman_v_letter.name=V

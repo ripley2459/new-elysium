@@ -1,6 +1,6 @@
 
 {
-  "ID": 93,
+  "ID": 66,
   "Name": "Ocean Spires",
   "Resource Location": "advancedrocketry:oceanspires",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires",
@@ -100,9 +100,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",

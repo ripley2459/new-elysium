@@ -1,7 +1,0 @@
-{
-	title: "Seeds",
-	icon: "mysticalagradditions:tier6_inferium_seeds",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

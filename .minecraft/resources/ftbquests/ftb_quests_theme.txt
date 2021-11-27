@@ -1,6 +1,6 @@
 [*]
 background:          ftbquests:textures/gui/background.png; color=#FFFFFFFF; tile_size=64
-extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear
+extra_quest_shapes:  diamond, pentagon, hexagon, octagon, heart, gear, elysium
 
 text_color:          #FFFFFF
 hover_text_color:    #FFFFA0

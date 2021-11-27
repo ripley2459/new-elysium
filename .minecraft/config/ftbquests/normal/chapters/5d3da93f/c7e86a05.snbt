@@ -1,0 +1,38 @@
+{
+	title: "Performances",
+	icon: "thermalfoundation:material 1 262",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "circle",
+	text: [
+		"§4Minecraft§r isn't a well optimized game, using a large amount of mods reduce even more the game's performances. §eYou have to spend some time in the settings menu to manage your game performances§r.",
+		"",
+		"§4New Elysium§r is delivered with some §eperformances mods§r, like §bBetter FPS§r, §bRandom Patches§r, §bPerformant§r or §bFoamFix§r. §eDon't forget to check their settings§r.",
+		"",
+		"§nSome settings have a large impact on performances:§r",
+		"  *  Antialiasing;",
+		"  *  §eMipMap§r;",
+		"  *  Particles;",
+		"  *  §eFog§r;",
+		"  *  Custom xxxx.",
+		"",
+		"§bOptifine§r is also a good way to improve your fps. Unfortunately, the mod cannot be included in modpacks, so §eyou have to install it manually§r.",
+		"",
+		"§8(If New Elysium hits a large number of downloads, I would take steps to include it by default.)§r",
+		"",
+		"§eYou should use §bOptifine§r §ecarefully, in some cases, it can reduce your performances§r."
+	],
+	dependencies: [
+		"8f8adc43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3eb2e7d4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a4b96864",
+		type: "item",
+		item: "thermalfoundation:material 1 294"
+	}]
+}

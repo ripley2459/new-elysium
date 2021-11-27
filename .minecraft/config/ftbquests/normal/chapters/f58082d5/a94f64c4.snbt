@@ -1,0 +1,44 @@
+{
+	title: "Infinite Storage",
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"64776603"
+	],
+	tasks: [{
+		uid: "c25284d7",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativechest"
+		}]
+	},
+	{
+		uid: "fbc0d516",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bee94d55",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 4"
+		}]
+	},
+	{
+		uid: "583cd135",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "d5f7b7cc",
+		type: "item",
+		item: "storagedrawers:upgrade_creative 1 1"
+	}]
+}

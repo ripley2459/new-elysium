@@ -1,6 +1,6 @@
 
 {
-  "ID": 100,
+  "ID": 73,
   "Name": "Red Oak Forest",
   "Resource Location": "byg:bredoakforest",
   "Class": "net.mcreator.byg.MCreatorBRedOakForest$BiomeGenCustom",
@@ -134,9 +134,9 @@
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
-      "Weight": 50,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
