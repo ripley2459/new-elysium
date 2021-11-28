@@ -18,9 +18,13 @@ print("========================= START - REMOVE AND HIDE =======================
 
 // Replace occurences
 recipes.replaceAllOccurences(<teslacorelib:machine_case>, <nuclearcraft:part:10>);
+recipes.replaceAllOccurences(<techguns:itemshared:68>, <ore:coilTitanium>);
+recipes.replaceAllOccurences(<ironjetpacks:basic_coil>, <ore:coilCopper>);
+recipes.replaceAllOccurences(<ironjetpacks:advanced_coil>, <ore:coilGold>);
 
 // REMOVE AND HIDE
 val remove_and_hide = [
+	<thermalfoundation:material:895>,
 	<quark:diamond_heart>,
 	<teslacorelib:machine_case>,
 	<projectred-core:resource_item:410>,
@@ -144,6 +148,14 @@ val remove_and_hide = [
 	<byg:structurecheckblock>,
 	<byg:structure_check_block_disabled>,
 	<avaritia:matter_cluster>,
+	<projectred-core:resource_item:401>,
+	<projectred-core:resource_item:400>,
+	<projectred-core:resource_item:402>,
+	<techguns:itemshared:68>,
+	<ironjetpacks:basic_coil>,
+	<ironjetpacks:advanced_coil>,
+	<ironjetpacks:elite_coil>,
+	<ironjetpacks:ultimate_coil>,
 
 	// Componants
 	// Plates
@@ -174,9 +186,9 @@ val remove_and_hide = [
 	<libvulpes:productdust:2>,
 	<appliedenergistics2:material:51>,
 	<libvulpes:productdust:9>,
-	<tp:ender_dust>,
 	<libvulpes:productdust:10>,
 	<nuclearcraft:gem_dust:3>,
+	<appliedenergistics2:material:46>,
 	<nuclearcraft:gem_dust:7>,
 	<appliedenergistics2:material:3>,
 	<tp:obsidian_dust>,
@@ -193,21 +205,27 @@ val remove_and_hide = [
 	<thermalfoundation:material:128>,
 	<thermalfoundation:material:132>,
 	<thermalfoundation:material:135>,
-	
+	*/
+	<appliedenergistics2:material:5>,
+	<nuclearcraft:gem:6>,
+	<projectred-core:resource_item:300>,
+	<projectred-core:resource_item:301>,
+
 	// Ores...
-	<techguns:basicore>,
-	<thermalfoundation:ore>,
-	<techguns:basicore:1>,
-	<thermalfoundation:ore:1>,
+	<iceandfire:silver_ore>,
+	<nuclearcraft:ore:2>,
+	<nuclearcraft:ore:1>,
+	<nuclearcraft:ore>,
 	<matteroverdrive:dilithium_ore>,
+	<techguns:basicore:4>,
+	<thermalfoundation:ore>,
+	<thermalfoundation:ore:1>,
+	<techguns:basicore:2>,
+	<techguns:basicore:1>,
+	<techguns:basicore>,
 	<thermalfoundation:ore:7>,
 	<thermalfoundation:ore:4>,
-	<techguns:basicore:4>,
 	<techguns:basicore:3>,
-	<iceandfire:silver_ore>,
-	<techguns:basicore:2>,
-	*/
-
 
 	//!\\ Technical items
 	<minecraft:barrier>,

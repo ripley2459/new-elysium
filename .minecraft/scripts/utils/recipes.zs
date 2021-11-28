@@ -25,6 +25,14 @@ function addSawingRecipe(input as IIngredient, output as IItemStack) {
 	recipes.addShapeless(output, [<microblockcbe:saw_iron>.anyDamage().transformDamage(), input]);
 }
 
+function addPincerRecipe(input as IIngredient, output as IItemStack) {
+	recipes.addShapeless(output, [<contenttweaker:iron_pincer>.anyDamage().transformDamage(), input]);
+}
+
+function addStickRecipe(input as IIngredient, output as IItemStack) {
+	recipes.addShaped(output, [[<contenttweaker:iron_pincer>.anyDamage().transformDamage(), input, null], [null, input, null],[null, null, null]]);
+}
+
 function addGearRecipe(input as IIngredient, output as IItemStack) {
     recipes.addShaped(output, [[null, input, null], [input, null, input],[null, input, null]]);
 }
