@@ -1,6 +1,5 @@
 #priority -9000
 #no_fix_recipe_book
-#ikwid
 
 // This script makes uncraftable and hides items.
 // In order to simplify recipes and remove redundancies.
@@ -8,11 +7,13 @@
 import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 import moretweaker.matteroverdrive.Matter;
 import mods.appliedenergistics2.Grinder;
 import mods.avaritia.ExtremeCrafting;
 import mods.ltt.LootTable;
 import mods.techguns.MetalPress;
+import mods.nuclearcraft.alloy_furnace;
 
 print("========================= START - REMOVE AND HIDE =========================");
 
@@ -22,8 +23,37 @@ recipes.replaceAllOccurences(<techguns:itemshared:68>, <ore:coilTitanium>);
 recipes.replaceAllOccurences(<ironjetpacks:basic_coil>, <ore:coilCopper>);
 recipes.replaceAllOccurences(<ironjetpacks:advanced_coil>, <ore:coilGold>);
 
+recipes.replaceAllOccurences(<byg:woodenmortar>, <harvestcraft:mortarandpestleitem>.anyDamage().transformDamage());
+recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <harvestcraft:mortarandpestleitem>.anyDamage().transformDamage());
+recipes.replaceAllOccurences(<tp:stone_hammer>, <contenttweaker:iron_hammer>.anyDamage().transformDamage());
+
+//recipes.replaceAllOccurences(<matteroverdrive:isolinear_circuit>, <ore:coilGold>);
+//recipes.replaceAllOccurences(<matteroverdrive:isolinear_circuit:1>, <ore:coilGold>);
+//recipes.replaceAllOccurences(<matteroverdrive:isolinear_circuit:2>, <ore:coilGold>);
+//recipes.replaceAllOccurences(<matteroverdrive:isolinear_circuit:3>, <ore:coilGold>);
+
+recipes.replaceAllOccurences(<libvulpes:battery>, <ore:itemBattery>);
+recipes.replaceAllOccurences(<libvulpes:battery:1>, <ore:itemHcBattery>);
+
 // REMOVE AND HIDE
 val remove_and_hide = [
+	<libvulpes:battery>,
+	<libvulpes:battery:1>,
+	<thermalfoundation:material:816>,
+	<thermalfoundation:material:817>,
+	<techguns:itemshared:95>,
+	<techguns:itemshared:96>,
+	<matteroverdrive:inscriber>,
+	<matteroverdrive:isolinear_circuit>,
+	<matteroverdrive:isolinear_circuit:1>,
+	<matteroverdrive:isolinear_circuit:2>,
+	<matteroverdrive:isolinear_circuit:3>,
+	<tp:stone_hammer>,
+	<byg:woodenmortar>,
+	<vt:charcoalblock>,
+	<vt:flintblock>,
+	<matteroverdrive:solar_panel>,
+	<vt:sugarblock>,
 	<thermalfoundation:material:895>,
 	<quark:diamond_heart>,
 	<teslacorelib:machine_case>,
@@ -156,6 +186,8 @@ val remove_and_hide = [
 	<ironjetpacks:advanced_coil>,
 	<ironjetpacks:elite_coil>,
 	<ironjetpacks:ultimate_coil>,
+	<advancedrocketry:solarpanel>,
+	<advancedrocketry:solargenerator>,
 
 	// Componants
 	// Plates
@@ -228,6 +260,9 @@ val remove_and_hide = [
 	<techguns:basicore:3>,
 
 	//!\\ Technical items
+	<iceandfire:dragon_debug_stick>,
+	<matteroverdrive:decorative.engine_exhaust_plasma>,
+	<techguns:bioblob>,
 	<minecraft:barrier>,
 	<minecraft:knowledge_book>,
 	<minecraft:repeating_command_block>,
@@ -383,14 +418,19 @@ for toRemove in remove_and_hide {
 	ExtremeCrafting.remove(toRemove);
 	LootTable.removeGlobalItem(toRemove.definition.id as string);
 	MetalPress.removeRecipe(toRemove);
+	alloy_furnace.removeRecipeWithOutput(toRemove);
 	Matter.set(toRemove, 0);
+
+	var ores = toRemove.ores;
+	for ore in ores {
+		ore.remove(toRemove);
+	}
 
 	// Visual lel
 	toRemove.clearTooltip();
-	//game.setLocalization(toRemove.definition.name as string, "§c§kUnknown Item§r");
-	toRemove.displayName = "§c§kUnknown Item§r";
 	toRemove.addTooltip("§cUnknown Item§r");
-	toRemove.addTooltip("§cThis item is disabled in New Elysium.§r");
+	toRemove.addTooltip("§cThis item (" + toRemove.displayName + "§r§c) is disabled in New Elysium.§r");
 	toRemove.addTooltip("§cIf you can see this item, please report it to the modpack author.§r");
+	toRemove.displayName = "§c§kUnknown Item§r";
 	JEI.removeAndHide(toRemove);
 }

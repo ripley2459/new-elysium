@@ -3,6 +3,10 @@
 	icon: "matteroverdrive:replicator",
 	x: 11.0d,
 	y: -2.0d,
+	dependencies: [
+		"4d181b4f",
+		"14d24f75"
+	],
 	tasks: [{
 		uid: "a9522271",
 		type: "checkmark"

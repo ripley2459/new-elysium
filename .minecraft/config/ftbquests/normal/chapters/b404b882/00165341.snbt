@@ -1,0 +1,21 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"3149e6f8"
+	],
+	tasks: [{
+		uid: "a54f8b8c",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	},
+	{
+		uid: "adda8c9a",
+		type: "item",
+		items: [{
+			item: "inspirations:pipe"
+		}]
+	}]
+}

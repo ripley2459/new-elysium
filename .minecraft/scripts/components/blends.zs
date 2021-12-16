@@ -1,16 +1,12 @@
 #no_fix_recipe_book
 #priority 8000
 
-// This script is used to create uniform blends recipes. Using as many machines possible.
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.utils.recipes as RecipesFunc;
 import mods.appliedenergistics2.Grinder;
 
 print("========================= START - BLENDS =========================");
-
-// They are create by hand, handed grindstone from Applied Energetics or manufactory from Nuclear Craft.
 
 // Varibales
 var turns = 3 as int;
@@ -28,7 +24,7 @@ recipes.removeByRecipeName("thermalfoundation:material");
 recipes.removeByRecipeName("thermalfoundation:material_1");
 
 // Constantant Blend
-Grinder.addRecipe(<thermalfoundation:material:96>, <ore:ingotConstantan>, turns);
+Grinder.addRecipe(<thermalfoundation:material:100>, <ore:ingotConstantan>, turns);
 recipes.removeByRecipeName("thermalfoundation:material_3");
 
 // Enderium Blend

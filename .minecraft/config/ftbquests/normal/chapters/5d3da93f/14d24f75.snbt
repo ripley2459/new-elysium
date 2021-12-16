@@ -8,6 +8,9 @@
 		"",
 		"With this mod you can §estore a very large amount of items inside server§r and create your own §enetwork of server and machines that can automate most of your crafting task§r."
 	],
+	dependencies: [
+		"4d181b4f"
+	],
 	tasks: [{
 		uid: "a28483c1",
 		type: "checkmark"

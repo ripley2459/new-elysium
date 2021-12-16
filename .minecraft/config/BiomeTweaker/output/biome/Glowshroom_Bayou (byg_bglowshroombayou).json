@@ -21,9 +21,9 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SWAMP",
+    "MAGICAL",
     "RARE",
-    "WET",
-    "MAGICAL"
+    "WET"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

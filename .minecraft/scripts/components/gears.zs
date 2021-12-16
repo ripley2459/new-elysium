@@ -1,16 +1,12 @@
 #no_fix_recipe_book
 #priority 8000
 
-// This script is used to create uniform gears recipes. Using as many machines possible.
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.tconstruct.Casting;
 import scripts.utils.recipes as RecipesFunc;
 
 print("========================= START - GEARS =========================");
-
-// A gear is manufactured using hand method, and casting from Tinker's Construct.
 
 // Variables
 var processCastingAmount = 576 as int;

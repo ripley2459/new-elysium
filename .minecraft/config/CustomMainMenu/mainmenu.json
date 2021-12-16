@@ -242,7 +242,7 @@
         "infos":
         {
             "text" : "New Elysium by Ripley2459.",
-			"hoverText": "New Elysium Alpha 7, Minecraft #mcversion#, FML #forgeversion#, Mods #modsactive#/#modsloaded#.",
+			"hoverText": "New Elysium beta 2, Minecraft #mcversion#, FML #forgeversion#, Mods #modsactive#/#modsloaded#.",
             "posX" : -4,
             "posY" : -12,
             "color" : -1,

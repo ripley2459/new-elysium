@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "cd41e3eb",
+		type: "item",
+		items: [{
+			item: "tconstruct:slimesling"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b49880a3",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

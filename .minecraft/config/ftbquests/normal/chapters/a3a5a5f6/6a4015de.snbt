@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 15.0d,
+	dependencies: [
+		"d56aa9f6"
+	],
+	tasks: [{
+		uid: "967d850e",
+		type: "item",
+		items: [{
+			item: "randomthings:advanceditemcollector"
+		}]
+	}]
+}

@@ -77,3 +77,42 @@ starShapedBiscuit.register();
 var energyIcBoard = VanillaFactory.createItem("energy_ic_board");
 energyIcBoard.creativeTab = <creativetab:misc>;
 energyIcBoard.register();
+
+// Dried Enriched Lava
+var driedEnrichedLava = VanillaFactory.createItem("dried_enriched_lava");
+driedEnrichedLava.creativeTab = <creativetab:misc>;
+driedEnrichedLava.register();
+
+// Solar Compound
+var solarCell = VanillaFactory.createItem("solar_cell");
+solarCell.creativeTab = <creativetab:misc>;
+solarCell.register();
+
+// Transformation Processor
+var transformationProcessor = VanillaFactory.createItem("transformation_processor");
+transformationProcessor.creativeTab = <creativetab:misc>;
+transformationProcessor.register();
+
+// Printed Transformation Circuit
+var printedTransformationCircuit = VanillaFactory.createItem("printed_transformation_circuit");
+printedTransformationCircuit.creativeTab = <creativetab:misc>;
+printedTransformationCircuit.register();
+
+// Magnesium Diboride Wire
+var magnesiumDiborideWire = VanillaFactory.createItem("magnesium_diboride_wire");
+magnesiumDiborideWire.creativeTab = <creativetab:misc>;
+magnesiumDiborideWire.register();
+
+// Tough Alloy Rod
+var toughAlloyRod = VanillaFactory.createItem("tough_alloy_rod");
+toughAlloyRod.creativeTab = <creativetab:misc>;
+toughAlloyRod.register();
+
+// Tough Alloy Block
+var toughAlloyBlock = VanillaFactory.createBlock("tough_alloy_block", <blockmaterial:iron>);
+toughAlloyBlock.setBlockHardness(25);
+toughAlloyBlock.setBlockResistance(600);
+toughAlloyBlock.setToolClass("pickaxe");
+toughAlloyBlock.setToolLevel(5);
+toughAlloyBlock.setBlockSoundType(<soundtype:metal>);
+toughAlloyBlock.register();

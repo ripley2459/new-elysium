@@ -1,8 +1,6 @@
 #no_fix_recipe_book
 #priority 8000
 
-// This script is used to create uniform plates recipes. Using as many machines possible.
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.utils.recipes as RecipesFunc;
@@ -11,8 +9,6 @@ import mods.nuclearcraft.pressurizer;
 import mods.tconstruct.Casting;
 
 print("========================= START - PLATES =========================");
-
-// A plate is manufactured using hand method, pressurizer from Nuclearcraft, casting from Tinker's Construct and metal Press from Techguns.
 
 // Variables
 var processCastingAmount = 144 as int;

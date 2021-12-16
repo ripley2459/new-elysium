@@ -5,10 +5,10 @@
 	y: 0.0d,
 	shape: "circle",
 	text: [
-		"The §2Ultimate Singularity§r isn't useful in that primitive form. After some research you have elaborated a protocol to reshape it in a more common state."
+		"The §2Infinity Catalyst§r isn't useful in that primitive form. After some research you have elaborated a protocol to reshape it in a more common state."
 	],
 	dependencies: [
-		"e204d007"
+		"a0c9e2f1"
 	],
 	size: 3.0d,
 	tasks: [{

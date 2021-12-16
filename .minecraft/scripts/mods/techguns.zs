@@ -3,6 +3,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.techguns.OreCluster;
+import mods.techguns.MetalPress;
+import mods.nuclearcraft.manufactory;
+import scripts.utils.recipes as RecipesFunc;
 
 print("========================= START - TECHGUNS =========================");
 
@@ -85,3 +88,28 @@ OreCluster.addOre("NETHER_CRYSTAL", <tp:nether_wub_ore>, 5); // https://youtu.be
 
 // Oil
 OreCluster.addOre("OIL", <quark:biotite_ore>, 5); // Biotite
+
+// Copper Wire
+recipes.remove(<techguns:itemshared:62>);
+MetalPress.removeRecipe(<techguns:itemshared:62>);
+RecipesFunc.addPincerRecipe(<ore:ingotCopper>, <techguns:itemshared:62> * 4);
+MetalPress.addRecipe("ingotCopper", "ingotCopper", <techguns:itemshared:62> * 10, true);
+
+// Gold Wire
+recipes.remove(<techguns:itemshared:63>);
+MetalPress.removeRecipe(<techguns:itemshared:63>);
+RecipesFunc.addPincerRecipe(<ore:ingotGold>, <techguns:itemshared:63> * 4);
+MetalPress.addRecipe("ingotGold", "ingotGold", <techguns:itemshared:63> * 10, true);
+
+// Plastic Sheet
+furnace.remove(<techguns:itemshared:55>);
+RecipesFunc.addPincerRecipe(<ore:rawPlastic>, <techguns:itemshared:55> * 2);
+manufactory.addRecipe(<ore:rawPlastic>, <techguns:itemshared:55> * 4);
+
+// Rubber Bar
+furnace.remove(<techguns:itemshared:56>);
+manufactory.addRecipe(<industrialforegoing:dryrubber> * 2, <techguns:itemshared:56>);
+
+// Biomass
+recipes.remove(<techguns:itemshared:61>);
+manufactory.addRecipe(<ore:bioMassEligible>, <techguns:itemshared:61>);

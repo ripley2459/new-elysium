@@ -3,6 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.techguns.ChemLab;
+import mods.industrialforegoing.BioReactor;
 
 print("========================= START - INDUSTRIAL FOREGOING =========================");
 
@@ -16,3 +17,6 @@ recipes.addShaped(<industrialforegoing:black_hole_tank> * 1, [[<industrialforego
 // Black Hole Unit
 recipes.removeByRecipeName("industrialforegoing:black_hole_unit");
 recipes.addShaped(<industrialforegoing:black_hole_unit> * 1, [[<industrialforegoing:plastic>, <enderstorage:ender_storage:0>, <industrialforegoing:plastic>], [<minecraft:chest>, <nuclearcraft:part:11>, <minecraft:chest>],[<industrialforegoing:plastic>, <thermalfoundation:material:295>, <industrialforegoing:plastic>]]);
+
+// Biofuel
+BioReactor.add(<techguns:itemshared:61>);

@@ -5,9 +5,17 @@ item.contenttweaker.iron_pincer.name=Iron Pincer
 item.contenttweaker.new_elysium_icon.name=New Elysium Icon
 item.contenttweaker.star_shaped_biscuit.name=Star Shaped Biscuit
 item.contenttweaker.energy_ic_board.name=Energy IO Circuit Board
+item.contenttweaker.solar_cell.name=Solar Cell
+item.contenttweaker.magnesium_diboride_wire.name=Magnesium Diboride Wire
+item.contenttweaker.tough_alloy_rod.name=Tough Alloy Rod
+item.contenttweaker.dried_enriched_lava.name=Dried Enriched Lava
+item.contenttweaker.transformation_processor.name=Transformation Processor
+item.contenttweaker.printed_transformation_circuit.name=Printed Transformation Circuit
 
 item.contenttweaker.roman_i_letter.name=I
 item.contenttweaker.roman_ii_letter.name=II
 item.contenttweaker.roman_iii_letter.name=III
 item.contenttweaker.roman_iv_letter.name=IV
 item.contenttweaker.roman_v_letter.name=V
+
+tile.contenttweaker.tough_alloy_block.name=Tough Alloy Block

@@ -1,8 +1,6 @@
 #no_fix_recipe_book
 #priority 8000
 
-// This script is used to create uniform dusts recipes. Using as many machines possible.
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.utils.recipes as RecipesFunc;

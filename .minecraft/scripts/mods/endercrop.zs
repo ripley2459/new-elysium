@@ -7,4 +7,4 @@ print("========================= START - ENDER CROP =========================");
 
 // Ender Seeds
 recipes.remove(<endercrop:ender_seeds>);
-recipes.addShaped(<endercrop:ender_seeds> * 1, [[<tconstruct:edible:33>, <ore:dustEnderPearl>, <tconstruct:edible:33>], [<ore:dustEnderPearl>, <ore:listAllseed>, <ore:dustEnderPearl>],[<tconstruct:edible:33>, <ore:dustEnderPearl>, <tconstruct:edible:33>]]);
+recipes.addShaped(<endercrop:ender_seeds> * 1, [[<tconstruct:edible:33>, <ore:dustEnder>, <tconstruct:edible:33>], [<ore:dustEnder>, <ore:listAllseed>, <ore:dustEnder>],[<tconstruct:edible:33>, <ore:dustEnder>, <tconstruct:edible:33>]]);

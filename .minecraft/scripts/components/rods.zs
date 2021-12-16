@@ -1,8 +1,6 @@
 #no_fix_recipe_book
 #priority 8000
 
-// This script is used to create uniform sheets recipes. Using as many machines possible.
-
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import scripts.utils.recipes as RecipesFunc;
@@ -67,3 +65,8 @@ manufactory.addRecipe(<tp:compressed_sugar_cane>, <tp:bsc_rod> * manuResult);
 recipes.remove(<techguns:itemshared:103>);
 RecipesFunc.addStickRecipe(<ore:blockQuartz>, <techguns:itemshared:103> * handResult);
 manufactory.addRecipe(<ore:blockQuartz>, <techguns:itemshared:103> * manuResult);
+
+// Sugar Cane Rod
+recipes.remove(<contenttweaker:tough_alloy_rod>);
+RecipesFunc.addStickRecipe(<contenttweaker:tough_alloy_block>, <contenttweaker:tough_alloy_rod> * handResult);
+manufactory.addRecipe(<contenttweaker:tough_alloy_block>, <contenttweaker:tough_alloy_rod> * manuResult);

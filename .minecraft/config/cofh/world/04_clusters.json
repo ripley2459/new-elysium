@@ -9,13 +9,12 @@
 					{
 						"name": "techguns:orecluster",
 						"properties": {
-							"type": "common_metal"
-						},
-						"weight": 100
+							"type": "coal"
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -39,12 +38,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "common_metal"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -68,12 +66,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "rare_metal"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -97,12 +94,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "shiny_metal"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -126,12 +122,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "uranium"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -155,12 +150,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "common_gem"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -184,12 +178,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "shiny_gem"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -213,12 +206,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "oil"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 30,
@@ -242,12 +234,11 @@
 						"name": "techguns:orecluster",
 						"properties": {
 							"type": "nether_crystal"
-						},
-						"weight": 100
+						}
 					}
 				],
 				"material": "minecraft:netherrack",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 10,
