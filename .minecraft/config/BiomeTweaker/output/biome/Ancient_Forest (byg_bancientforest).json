@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "DENSE",
-    "MAGICAL",
-    "RARE"
+    "RARE",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

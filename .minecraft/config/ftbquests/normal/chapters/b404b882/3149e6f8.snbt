@@ -2,10 +2,10 @@
 	x: -4.0d,
 	y: 4.0d,
 	tasks: [{
-		uid: "d3b200eb",
+		uid: "eee82190",
 		type: "item",
 		items: [{
-			item: "quark:chute"
+			item: "tconstruct:wooden_hopper"
 		}]
 	}]
 }

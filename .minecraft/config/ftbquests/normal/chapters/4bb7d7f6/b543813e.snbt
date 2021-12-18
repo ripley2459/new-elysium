@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		"Basic materials have interesting properties, what if we mix them?"
+	],
+	dependencies: [
+		"19806625"
+	],
+	tasks: [{
+		uid: "4a99d4e7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}]
+	}]
+}

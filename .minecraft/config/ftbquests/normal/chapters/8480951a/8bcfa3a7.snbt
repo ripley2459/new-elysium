@@ -1,0 +1,100 @@
+{
+	title: "DOOM",
+	icon: "singularities:singularity 1 28",
+	x: 1.0d,
+	y: -3.0d,
+	hide_text_until_complete: true,
+	optional: true,
+	tasks: [{
+		uid: "ebe1c5e8",
+		type: "item",
+		items: [{
+			id: "techguns:t4_praetor_helmet",
+			tag: {
+				power: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8f9f377e",
+		type: "item",
+		items: [{
+			id: "techguns:t4_praetor_chestplate",
+			tag: {
+				power: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "592708ef",
+		type: "item",
+		items: [{
+			id: "techguns:t4_praetor_leggings",
+			tag: {
+				power: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c7c22fe",
+		type: "item",
+		items: [{
+			id: "techguns:t4_praetor_boots",
+			tag: {
+				power: 0,
+				camo: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76d0b672",
+		type: "item",
+		items: [{
+			id: "techguns:tfg",
+			tag: {
+				ammo: 20s,
+				ammovariant: "default",
+				camo: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc9226ea",
+		type: "item",
+		items: [{
+			id: "techguns:chainsaw",
+			tag: {
+				ammo: 300s,
+				ammovariant: "default",
+				miningHead: 0,
+				camo: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d92dc55d",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "techguns:cyberdemon"
+				}
+			}
+		},
+		entity: "techguns:cyberdemon",
+		value: 1L
+	}]
+}

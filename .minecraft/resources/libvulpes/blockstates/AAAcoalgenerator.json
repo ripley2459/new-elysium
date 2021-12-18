@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "facing=north,state=false": { "model": "libvulpes:models/coal_generator" },
+        "facing=south,state=false": { "model": "libvulpes:models/coal_generator", "y": 180 },
+        "facing=west,state=false":  { "model": "libvulpes:models/coal_generator", "y": 270 },
+        "facing=east,state=false":  { "model": "libvulpes:models/coal_generator", "y": 90 },
+        "facing=north,state=true": { "model": "libvulpes:models/coal_generator_on" },
+        "facing=south,state=true": { "model": "libvulpes:models/coal_generator_on", "y": 180 },
+        "facing=west,state=true":  { "model": "libvulpes:models/coal_generator_on", "y": 270 },
+        "facing=east,state=true":  { "model": "libvulpes:models/coal_generator_on", "y": 90 }
+    }
+}

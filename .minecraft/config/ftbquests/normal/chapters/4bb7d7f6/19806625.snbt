@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"You can pour the §2molten gold§r (by interacting with a §2faucet§r) on your cast to create a mold."
+	],
+	dependencies: [
+		"b6d1e380"
+	],
+	tasks: [{
+		uid: "6e660ca9",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	}]
+}

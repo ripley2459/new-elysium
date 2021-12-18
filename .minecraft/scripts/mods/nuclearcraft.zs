@@ -54,3 +54,7 @@ if (USE_ALLOY_FURNACE_AS_FURNACE) {
 
 	<nuclearcraft:alloy_furnace_idle>.addTooltip("§bCan be used to cook two similar items.§r");
 }
+
+// Steel Frame
+recipes.remove(<nuclearcraft:part:12>);
+recipes.addShaped(<nuclearcraft:part:12> * 1, [[<ore:stickSteel>, <ore:ingotTough>, <ore:stickSteel>], [<ore:ingotTough>, <ore:gearBronze>, <ore:ingotTough>],[<ore:stickSteel>, <ore:ingotTough>, <ore:stickSteel>]]);

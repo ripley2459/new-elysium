@@ -1,6 +1,11 @@
 {
 	x: -4.0d,
 	y: -0.5d,
+	text: [
+		"To §emanufacture more efficient tools§r you have decided to set up a foundry.",
+		"",
+		"You have imagined a basic setup which will allow you to manufacture most of materials and tools parts."
+	],
 	tasks: [{
 		uid: "a6ba14f7",
 		type: "item",

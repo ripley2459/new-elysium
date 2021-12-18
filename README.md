@@ -9,10 +9,3 @@ The pack has around 250 mods and benefits of a huge configuration to reduce item
 In addition, the pack has a complete overhaul of the appearance. Most of the menus are color changed, there is a custom loading screen with extra informations and a beautifull main menu with dynamics informations.
 
 The pack has a large quest line to guide your progression and teach you how to use most of the modpack's mods.
-
-COLORS
-* YELLOW      fcf1ce
-* BLUE        192c3b
-* RED         e2584f
-* LIGHT GREY  3e3e3e
-* DARK GREY   232323

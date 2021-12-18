@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "MESA",
+    "LUSH",
     "DRY",
-    "LUSH"
+    "HOT",
+    "MESA"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [

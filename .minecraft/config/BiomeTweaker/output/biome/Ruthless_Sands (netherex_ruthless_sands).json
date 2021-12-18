@@ -20,12 +20,12 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
+    "NETHER",
     "DRY",
     "PLAINS",
-    "SANDY",
     "SAVANNA",
-    "NETHER"
+    "HOT",
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

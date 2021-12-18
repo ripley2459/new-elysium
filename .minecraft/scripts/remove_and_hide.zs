@@ -22,7 +22,6 @@ recipes.replaceAllOccurences(<teslacorelib:machine_case>, <nuclearcraft:part:10>
 recipes.replaceAllOccurences(<techguns:itemshared:68>, <ore:coilTitanium>);
 recipes.replaceAllOccurences(<ironjetpacks:basic_coil>, <ore:coilCopper>);
 recipes.replaceAllOccurences(<ironjetpacks:advanced_coil>, <ore:coilGold>);
-
 recipes.replaceAllOccurences(<byg:woodenmortar>, <harvestcraft:mortarandpestleitem>.anyDamage().transformDamage());
 recipes.replaceAllOccurences(<harvestcraft:mortarandpestleitem>, <harvestcraft:mortarandpestleitem>.anyDamage().transformDamage());
 recipes.replaceAllOccurences(<tp:stone_hammer>, <contenttweaker:iron_hammer>.anyDamage().transformDamage());
@@ -35,8 +34,19 @@ recipes.replaceAllOccurences(<tp:stone_hammer>, <contenttweaker:iron_hammer>.any
 recipes.replaceAllOccurences(<libvulpes:battery>, <ore:itemBattery>);
 recipes.replaceAllOccurences(<libvulpes:battery:1>, <ore:itemHcBattery>);
 
+recipes.replaceAllOccurences(<techguns:itemshared:70>, <ore:motor>);
+
+recipes.replaceAllOccurences(<techguns:itemshared:57>, <ore:gearIron>);
+recipes.replaceAllOccurences(<techguns:itemshared:58>, <ore:gearTitanium>);
+recipes.replaceAllOccurences(<techguns:itemshared:59>, <ore:gearInvar>);
+
 // REMOVE AND HIDE
 val remove_and_hide = [
+	<techguns:itemshared:70>,
+	<techguns:itemshared:57>,
+	<techguns:itemshared:58>,
+	<techguns:itemshared:59>,
+	<quarryplus:quarryplus>,
 	<libvulpes:battery>,
 	<libvulpes:battery:1>,
 	<thermalfoundation:material:816>,
@@ -188,7 +198,9 @@ val remove_and_hide = [
 	<ironjetpacks:ultimate_coil>,
 	<advancedrocketry:solarpanel>,
 	<advancedrocketry:solargenerator>,
-
+	<techguns:itemshared:78>,
+	<rftools:coalgenerator>,
+	
 	// Componants
 	// Plates
 	<techguns:itemshared:54>,
@@ -258,6 +270,27 @@ val remove_and_hide = [
 	<thermalfoundation:ore:7>,
 	<thermalfoundation:ore:4>,
 	<techguns:basicore:3>,
+
+	// Ingots...
+	<nuclearcraft:alloy:5>,
+	<libvulpes:productingot:6>,
+	<techguns:itemshared:83>,
+	<thermalfoundation:material:128>,
+	<techguns:itemshared:79>,
+	<projectred-core:resource_item:100>,
+	<techguns:itemshared:80>,
+	<projectred-core:resource_item:101>,
+	<thermalfoundation:material:129>,
+	<techguns:itemshared:82>,
+	<nuclearcraft:alloy>,
+	<techguns:itemshared:81>,
+	<projectred-core:resource_item:102>,
+	<iceandfire:silver_ingot>,
+	<nuclearcraft:ingot:13>,
+	<nuclearcraft:ingot:12>,
+	<libvulpes:productingot:9>,
+	<libvulpes:productingot:10>,
+	<techguns:itemshared:85>,
 
 	//!\\ Technical items
 	<iceandfire:dragon_debug_stick>,
@@ -420,6 +453,7 @@ for toRemove in remove_and_hide {
 	MetalPress.removeRecipe(toRemove);
 	alloy_furnace.removeRecipeWithOutput(toRemove);
 	Matter.set(toRemove, 0);
+	JEI.removeAndHide(toRemove);
 
 	var ores = toRemove.ores;
 	for ore in ores {
@@ -432,5 +466,4 @@ for toRemove in remove_and_hide {
 	toRemove.addTooltip("§cThis item (" + toRemove.displayName + "§r§c) is disabled in New Elysium.§r");
 	toRemove.addTooltip("§cIf you can see this item, please report it to the modpack author.§r");
 	toRemove.displayName = "§c§kUnknown Item§r";
-	JEI.removeAndHide(toRemove);
 }

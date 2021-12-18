@@ -113,3 +113,23 @@ manufactory.addRecipe(<industrialforegoing:dryrubber> * 2, <techguns:itemshared:
 // Biomass
 recipes.remove(<techguns:itemshared:61>);
 manufactory.addRecipe(<ore:bioMassEligible>, <techguns:itemshared:61>);
+
+// Metal Press
+recipes.remove(<techguns:basicmachine:1>);
+recipes.addShaped(<techguns:basicmachine:1> * 1, [[<ore:plateSteel>, <ore:craftingPiston>, <ore:motor>], [<ore:plateSteel>, null, <ore:chassis>],[<ore:plateSteel>, <ore:craftingPiston>, <ore:motor>]]);
+
+// Grinder
+recipes.remove(<techguns:simplemachine2:8>);
+recipes.addShaped(<techguns:simplemachine2:8> * 1, [[<ore:plateObsidianSteel>, <ore:plateAdvanced>, <ore:gearInvar>], [<ore:chassis>, <ore:motor>, <ore:steelFrame>],[<ore:plateObsidianSteel>, <ore:plateAdvanced>, <ore:gearInvar>]]);
+
+// Blast Furnace
+recipes.remove(<techguns:simplemachine:11>);
+recipes.addShaped(<techguns:simplemachine:11> * 1, [[<ore:plateIron>, <ore:solenoidCopper>, <ore:plateIron>], [<ore:plateIron>, <tp:iron_furnace_block>, <ore:plateIron>],[<tp:hardened_stone>, <ore:chassis>, <tp:hardened_stone>]]);
+
+// Chemical Laboratory
+recipes.remove(<techguns:basicmachine:2>);
+recipes.addShaped(<techguns:basicmachine:2> * 1, [[<ore:plateSilver>, <ore:glassBottle>, <ore:plateSilver>], [<ore:glassBottle>, <ore:motor>, <ore:glassBottle>],[<ore:plateBasic>, <ore:chassis>, <ore:plateBasic>]]);
+
+// Ammo Press
+recipes.remove(<techguns:basicmachine:0>);
+recipes.addShaped(<techguns:basicmachine:0> * 1, [[<ore:motor>, <ore:craftingPiston>, <ore:sheetPlastic>], [<ore:chassis>, null, <ore:sheetPlastic>],[<ore:plateCopper>, <ore:plateIron>, <ore:plateCopper>]]);

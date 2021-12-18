@@ -46,3 +46,23 @@ PrecisionAssembler.addRecipe(<advancedrocketry:ic:4>, 100, 100, <advancedrocketr
 recipes.remove(<advancedrocketry:ic:5>);
 PrecisionAssembler.removeRecipe(<advancedrocketry:ic:5>);
 PrecisionAssembler.addRecipe(<advancedrocketry:ic:5>, 100, 100, <advancedrocketry:ic:3>, <techguns:itemshared:65>, <techguns:itemshared:63>, <thermalfoundation:material:64> * 2);
+
+// Coal Generator
+recipes.remove(<libvulpes:coalgenerator>);
+recipes.addShaped(<libvulpes:coalgenerator> * 1, [[<ore:rawPlastic>, <ore:itemBattery>, <ore:rawPlastic>], [<ore:plateCopper>, <minecraft:furnace>, <ore:plateCopper>],[<ore:rawPlastic>, <ore:ingotRedstone>, <ore:rawPlastic>]]);
+
+// Motor
+recipes.remove(<libvulpes:motor>);
+recipes.addShaped(<libvulpes:motor> * 1, [[null, <ore:coilCopper>, <ore:plateSteel>], [<ore:stickSteel>, <ore:motor>, <ore:plateSteel>],[null, <ore:coilCopper>, <ore:plateSteel>]]);
+
+// Advanced Motor
+recipes.remove(<libvulpes:advancedmotor>);
+recipes.addShaped(<libvulpes:advancedmotor> * 1, [[null, <ore:coilGold>, <ore:plateSteel>], [<ore:stickSteel>, <ore:motor>, <ore:plateSteel>],[null, <ore:coilGold>, <ore:plateSteel>]]);
+
+// Enhanced Motor
+recipes.remove(<libvulpes:enhancedmotor>);
+recipes.addShaped(<libvulpes:enhancedmotor> * 1, [[null, <ore:coilAluminum>, <ore:plateSteel>], [<ore:stickSteel>, <ore:motor>, <ore:plateSteel>],[null, <ore:coilAluminum>, <ore:plateSteel>]]);
+
+// Elite Motor
+recipes.remove(<libvulpes:elitemotor>);
+recipes.addShaped(<libvulpes:elitemotor> * 1, [[null, <ore:coilTitanium>, <ore:plateSteel>], [<ore:stickSteel>, <ore:motor>, <ore:plateSteel>],[null, <ore:coilTitanium>, <ore:plateSteel>]]);

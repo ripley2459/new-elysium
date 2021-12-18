@@ -7,10 +7,10 @@ import crafttweaker.item.IItemStack;
 
 print("========================= START - ORES =========================");
 
-<ore:motor>.add(<libvulpes:motor>);
-<ore:motor>.add(<libvulpes:advancedmotor>);
-<ore:motor>.add(<libvulpes:enhancedmotor>);
-<ore:motor>.add(<libvulpes:elitemotor>);
+// <ore:motor>.add(<libvulpes:motor>);
+// <ore:motor>.add(<libvulpes:advancedmotor>);
+// <ore:motor>.add(<libvulpes:enhancedmotor>);
+// <ore:motor>.add(<libvulpes:elitemotor>);
 
 <ore:itemDuctThatCanBeFlattened>.add(<thermaldynamics:duct_32:2>.withTag({DenseType: 2 as byte}));
 <ore:itemDuctThatCanBeFlattened>.add(<thermaldynamics:duct_32:2>.withTag({DenseType: 1 as byte}));
