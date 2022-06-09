@@ -1,6 +1,7 @@
 # New Elysium
 
-[Curseforge]([#](https://www.curseforge.com/minecraft/modpacks/new-elysium)) [My website](https://cyrilneveu.fr/index.php?page=project&project=new_elysium)
+[On Curseforge](https://www.curseforge.com/minecraft/modpacks/new-elysium)
+[On my website](https://cyrilneveu.fr/index.php?page=project&project=new_elysium)
 
 New Elysium is a large Minecraft modpacks focused on automation and transhumanism.
 
