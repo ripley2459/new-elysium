@@ -1,6 +1,6 @@
 # New Elysium
 
-!\[my badge\](https://badgen.net/badge/hello/world/red?icon=twitter)
+![curseforge](https://badgen.net/badge/Curseforge/xxx/orange)
 
 New Elysium is a large Minecraft modpacks focused on automation and transhumanism.
 
